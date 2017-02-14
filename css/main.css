@@ -1,0 +1,17 @@
+.sectionOne {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+
+.sOneLOne {
+	position: absolute;
+	bottom: 0;
+			.st0{fill:#63223C;}
+			.st1{fill:#49182E;}
+}
+
+.sOneLTwo {
+	position: absolute;
+	bottom: 0;
+}
