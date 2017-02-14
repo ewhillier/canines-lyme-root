@@ -1,17 +1,329 @@
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 1.3em;
+	letter-spacing: .02em;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+}
+
 .sectionOne {
 	width: 100vw;
 	height: 100vh;
 	position: relative;
+	overflow: hidden;
+	background-color: #df6f55;
 }
 
 .sOneLOne {
+	width: 100%;
 	position: absolute;
 	bottom: 0;
-			.st0{fill:#63223C;}
-			.st1{fill:#49182E;}
 }
 
 .sOneLTwo {
+	width: 120%;
 	position: absolute;
 	bottom: 0;
+}
+
+.sOneLThree {
+	width: 120%;
+	position: absolute;
+	bottom: -100px;
+}
+
+.sOneLFour {
+	width: 80%;
+	right: 100px;
+	bottom: 0px;
+}
+
+.sOneLFive {
+	width: 100%;
+	bottom: 0px;
+}
+
+.heroPositioning {
+	position: absolute;
+}
+
+.heroCloudOne {
+	width: 200px;
+	display: inherit;
+	position: absolute;
+	top: 200px;
+	right: -200px;
+	opacity: .45;
+}
+
+.heroCloudTwo {
+	width: 150px;
+	display: inherit;
+	position: absolute;
+	top: 30px;
+	right: -200px;
+	opacity: .3;
+}
+
+.heroCloudThree {
+	width: 30px;
+	display: inherit;
+	position: absolute;
+	top: 200px;
+	right: -30px;
+	opacity: .15;
+}
+
+.heroCloudFour {
+	width: 80px;
+	display: inherit;
+	position: absolute;
+	top: 300px;
+	right: -30px;
+	opacity: .2;
+}
+
+.heroTag {
+	display: inherit;
+	margin: 0 auto;
+}
+
+.heroHeader {
+	font-family: "Oswald", sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .14em;
+	color: #261022;
+}
+
+.bold {
+	font-weight: 500;
+	font-size: 1.3em;
+	line-height: 1em;
+}
+
+.tickOne {
+	width: 50px;
+	display: inherit;
+	position: absolute;
+	bottom: 0;
+	left: 50px;
+}
+
+.tickTwo {
+	width: 50px;
+	display: inherit;
+	position: absolute;
+	bottom: 0;
+	left: 150px;
+}
+
+.tickThree {
+	width: 50px;
+	display: inherit;
+	position: absolute;
+	bottom: -50px;
+	left: 100px;
+}
+
+.tickFour {
+	width: 50px;
+	display: inherit;
+	position: absolute;
+	bottom: 0;
+	right: 50px;
+}
+
+.tickFive {
+	width: 50px;
+	display: inherit;
+	position: absolute;
+	bottom: 0;
+	right: 150px;
+}
+
+.tickSix {
+	width: 50px;
+	display: inherit;
+	position: absolute;
+	bottom: -50px;
+	right: 100px;
+}
+
+.sectionHeader {
+	padding: 50px 100px;
+}
+
+
+/* DISEASE TRANSFER */
+
+
+.diseaseTransfer {
+	width: 100vw;
+	height: 100vh;
+	background-color: #49182e;
+	position: relative;
+}
+
+.diseaseTransferHeader {
+	letter-spacing: .1em;
+	color: #eac19b;
+	font-size: 1.5em;
+	margin: 0;
+}
+
+hr {
+	margin: 0;
+	width: 45px;
+	text-align: left;
+	border-color: #eac19b;
+	margin-top: 20px;
+	
+}
+
+.armContainer {
+	margin-top: 0px;
+	position: relative;
+	overflow: hidden;
+}
+
+.arm {
+	width: 100%;
+}
+
+.armTick {
+	width: 40px;
+	position: absolute;
+	top: 140px;
+	left: -40px;
+	
+	-ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+.armRash {
+	position: absolute;
+	top: 70px;
+	left: 700px;
+}
+
+.armSpirocheteOne {
+	position: absolute;
+	top: 30px;
+	left: 600px;
+}
+
+.armSpirocheteTwo {
+	position: absolute;
+	top: 200px;
+	left: 550px;
+}
+
+.armSpirocheteThree {
+	position: absolute;
+	top: 250px;
+	left: 900px;
+}
+
+.diseaseTransferP {
+	width: 400px;
+	font-size: 1em;
+	font-weight: 300;
+	line-height: 1.8em;
+	letter-spacing: .1em;
+	color: #eac19b;
+	float: left;
+	margin-right: 100px;
+}
+
+.diseaseTransferGrass {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+
+/* ANALYSIS */
+
+.analysis {
+	height: 100vh;
+	width: 100vw;
+	background-color: #e5dbca;
+}
+
+.analysisLeft {
+	width: 50%;
+	float: left;
+	padding: 50px;
+}
+
+.analysisRight {
+	width: 50%;
+	float: left;
+}
+
+.analysisHeading {
+	color: #592c4e;
+	font-size: 1.6em;
+	font-weight: 400;
+	line-height: 1.3em;
+}
+
+.analysisP{
+	margin-top: 30px;
+	font-size: .9em;
+	line-height: 1.5em;
+	color: #592c4e;
+	letter-spacing: .04em;
+}
+
+.trendDescription {
+	padding: 30px 100px;
+	clear: both;
+}
+
+
+.analysisIcon {
+	width: 13px;
+	float: left;
+}
+
+.trendDescriptionHeadings {
+	float: left;
+	margin: 0 0 0 10px;
+	font-size: .9em;
+	font-weight: 500;
+	letter-spacing: .04em;
+	
+}
+
+.increasingHeading {
+	color: #9b5b66;
+}
+
+.decreasingHeading {
+	color: #754c28;
+}
+
+.oppositeHeading {
+	color: #006299;
+}
+
+.predictionHeading {
+	color: #58595b;
+}
+
+.trendDescriptionP {
+	float: left;
+	margin: 10px 0 0 25px;
+	line-height: 1.3em;
 }
