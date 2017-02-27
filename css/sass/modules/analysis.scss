@@ -2,35 +2,44 @@
 
 .analysis {
 	height: 100vh;
-	width: 1280px;
+	width: 100vw;
 	background-color: #e5dbca;
 }
 
+.analysis-wrapper {
+	width: 1280px;
+	margin: 0 auto;
+}
+
 .analysisLeft {
-	width: 50%;
+	width: 45%;
 	float: left;
 	padding: 50px;
 }
 
 .analysisRight {
-	width: 50%;
+	width: 55%;
 	height: 100vh;
 	float: left;
 	padding: 50px;
 }
 
 .analysisHeading {
-	color: #592c4e;
+	color: $dark-purple;
 	font-size: 1.6em;
 	font-weight: 400;
 	line-height: 1.3em;
 }
 
+.analysishr {
+	border-color: $dark-purple;
+}
+
 .analysisP{
 	margin-top: 30px;
-	font-size: .9em;
+	font-size: .8em;
 	line-height: 1.5em;
-	color: #592c4e;
+	color: #58595b;
 	letter-spacing: .04em;
 }
 
@@ -48,7 +57,7 @@
 .trendDescriptionHeadings {
 	float: left;
 	margin: 0 0 0 10px;
-	font-size: .9em;
+	font-size: .8em;
 	font-weight: 500;
 	letter-spacing: .04em;
 	
@@ -72,6 +81,6 @@
 
 .trendDescriptionP {
 	float: left;
-	margin: 10px 0 0 25px;
+	margin: 8px 0 0 25px;
 	line-height: 1.3em;
 }

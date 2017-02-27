@@ -218,16 +218,20 @@ hr {
 /* ANALYSIS */
 .analysis {
   height: 100vh;
-  width: 1280px;
+  width: 100vw;
   background-color: #e5dbca; }
 
+.analysis-wrapper {
+  width: 1280px;
+  margin: 0 auto; }
+
 .analysisLeft {
-  width: 50%;
+  width: 45%;
   float: left;
   padding: 50px; }
 
 .analysisRight {
-  width: 50%;
+  width: 55%;
   height: 100vh;
   float: left;
   padding: 50px; }
@@ -238,11 +242,14 @@ hr {
   font-weight: 400;
   line-height: 1.3em; }
 
+.analysishr {
+  border-color: #592c4e; }
+
 .analysisP {
   margin-top: 30px;
-  font-size: .9em;
+  font-size: .8em;
   line-height: 1.5em;
-  color: #592c4e;
+  color: #58595b;
   letter-spacing: .04em; }
 
 .trendDescription {
@@ -256,7 +263,7 @@ hr {
 .trendDescriptionHeadings {
   float: left;
   margin: 0 0 0 10px;
-  font-size: .9em;
+  font-size: .8em;
   font-weight: 500;
   letter-spacing: .04em; }
 
@@ -274,7 +281,7 @@ hr {
 
 .trendDescriptionP {
   float: left;
-  margin: 10px 0 0 25px;
+  margin: 8px 0 0 25px;
   line-height: 1.3em; }
 
 .analysisGraph {
@@ -826,3 +833,21 @@ hr {
   position: absolute;
   top: 155px;
   left: 255px; }
+
+.yourState {
+  height: 100vh;
+  width: 100vw;
+  background-color: white; }
+
+.mountainPeaksContainer {
+  position: relative;
+  height: 130px;
+  background-color: #e5dbca; }
+
+.mountainPeaks {
+  position: absolute;
+  bottom: 0;
+  width: 100vw; }
+
+.mountainPeaksSVG {
+  fill: #FFFFFF; }
