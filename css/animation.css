@@ -542,6 +542,55 @@
 
 
 
+/* PURPLE STATES */
+
+.purpleStateAnimation {
+	animation-name: purpleColorChange;
+	-webkit-animation-name: purpleColorChange;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+	
+	animation-delay: 5s;
+	-webkit-animation-delay: 5s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+
+	visibility: visible !important;	
+}
+
+@keyframes purpleColorChange {
+	0% { fill: #e5dbca; stroke: #592c4e;}
+	100% { fill: #9b5b66; stroke: #e5dbca;}	
+}
+
+
+/* BROWN STATES */
+
+.brownStateAnimation {
+	animation-name: brownColorChange;
+	-webkit-animation-name: brownColorChange;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+	
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+
+	visibility: visible !important;	
+}
+
+@keyframes brownColorChange {
+	0% { fill: #e5dbca; stroke: #592c4e;}
+	100% { fill: #754c29; stroke: #e5dbca;}	
+}
+
+
+
+
+
 
 
 
