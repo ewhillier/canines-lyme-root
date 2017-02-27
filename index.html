@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width">
 	<link href="css/normalize.css" rel="stylesheet" type="text/css">
 	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<link href="css/css/main.css" rel="stylesheet" type="text/css">
 	<link href="css/animation.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
@@ -15,63 +16,7 @@
     <![endif]-->
 </head>
 
-<script>
-	$(window).scroll(function() {
-		$('#armTickScroll').each(function(){
-		var imagePos = $(this).offset().top;
-
-		var topOfWindow = $(window).scrollTop();
-			if (imagePos < topOfWindow+700) {
-				$(this).addClass("armTickAnimate");
-			}
-		});
-	});
-	
-	$(window).scroll(function() {
-		$('#armRashScroll').each(function(){
-		var imagePos = $(this).offset().top;
-
-		var topOfWindow = $(window).scrollTop();
-			if (imagePos < topOfWindow+1200) {
-				$(this).addClass("armRashAnimate");
-			}
-		});
-	});
-	
-	$(window).scroll(function() {
-		$('#armSpirocheteScrollOne').each(function(){
-		var imagePos = $(this).offset().top;
-
-		var topOfWindow = $(window).scrollTop();
-			if (imagePos < topOfWindow+1200) {
-				$(this).addClass("armSpirocheteAnimate");
-			}
-		});
-	});
-	
-	$(window).scroll(function() {
-		$('#armSpirocheteScrollTwo').each(function(){
-		var imagePos = $(this).offset().top;
-
-		var topOfWindow = $(window).scrollTop();
-			if (imagePos < topOfWindow+1200) {
-				$(this).addClass("armSpirocheteAnimate");
-			}
-		});
-	});
-	
-	$(window).scroll(function() {
-		$('#armSpirocheteScrollThree').each(function(){
-		var imagePos = $(this).offset().top;
-
-		var topOfWindow = $(window).scrollTop();
-			if (imagePos < topOfWindow+1200) {
-				$(this).addClass("armSpirocheteAnimate");
-			}
-		});
-	});
-</script>
-
+	<script src="js/scroll-animations.js"></script>
 
 <body>
 	
@@ -516,12 +461,12 @@
 		<div class="analysisLeft">
 			<div class="sectionHeader">
 				<h1 class="analysisHeading">How can dog trends predict Lyme disease in humans?</h1><hr>
-				<p class="analysisP">With a much higher risk of exposure to ticks than humans, dog trends have been speculated to predict endemic areas and trends within the human population. This study, which analyzed dog trends from 2011-2015 and human trends from 2004-2013, found that 35 of 48 states share an increasing trend of positive cases, a 73% accuracy rate.</p>
+				<p class="analysisP isHidden revealAnalysisDescription">With a much higher risk of exposure to ticks than humans, dog trends have been speculated to predict endemic areas and trends within the human population. This study, which analyzed dog trends from 2011-2015 and human trends from 2004-2013, found that 35 of 48 states share an increasing trend of positive cases, a 73% accuracy rate.</p>
 			</div>
 			
 			<div class="trendDescriptionsList">
 				
-				<div class="trendDescription">
+				<div class="trendDescription isHidden" id="increasingDescription">
 					<svg class="analysisIcon" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 6 6"
 						 style="enable-background:new 0 0 6 6;" xml:space="preserve">
@@ -539,7 +484,7 @@
 					<p class="analysisP trendDescriptionP">Out of 48 states, 35 have human and dog infection rates that are increasing.</p>
 				</div><! END increasingTrendsDescription>
 				
-				<div class="trendDescription">
+				<div class="trendDescription isHidden" id="descreasingDescription">
 					<svg class="analysisIcon" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 6 6"
 						 style="enable-background:new 0 0 6 6;" xml:space="preserve">
@@ -561,7 +506,7 @@
 					<p class="analysisP trendDescriptionP">Out of 48 states, 0 have human and dog infection rates that are decreasing.</p>
 				</div><! END decreasingTrendsDescription>
 				
-				<div class="trendDescription">
+				<div class="trendDescription isHidden" id="oppositeDescription">
 					<svg class="analysisIcon" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 6 6"
 						 style="enable-background:new 0 0 6 6;" xml:space="preserve">
@@ -580,7 +525,7 @@
 					<p class="analysisP trendDescriptionP">Out of 48 states, 12 have human infection rates that are increasing and dog infection rates that are decreasing.</p>
 				</div><! END oppositeTrendsDescription>
 				
-				<div class="trendDescription">
+				<div class="trendDescription isHidden" id="percentageDescription">
 					<svg class="analysisIcon" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 6 6"
 						 style="enable-background:new 0 0 6 6;" xml:space="preserve">
@@ -605,7 +550,7 @@
 		
 		<div class="analysisRight">
 			
-			<div class="analysisGraph sectionHeader">
+			<div class="analysisGraph">
 				<div class="analysisGraphLine">
 					<svg class="analysisIcon increasingGraphIcon" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 6 6"
@@ -620,7 +565,7 @@
 							<polygon class="st7" points="5.4,3.8 2.2,0.6 5.6,0.4 	"/>
 						</g>
 					å</svg>
-					<div class="increasingFilled">
+					<div class="increasingFilled" id="increasingFilled">
 						<h1 class="graphNumbers">35</h1>
 					</div>
 					<div class="increasingOutline">
@@ -646,9 +591,6 @@
 							<polygon class="st8" points="0.6,2.1 4,5.6 0.4,5.8 	"/>
 						</g>
 					</svg>
-					<div class="decreasingFilled">
-						<h1 class="graphNumbers">12</h1>
-					</div>
 					<div class="decreasingOutline">
 						<h1 class="graphNumbers">48</h1>
 					</div>
@@ -669,6 +611,9 @@
 							<polygon class="st9" points="0.3,2.8 3.3,5.7 0.1,5.9 	"/>
 						</g>
 					</svg>
+					<div class="oppositeFilled" id="oppositeFilled">
+						<h1 class="graphNumbers">12</h1>
+					</div>
 					<div class="oppositeOutline">
 						<h1 class="graphNumbers">48</h1>
 					</div>
@@ -690,11 +635,11 @@
 								c0.2,0,0.3-0.2,0.3-0.8C4.8,3.7,4.8,3.5,4.6,3.5z"/>
 						</g>
 					</svg>
-					<div class="predictionFilled">
-						<h1 class="graphNumbers">12</h1>
+					<div class="predictionFilled" id="percentageFilled">
+						<h1 class="graphNumbers">73%</h1>
 					</div>
 					<div class="predictionOutline">
-						<h1 class="graphNumbers">48</h1>
+						<h1 class="graphNumbers">100%</h1>
 					</div>
 				</div> <! END trendPrediction>
 			</div><! END analysisGraph>
@@ -929,7 +874,7 @@
 							<sliceSourceBounds  bottomLeftOrigin="true" height="51.2" width="63.2" x="293.8" y="-323.3"></sliceSourceBounds>
 						</sfw>
 					</metadata>
-					<path class="brownState brownStateAnimation" d="M65.2,15.8c0-2.8,0.1-5.5,0.1-8.3c0-0.3,0.1-3,0-3c0,0-3.8-0.1-4.2-0.1c-4.2-0.1-8.5-0.3-12.7-0.5
+					<path class="blueState blueStateAnimation" d="M65.2,15.8c0-2.8,0.1-5.5,0.1-8.3c0-0.3,0.1-3,0-3c0,0-3.8-0.1-4.2-0.1c-4.2-0.1-8.5-0.3-12.7-0.5
 						C34,3.2,19.6,2,5.3,0.4C3.7,15.3,2,30.3,0.4,45.2c12.2,1.4,24.5,2.5,36.7,3.2c4,0.3,8,0.5,12.1,0.7c1.4,0.1,2.8,0.1,4.2,0.2
 						c0.5,0,1.1,0,1.6,0.1c0.1,0,0.3,0,0.3,0c3,0.1,6.1,0.2,9.1,0.3C64.7,38.3,64.9,27.1,65.2,15.8"/>
 				</svg>
@@ -942,7 +887,7 @@
 							<sliceSourceBounds  bottomLeftOrigin="true" height="50" width="65.7" x="292.4" y="-322.5"></sliceSourceBounds>
 						</sfw>
 					</metadata>
-					<path class="brownState brownStateAnimation" d="M25.1,60c-0.2-0.4-0.5-1.9-0.5-1.9c0.1-0.1,1.4,0.1,1.6,0.1c1.6,0.1,3.3,0.3,4.9,0.4c6.9,0.5,13.8,0.9,20.6,1.3
+					<path class="blueState blueStateAnimation" d="M25.1,60c-0.2-0.4-0.5-1.9-0.5-1.9c0.1-0.1,1.4,0.1,1.6,0.1c1.6,0.1,3.3,0.3,4.9,0.4c6.9,0.5,13.8,0.9,20.6,1.3
 						c2,0.1,4,0.2,6,0.3c0.5,0,2,0.1,2,0.1c0.5-12.8,1.3-25.6,1.8-38.4c0.1-3,0.2-6,0.3-9c0-0.6-0.1-2.7,0.4-2.7c0.1-1.9,0.1-3.7,0.2-5.6
 						c0,0-0.2,0-0.3,0c-0.5,0-1.1,0-1.6-0.1c-1.4-0.1-2.8-0.1-4.2-0.2c-4-0.2-8-0.4-12.1-0.7C32.1,2.9,19.9,1.8,7.7,0.4
 						C5.3,21.3,2.8,42.2,0.4,63.1c0.6,0.1,1.1,0.1,1.7,0.2c1.7,0.2,6.5,0.9,6.7,0.7c0.3-0.3,0-4.7,0.3-5c0,0,3.6,0.4,4,0.4
@@ -1030,7 +975,7 @@
 							<sliceSourceBounds  bottomLeftOrigin="true" height="38.6" width="81.3" x="284.4" y="-317.7"></sliceSourceBounds>
 						</sfw>
 					</metadata>
-					<path class="brownState brownStateAnimation" d="M26,7.6c0.4,0,0.9,0,1.3,0c0.1,0,0.2,0,0.3,0c0.1,0,0.2-0.1,0.3,0c0.1,0,0,0.1,0,0.2c0,0.3,0,0.6,0,0.9
+					<path class="blueState blueStateAnimation" d="M26,7.6c0.4,0,0.9,0,1.3,0c0.1,0,0.2,0,0.3,0c0.1,0,0.2-0.1,0.3,0c0.1,0,0,0.1,0,0.2c0,0.3,0,0.6,0,0.9
 						c0,1.3,0,2.6,0,4c0,4.1,0,8.1,0,12.2c0,1.2,0,2.4,0,3.6c0,0.1,0,0.2,0,0.2c0,0.1-0.1,0.2,0,0.3c0.1,0.2,0.9,0.1,1.1,0.2
 						c0.8,0.4,1.7,2.5,2.9,2c0.2-0.1,0.3-0.4,0.5-0.4c0.3,0,0.7,0.5,1,0.6c0.4,0,0.5-1.3,0.8-1.1c0.2,0.1,0,0.4,0.2,0.6
 						c0.4,0.3,1,0.4,1.3,0.9c0.1,0.3-0.2,1.1,0.2,1.3c0.6,0.3,1.5-0.1,2.1,0c0.7,0.1,1.4,0.8,2.2,0.9c0.4,0,0.9-0.3,1.3-0.2
@@ -1057,7 +1002,7 @@
 							<sliceSourceBounds  bottomLeftOrigin="true" height="38.6" width="81.3" x="284.4" y="-317.7"></sliceSourceBounds>
 						</sfw>
 					</metadata>
-					<path class="brownState brownStateAnimation" d="M129.8,59.3l0.5-0.2c0-0.2-0.5-0.5-0.6-0.7c0-0.3,0.4-0.7,0.3-0.9c0-0.1-0.6-0.1-0.7-0.1
+					<path class="blueState blueStateAnimation" d="M129.8,59.3l0.5-0.2c0-0.2-0.5-0.5-0.6-0.7c0-0.3,0.4-0.7,0.3-0.9c0-0.1-0.6-0.1-0.7-0.1
 						c-0.2-0.1-0.1-0.5-0.2-0.7c-0.1-0.1-0.7-0.3-0.7-0.5c0-0.2,0.3-0.4,0.3-0.6c0-0.4-1.1-0.8-1.1-1.2c0-0.1,0.1-0.1,0.1-0.2
 						c0-0.1,0-0.2-0.1-0.3c-0.2-0.3-0.8-0.3-1-0.7c-0.1-0.3,0.1-0.8,0.1-1.1c-0.1-0.7-0.5-1.4-1-2c-0.4-0.4-1.3-0.7-1.6-1.2
 						c-0.3-0.5-0.2-2.7-0.2-3.3c-0.2-2.6-0.4-5.3-0.6-7.9c-0.1-1.1-0.1-5.1-0.4-5.9c-0.2-0.4-1.6,0-1.8-0.1c-1.2-0.2-0.2-0.1-0.8,0.2
@@ -1177,7 +1122,7 @@
 							<sliceSourceBounds  bottomLeftOrigin="true" height="36.6" width="55.9" x="297.5" y="-316"></sliceSourceBounds>
 						</sfw>
 					</metadata>
-					<path class="brownState brownStateAnimation" d="M63.2,40.8c0.3-0.4-0.6-0.3-0.6-0.7c0.1-0.8,0.6-0.3,0.4-1.6c-0.3-0.3-0.4,0-0.8-0.1c-0.4-0.1-0.6-1.2-1.1-1
+					<path class="blueState blueStateAnimation" d="M63.2,40.8c0.3-0.4-0.6-0.3-0.6-0.7c0.1-0.8,0.6-0.3,0.4-1.6c-0.3-0.3-0.4,0-0.8-0.1c-0.4-0.1-0.6-1.2-1.1-1
 						c-0.5,0.3,0.8,0.8,0.3,0.9c-0.1,0-0.9-0.4-1-0.4c-0.1-0.1,0-0.4-0.1-0.6c-0.2-0.4-0.7-0.6-0.9-1l-0.1-0.6L59,35.7
 						c-0.1-0.9,0.8-1,0.5-1.8c-0.2-0.5-0.9-0.9-1.1-1.4c-0.2-0.4,0.1-1.2-0.2-1.5c-0.2-0.3-1-0.2-1.3-0.4c-0.3-0.2-0.4-0.8-0.7-1
 						c-0.2-0.2-0.6-0.1-0.8-0.3c-0.1-0.1-0.2-0.3-0.3-0.3c-0.4,0-0.4,0.7-0.9,0.3c-0.4-0.3,0.1-0.5-0.1-0.7c-0.2-0.3-1.2-0.3-1.6-0.6
@@ -1207,7 +1152,7 @@
 							<sliceSourceBounds  bottomLeftOrigin="true" height="51.4" width="63.6" x="293" y="-323.2"></sliceSourceBounds>
 						</sfw>
 					</metadata>
-					<path class="brownState brownStateAnimation" d="M54.3,39.3c-0.1,0-0.1,0-0.2,0c0,0,0.1,0.2,0,0.2c-0.6,0.2-1.2-1.5-1.6-1.4c-0.4,0.1-0.1,0.4-0.5,0.4l-0.2-0.3
+					<path class="blueState blueStateAnimation" d="M54.3,39.3c-0.1,0-0.1,0-0.2,0c0,0,0.1,0.2,0,0.2c-0.6,0.2-1.2-1.5-1.6-1.4c-0.4,0.1-0.1,0.4-0.5,0.4l-0.2-0.3
 						c-0.1,0-1.2,0.3-1.2,0c0-0.2,0.7-0.3,0.5-0.2c-0.4,0.1-0.7-0.1-1.1,0c-0.2,0-0.8,0.2-0.9,0c-0.1-0.1,0.1-0.6,0.1-0.7
 						c-0.3-0.4-1.4,0-1.8-0.3c-0.4-0.3-0.4-1-0.7-1.1c-0.1,0,0.5-0.1,0.6-0.1c0.1,0,0.2,0.1,0.3,0c0.2-0.4-0.3-0.7-0.2-0.7
 						c0.1,0,0.2,0,0.2,0c0.4,0.2,0.9,0.2,1.3,0.3c0,0,0,0,0-0.1c-0.1-0.1-0.2-0.1-0.2-0.1c-0.1,0-0.1-0.1,0,0c0.1,0,0.1,0,0.1-0.2
@@ -1430,7 +1375,7 @@
 							<sliceSourceBounds  bottomLeftOrigin="true" height="37.3" width="65.8" x="293" y="-316.3"></sliceSourceBounds>
 						</sfw>
 					</metadata>
-					<path class="brownState brownStateAnimation" d="M76.5,0.4c0,0-1.4,0.2-2.1,0.3C74,0.8,74.1,0.8,73.8,1c-0.8,0.5-2.4,0.5-3.3,0.8c-4,0.9-8.1,1.8-12.1,2.6
+					<path class="blueState blueStateAnimation" d="M76.5,0.4c0,0-1.4,0.2-2.1,0.3C74,0.8,74.1,0.8,73.8,1c-0.8,0.5-2.4,0.5-3.3,0.8c-4,0.9-8.1,1.8-12.1,2.6
 						c0,0-0.2,0.1-0.3,0.2c-0.4,0.3-1.2,0.3-1.7,0.3c-1.5,0.2-3,0.5-4.4,0.7c-2.3,0.4-4.7,0.6-7,1c-2.1,0.4-4.1,0.9-6.2,1.1
 						c-1.1,0.1-5.5,0.4-6.2,0.7l-0.4,0.4c-0.1,0-0.1-0.1-0.2-0.2c-0.8-0.2-7.5,1.3-8.8,1.5c-0.6,0.1-1.9,0.6-2.5,0.5
 						c-0.3-0.1-0.1-0.4-0.9-0.3c-0.2,0-1.3,0-1.3,0.1c-0.2,0.3,1,1.5,0.5,2c-0.2,0.2-2.8,0.5-3.3,0.5c-3.1,0.5-6.1,1-9.2,1.4
@@ -1491,7 +1436,7 @@
 							<sliceSourceBounds  bottomLeftOrigin="true" height="-32766" width="-32766" x="8498" y="24970"></sliceSourceBounds>
 						</sfw>
 					</metadata>
-					<path class="brownState brownStateAnimation" d="M20,46.3c6.1-1,12.1-2,18.2-3.1c-0.1-0.8-0.4-1.4-1-1.9l-0.4-0.1c-0.7-0.9,0.1-2-0.1-3l-0.2-0.3
+					<path class="blueState blueStateAnimation" d="M20,46.3c6.1-1,12.1-2,18.2-3.1c-0.1-0.8-0.4-1.4-1-1.9l-0.4-0.1c-0.7-0.9,0.1-2-0.1-3l-0.2-0.3
 						c0,0,0.2-0.6,0.2-0.6c0-0.7-0.8-1-1.1-1.5c-0.2-0.4-0.4-1.2-0.5-1.6c0-0.2,0.3-3.7,0.3-3.7c0.1-0.4,1.2-1.1,1.1-1.4
 						c-0.1-0.3-0.9-0.3-1.1-0.5c-0.2-0.2,0.3-0.4,0.2-0.6c0-0.1-0.3-1.1-0.6-1.4c-0.2-0.2-0.6-0.4-0.8-0.6c-0.5-0.6-0.6-1.5-1-2.1
 						c-1.3-2-2-4.5-2.9-6.8c-1.3-3.7-2.6-7.4-4-11c-0.5-1.2-0.9-2.5-1.4-3.7c-0.2-0.5-0.4-1-0.6-1.6c0-0.1-0.1-0.3-0.1-0.3
@@ -1638,7 +1583,7 @@
 							<sliceSourceBounds  bottomLeftOrigin="true" height="43.5" width="71.4" x="270.1" y="-417.7"></sliceSourceBounds>
 						</sfw>
 					</metadata>
-					<path class="brownState brownStateAnimation" d="M76.8,9.4c0-0.1-0.7-0.5-0.5-0.6c0,0,0.5,0,0.5,0c0-0.1-0.7-1.9-1-2c-0.2-0.2-0.5-0.2-0.8-0.4
+					<path class="blueState blueStateAnimation" d="M76.8,9.4c0-0.1-0.7-0.5-0.5-0.6c0,0,0.5,0,0.5,0c0-0.1-0.7-1.9-1-2c-0.2-0.2-0.5-0.2-0.8-0.4
 						c0,0-0.1,0.1-0.1,0.1c-0.1,0.1-0.6,0.1-0.6,0.1c-0.1,0.1,1,0.3,0.5,0.6c-0.4,0.2-0.9-0.9-1.1,0.1c-0.1,0.4,0.7,2.3,0.3,2.6
 						c-0.1,0.1-0.9,0-1-0.1c-0.2-0.2,0.7-0.1,0.9-0.3c0.2-0.2-0.7-0.7-0.8-0.8c-0.1,0-0.4-0.2-0.3-0.2l0.6,0c0,0-0.2-0.7-0.2-0.7
 						c-0.1-0.1-0.4,0-0.4-0.1c0.4-0.4,0.5-0.6,0.1-1.2c-0.3-0.5-5.8,2.7-6.1,1.8c0-0.1,0.1-0.1,0.1-0.2c0-0.1,0-0.1-0.1-0.2
@@ -1784,7 +1729,7 @@
 							<sliceSourceBounds  bottomLeftOrigin="true" height="37.6" width="54.3" x="296.3" y="-412.6"></sliceSourceBounds>
 						</sfw>
 					</metadata>
-					<path class="brownState brownStateAnimation" d="M2.8,13.6l0.6-0.2l0.1-0.6c0.2-0.4,0.6-0.6,0.8-1c0.1-0.3,0.1-0.8,0.5-0.9c0.3-0.1,0.6,0.4,0.9,0.1
+					<path class="blueState blueStateAnimation" d="M2.8,13.6l0.6-0.2l0.1-0.6c0.2-0.4,0.6-0.6,0.8-1c0.1-0.3,0.1-0.8,0.5-0.9c0.3-0.1,0.6,0.4,0.9,0.1
 						c0.3-0.3,0.3-1,0.6-1.3l0.4-0.3c0-0.1-0.2-0.1-0.2-0.1C6.4,9.1,6.4,8.7,6.6,8.7c0.8,0.1,0,0.3,0.5,0.6c0.5,0.3,2.9,0,2.9-0.6
 						c0-0.2-0.4-0.1-0.4-0.3c0-0.2,0.4-0.1,0.4-0.3c0-0.1-0.3,0-0.3-0.1c0-0.1,0.5-0.5,0.6-0.6c0,0,0.6,0,0.6,0c0.3-0.1,0.3-0.8,0.6-1
 						c0.8-0.4,1.2,0.5,1.8,0.7c0.2,0,1.4-0.5,1.4-0.4c0.1,0.5-0.3,0.4-0.3,0.7c0,0.5,0.6,0,0.6,0c0,0.1,0,0.1,0,0.2c0,0.1-0.1,0.2,0,0.2
@@ -1828,7 +1773,7 @@
 						</sfw>
 					</metadata>
 					<g>
-						<path class="brownState brownStateAnimation" d="M53.4,43.3c0-0.2,1.5-1.6,1.5-1.9c0-0.2-0.7-0.5-0.8-0.7c-0.1-0.2-0.1-0.4-0.2-0.6c-0.7-2.5-1.4-5-2-7.6
+						<path class="blueState blueStateAnimation" d="M53.4,43.3c0-0.2,1.5-1.6,1.5-1.9c0-0.2-0.7-0.5-0.8-0.7c-0.1-0.2-0.1-0.4-0.2-0.6c-0.7-2.5-1.4-5-2-7.6
 							c-0.6-0.4-0.4-1.5-0.5-2.2c-0.1-2-0.2-3.9-0.3-5.9c0,0-0.4-0.4-0.5-0.6c-0.3-0.7-0.4-1.6-0.6-2.3c-0.5-1.6-1.1-5-2.3-6
 							c-0.9-0.8-0.3,1-1.2,0.4c0-0.1,0-0.2,0-0.3c0-0.1,0-0.2,0-0.3c-0.1-0.9-0.1-1.7-0.4-2.5c0-0.1-0.7-1.4-0.8-1.5l-0.4-0.3
 							c-0.2-0.3-0.2-1.4-0.2-1.7C44.7,9,45,8.7,45,8.5c0-0.4-0.5-0.8-0.6-1.2c-0.1-0.3,0.2-0.7,0.1-1c-0.2-0.6-1.1-0.9-1.4-1.5
@@ -1847,7 +1792,7 @@
 							c0.1,0.2,0.9,1.1,1.1,1.2l0.5-0.2c0.2,0,0.2,0.2,0.4,0.3c0.4,0.1,0.8-0.2,1.1-0.2c0.3,0.1,0.7,0.8,0.7,0.8c1.9,0.5,3.9,0.9,5.8,1.3
 							c0.3,0.1,1.4,0.1,1.8,0.3c-0.1-0.4-0.2-0.8-0.4-1.3c-0.1-0.3-0.1-0.9,0.4,0.1c0.8,1.7,0.1,4.3,0.3,4.4c0.2,0.1,0.3-1,0.4-1.1
 							c0.1-0.2,0.9-0.3,0.9-0.5L53.4,46c0-0.1,0.2,0,0.3-0.1c0.2-0.2,0-0.8,0.2-1.1l0.4-0.1l0.1-0.6C54.2,44,53.4,43.5,53.4,43.3"/>
-						<path class="brownState brownStateAnimation" d="M68.1,38.7c-0.5,0.5-6.3,5.8-6.5,5.9l-0.3-0.1c-0.3,0.1-0.8,0.6-1,0.7c-0.2,0.2-0.6,0.1-0.8,0.3
+						<path class="blueState blueStateAnimation" d="M68.1,38.7c-0.5,0.5-6.3,5.8-6.5,5.9l-0.3-0.1c-0.3,0.1-0.8,0.6-1,0.7c-0.2,0.2-0.6,0.1-0.8,0.3
 							c0,0,0,0.1,0,0.2c-0.1,0.1-0.1,0.2-0.3,0.2c-0.1,0.1-0.4-0.1-0.5,0c-0.3,0.2-0.6,0.7-1,1c-0.4,0.3-1.9,1.5-1.8,1.4
 							c0.1,0-0.1,0-0.2,0.1c-0.2,0.1-0.4,0.1-0.6,0.2c-0.5,0.2-1,0.8-1.4,0.9c-0.1,0,0.1-0.1,0.1-0.2c0.1-0.1-0.2-1.1-0.2-0.6
 							c0,0.2,0.6-0.1,0.3,0.3c-0.5,0.6-0.9,0.5-1.3,0.1c-0.3-0.4,0.5-2.1,0.9-2.3c0.2-0.1,0.6,0.1,0.7-0.1c0.2-0.2-0.3-0.7,0.1-0.5
@@ -2035,6 +1980,37 @@
 						C4.9,5,5.2,4.7,4.9,4.4L4.6,4.1c-0.1-0.7,0.5,0,0.6,0c0.3-0.1,0.5-0.9,0.5-1c0,0,0-0.1,0-0.1C5.4,2.9,5.2,2.8,5.1,2.7
 						C4.8,2.5,4.9,1.9,4.7,1.6"/>
 				</svg>
+				<svg class="analysisArkansas" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="46.9px" height="42.9px"
+					 viewBox="0 0 46.9 42.9" style="enable-background:new 0 0 46.9 42.9;" xml:space="preserve">
+					<metadata>
+						<sfw  xmlns="&ns_sfw;">
+							<slices></slices>
+							<sliceSourceBounds  bottomLeftOrigin="true" height="42.9" width="46.9" x="282.5" y="-417.1"></sliceSourceBounds>
+						</sfw>
+					</metadata>
+					<path class="blueState blueStateAnimation" d="M39.8,6.4c-0.1-0.1,0.5-1.5,0.6-1.6c0,0,0.4-0.2,0.4-0.2c0.1-0.2,0-0.4,0.1-0.6c0.2-0.2,0.7-0.3,0.9-0.5
+						c0.8-0.8,0.5-1.5-0.1-2.2c-0.2-0.2-0.3-0.8-0.6-0.9c-0.3-0.1-2.5,0.3-3,0.4c-2.8,0.3-5.5,0.6-8.3,0.9C20.1,2.7,10.3,3.6,0.5,4.3
+						c0,0,0.2,0.9,0.3,1.3c0.2,0.8,0.3,1.5,0.5,2.3c0.5,2.3,1.1,4.6,1.5,6.9c0.5,2.6,0.4,5.2,0.6,7.8c0.2,4.4,0.4,8.8,0.6,13.3
+						C4,36,4.1,36.2,4.2,36.4c0.1,0.1,0.6,0.1,0.6,0.1c0.1,0.1-0.1,0.1-0.1,0.2c0,0.3,0.7,0.2,0.8,0.1c0.6-0.3-0.4-0.4,0.8-0.2
+						c0.2,0,1.6-0.4,1.8,0.1c0.4,0.8,0.4,4.7,0.4,5.9c9.2-0.7,18.4-1.5,27.6-2.4c0,0,0.5-0.5,0.4-0.8c0-0.1-1.1-0.6-0.7-0.8
+						c0.2-0.1,0.8,0.1,1-0.1c0.1-0.1-0.1-0.7-0.1-0.9c0-0.2,0.4-0.4,0.4-0.6c0-0.4-1.1,0.8-1-0.6c0-0.3,0.9-0.9,0.7-1.2
+						c-0.4-0.6-0.4,1.1-1.4,0.7c-0.2-0.1,0.8-0.8,0.7-1c-0.6-1-0.5,1.1-1.1,0.5c-0.1-0.1,0.4-0.7,0.4-0.8c-0.2-1.7-0.2,1.3-0.4-0.5
+						c0-0.4,0.4-0.2,0.5-0.5c0-0.1,0.1-0.1,0.1-0.2c-0.1-0.3-0.8-0.8-0.8-1c0-0.1,0.1-0.1,0.2-0.1c0.2-0.1,1.2,1.1,1.6,0.3
+						c0-0.1-0.1-0.1-0.1-0.2c-0.3-0.5-0.8,0.4-1-0.8c0-0.1-0.1-0.1,0-0.2c0.1-0.1,1.5,0.2,1.4-0.2c-0.1-0.2-0.6-0.3-0.7-0.5
+						c-0.1-0.3,0.3-0.7,0.2-1c0-0.2-0.7-0.5-0.3-0.8c0.1-0.1,0.2,0.1,0.3,0.1c0.2,0.1,1.7-0.8,1.4-1.4c0,0-1.2,0-1-0.4
+						c0.2-0.4,1.4,0.1,1.4-0.3c0-0.4-0.9-0.1-1.1-0.2c-0.7-0.4,0.5-0.2,0.6-0.3l0.3-0.5c0.2-0.3,0.8-0.3,0.7-0.9l-0.2-0.3
+						c0.4-0.5,0.8,0.5,0.8,0.5c0.1,0,0.2-0.7,0.2-0.8c0.1-0.2,0.5-0.2,0.6-0.4c0.1-0.3-0.2-0.8-0.1-1.1c0.1-0.3,0.5-0.2,0.4-0.6
+						c0-0.1,0-0.1,0-0.2c-0.5-0.5-0.8-0.1-0.5-1.1c0-0.1,0-0.2,0.1-0.2c0.3,0,0.2,0.6,0.2,0.7c0.1,0.1,0.7-0.5,0.7-0.6
+						c0-0.3-0.7-0.1-0.8-0.3c-0.1-0.1-0.3-1.1,0.2-1c0.5,0.2-0.1,0.7-0.1,0.8c0.1,0.2,0.7-0.3,0.7-0.5c0-0.2-0.5-1.1-0.3-1.3
+						c0.6-0.4,0.2,0.4,0.4,0.5l0.5-0.3c0.4-0.2,0.3,0.1,0.6,0c0.6-0.3,0.2-1.3,0-1.7c0,0,0-0.2,0-0.3c0-0.1-0.1-0.2,0-0.3
+						c0.1-0.1,0.6,0,0.8-0.1c0.2-0.2,0.1-0.9,0.4-1c0.2-0.1,0.4,0.2,0.6,0.1c0.1-0.1,0.1-1.2,0-1.3c-0.1-0.2-1-0.2-1-0.4
+						c0-0.2,0.6-0.3,0.7-0.5c0.1-0.1-0.3-1.1-0.4-1.1c-0.4,0,0,0.4-0.4,0.4c0,0,0.1-1.1,0.6-1.2c0.5-0.1,0,1,1,0.4
+						c0.4-0.2-0.9-0.5-0.6-1.2c0.2-0.5,0.8,0.2,1.1-0.1c0.2-0.2-0.4-0.3-0.2-0.5c0.1-0.1,1-0.5,0.9-0.7c-0.3-0.4-1.7-0.3-1.2-0.8
+						c0.2-0.3,1.2-0.3,1.3-0.5c0.1-0.2,0-0.4,0.1-0.6c0.1-0.1,0.5,0,0.6-0.1c0.3-0.5-0.8-0.3-0.4-0.9c0.3-0.4,1.4,0.2,0.7-0.5
+						C46,5.9,46,5.8,45.8,5.6c-1.5,0.2-3.1,0.4-4.6,0.6C41,6.2,39.9,6.5,39.8,6.4"/>
+				</svg>
+
 
 
 

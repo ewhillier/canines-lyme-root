@@ -1,0 +1,88 @@
+/* DISEASE TRANSFER */
+
+
+.diseaseTransfer {
+	width: 100vw;
+	height: 100vh;
+	background-color: #49182e;
+	position: relative;
+}
+
+.diseaseTransferHeader {
+	letter-spacing: .1em;
+	color: #eac19b;
+	font-size: 1.5em;
+	margin: 0;
+}
+
+hr {
+	margin: 0;
+	width: 45px;
+	text-align: left;
+	border-color: #eac19b;
+	margin-top: 20px;
+	
+}
+
+.armContainer {
+	margin-top: 0px;
+	position: relative;
+	overflow: hidden;
+}
+
+.arm {
+	width: 100%;
+}
+
+.armTick {
+	width: 40px;
+	position: absolute;
+	top: 140px;
+	left: -40px;
+	
+	-ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+.armRash {
+	position: absolute;
+	top: 70px;
+	left: 700px;
+}
+
+.armSpirocheteOne {
+	position: absolute;
+	top: 30px;
+	left: 600px;
+}
+
+.armSpirocheteTwo {
+	position: absolute;
+	top: 200px;
+	left: 550px;
+}
+
+.armSpirocheteThree {
+	position: absolute;
+	top: 250px;
+	left: 900px;
+}
+
+.diseaseTransferP {
+	width: 400px;
+	font-size: 1em;
+	font-weight: 300;
+	line-height: 1.8em;
+	letter-spacing: .1em;
+	color: #eac19b;
+	float: left;
+	margin-right: 100px;
+}
+
+.diseaseTransferGrass {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}

@@ -1,0 +1,94 @@
+.analysisGraph {
+	margin-top: 80px;
+}
+
+.analysisGraphLine {
+	overflow: auto;
+	height: 20px;
+	width: 100%;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.increasingGraphIcon {
+	margin-top: 4px;
+}
+
+.increasingFilled {
+	position: absolute;
+	left: 15px;
+	width: 315px;
+	height: 20px;
+	background-color: #9b5b66;
+	float: left;
+	margin-left: 10px;
+	color: #e5dbca;
+	transform: scaleX(0);
+}
+
+.increasingOutline {
+	position: absolute;
+	left: 24px;
+	width: 434px;
+	height: 20px;
+	border: 1px solid #9b5b66;
+}
+
+.graphNumbers {
+	float: right;
+	margin: 2px 3px 0 0px;
+	font-size: .9em;
+	font-weight: 400;
+	letter-spacing: .04em;
+}
+
+.oppositeFilled {
+	position: absolute;
+	left: 15px;
+	width: 70px;
+	height: 20px;
+	background-color: #006299;
+	float: left;
+	margin-left: 10px;
+	color: #e5dbca;
+	transform: scaleX(0);
+}
+
+.decreasingOutline {
+	position: absolute;
+	left: 25px;
+	width: 434px;
+	float: left;
+	height: 20px;
+	border: 1px solid #754c29;
+}
+
+.oppositeOutline {
+	position: absolute;
+	left: 14px;
+	width: 435px;
+	height: 20px;
+	border: 1px solid #006299;
+	margin-left: 10px;
+}
+
+.predictionFilled {
+	position: absolute;
+	left: 15px;
+	width: 315px;
+	height: 20px;
+	background-color: #58595b;
+	float: left;
+	margin-left: 10px;
+	color: #e5dbca;
+	transform: scaleX(0);
+}
+
+.predictionOutline {
+	position: absolute;
+	left: 24px;
+	width: 434px;
+	float: left;
+	height: 20px;
+	border: 1px solid #58595b;
+}

@@ -1,0 +1,227 @@
+/* PURPLE STATES */
+
+.purpleStateAnimation {
+	animation-name: purpleColorChange;
+	-webkit-animation-name: purpleColorChange;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+	
+	animation-delay: 3s;
+	-webkit-animation-delay: 3s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes purpleColorChange {
+	0% { fill: #e5dbca; stroke: #592c4e;}
+	100% { fill: #9b5b66; stroke: #e5dbca;}	
+}
+
+
+/* BLUE STATES */
+
+.blueStateAnimation {
+	animation-name: blueColorChange;
+	-webkit-animation-name: blueColorChange;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+	
+	animation-delay: 7s;
+	-webkit-animation-delay: 7s;	
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;		
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;	
+
+	visibility: visible !important;	
+}
+
+@keyframes blueColorChange {
+	0% { fill: #e5dbca; stroke: #592c4e;}
+	100% { fill: #006299; stroke: #e5dbca;}	
+}
+
+/* BAR GRAPH ANIMATION */
+
+.graphIncreasingFillAnimation {
+	animation-name: fillAnimation;
+	-webkit-animation-name: fillAnimation;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+	
+	animation-delay: 3s;
+	
+	transform-origin: left;
+	
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;		
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;	
+
+	visibility: visible !important;	
+}
+
+.graphOppositeFillAnimation {
+	animation-name: fillAnimation;
+	-webkit-animation-name: fillAnimation;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+	
+	animation-delay: 7s;
+	-webkit-animation-delay: 7s;
+	
+	transform-origin: left;
+	-webkit-transform-origin: left;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;		
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;	
+
+	visibility: visible !important;	
+}
+
+.graphPercentageFillAnimation {
+	animation-name: fillAnimation;
+	-webkit-animation-name: fillAnimation;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+	
+	animation-delay: 9s;
+	-webkit-animation-delay: 9s;
+	
+	transform-origin: left;
+	-webkit-transform-origin: left;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;		
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;	
+
+	visibility: visible !important;	
+}
+
+@keyframes fillAnimation {
+	0% {transform: scaleX(0);}
+	100% {transform: scaleX(1.0);}	
+}
+
+
+/* REVEAL ANIMATIONS */
+
+.revealAnalysisDescription {
+	animation-name: revealAnimation;
+	-webkit-animation-name: revealAnimation;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+	
+	animation-delay: 1s;
+	-webkit-animation-delay: 1s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;		
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;	
+
+	visibility: visible !important;	
+}
+
+.revealIncreasingDescription {
+	animation-name: revealAnimation;
+	-webkit-animation-name: revealAnimation;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+	
+	animation-delay: 3s;
+	-webkit-animation-delay: 3s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;		
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;	
+
+	visibility: visible !important;	
+}
+
+.revealDecreasingDescription {
+	animation-name: revealAnimation;
+	-webkit-animation-name: revealAnimation;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+	
+	animation-delay: 5s;
+	-webkit-animation-delay: 5s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;		
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;	
+
+	visibility: visible !important;	
+}
+
+.revealOppositeDescription {
+	animation-name: revealAnimation;
+	-webkit-animation-name: revealAnimation;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+	
+	animation-delay: 7s;
+	-webkit-animation-delay: 7s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;		
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;	
+
+	visibility: visible !important;	
+}
+
+.revealPercentageDescription {
+	animation-name: revealAnimation;
+	-webkit-animation-name: revealAnimation;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+	
+	animation-delay: 9s;
+	-webkit-animation-delay: 9s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;		
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;	
+
+	visibility: visible !important;	
+}
+
+@keyframes revealAnimation {
+	0% {opacity: 0;}
+	100% {opacity: 1;}	
+}

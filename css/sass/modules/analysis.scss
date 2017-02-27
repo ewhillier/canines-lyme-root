@@ -1,0 +1,77 @@
+/* ANALYSIS */
+
+.analysis {
+	height: 100vh;
+	width: 1280px;
+	background-color: #e5dbca;
+}
+
+.analysisLeft {
+	width: 50%;
+	float: left;
+	padding: 50px;
+}
+
+.analysisRight {
+	width: 50%;
+	height: 100vh;
+	float: left;
+	padding: 50px;
+}
+
+.analysisHeading {
+	color: #592c4e;
+	font-size: 1.6em;
+	font-weight: 400;
+	line-height: 1.3em;
+}
+
+.analysisP{
+	margin-top: 30px;
+	font-size: .9em;
+	line-height: 1.5em;
+	color: #592c4e;
+	letter-spacing: .04em;
+}
+
+.trendDescription {
+	padding: 20px 50px;
+	clear: both;
+}
+
+
+.analysisIcon {
+	width: 13px;
+	float: left;
+}
+
+.trendDescriptionHeadings {
+	float: left;
+	margin: 0 0 0 10px;
+	font-size: .9em;
+	font-weight: 500;
+	letter-spacing: .04em;
+	
+}
+
+.increasingHeading {
+	color: #9b5b66;
+}
+
+.decreasingHeading {
+	color: #754c28;
+}
+
+.oppositeHeading {
+	color: #006299;
+}
+
+.predictionHeading {
+	color: #58595b;
+}
+
+.trendDescriptionP {
+	float: left;
+	margin: 10px 0 0 25px;
+	line-height: 1.3em;
+}
