@@ -6,27 +6,13 @@
 .individualStateLeft {
 	width: 35%;
 	float: left;
-	padding: 120px 0 0 250px;
+	padding: 120px 0 0 200px;
 }
 
 .individualStateRight {
 	width: 65%;
 	float: left;
 	padding: 50px 0 0 0;
-}
-
-.alabamaIndividual {
-	width: 100vw;
-	height: 100vh;
-}
-
-.alabamaIndividualSVG {
-	height: 200px;
-}
-
-.alabamaFill {
-	opacity:0.3;
-	fill:$dark-purple;
 }
 
 .graphSlider {
@@ -121,6 +107,167 @@
 	font-size: .8em;
 	font-weight: 600;
 	color: white;
+}
+
+.individualStateFill {
+	fill:$dark-purple;
+}
+
+.alabamaIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.alabamaIndividualSVG {
+	height: 200px;
+}
+
+.alabamaFill {
+	opacity:0.3;
+}
+
+.arizonaIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.arizonaIndividualSVG {
+	height: 170px;
+}
+
+.arizonaFill {
+	opacity:0.4;
+}
+
+.arkansasIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.arkansasIndividualSVG {
+	height: 170px;
+}
+
+.arkansasFill {
+	opacity:0.3;
+}
+
+.californiaIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.californiaIndividualSVG {
+	margin-top: -20px;
+	height: 220px;
+}
+
+.californiaFill {
+	opacity:0.6;
+}
+
+.coloradoIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.coloradoIndividualSVG {
+	height: 140px;
+}
+
+.coloradoFill {
+	opacity:0.4;
+}
+
+.conneticutIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.conneticutIndividualSVG {
+	height: 190px;
+}
+
+.conneticutFill {
+	opacity:0.8;
+}
+
+.delawareIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.delawareIndividualSVG {
+	height: 210px;
+}
+
+.delawareFill {
+	opacity:0.7;
+}
+
+.floridaIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.floridaIndividualSVG {
+	height: 150px;
+}
+
+.floridaFill {
+	opacity:0.6;
+}
+
+.georgiaIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.georgiaIndividualSVG {
+	height: 180px;
+}
+
+.georgiaFill {
+	opacity:0.6;
+}
+
+.idahoIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.idahoIndividualSVG {
+	height: 200px;
+}
+
+.idahoFill {
+	opacity:0.6;
+}
+
+.illinoisIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.illinoisIndividualSVG {
+	height: 200px;
+}
+
+.illinoisFill {
+	opacity:0.7;
+}
+
+.indianaIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.indianaIndividualSVG {
+	height: 200px;
+}
+
+.indianaFill {
+	opacity:0.7;
 }
 
 

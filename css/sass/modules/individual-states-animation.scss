@@ -169,5 +169,222 @@
 	50% {opacity: .4}
 	90% {opacity: .4}
 	95% {opacity: .5}
-	100% { opacity: .5}	
+	100% {opacity: .5}	
+}
+
+
+/* ARIZONA FILL */
+
+.arizonaStateAnimation {
+	animation-name: stateColorTransitionTwo;
+	-webkit-animation-name: stateColorTransitionTwo;	
+
+	animation-duration: 4.5s;	
+	-webkit-animation-duration: 4.5s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes stateColorTransitionTwo {
+	0% { opacity: .4}
+	45% {opacity: .4}
+	50% {opacity: .5}
+	90% {opacity: .5}
+	95% {opacity: .6}
+	100% {opacity: .6}	
+}
+
+/* CALIFORNIA FILL */
+
+.californiaStateAnimation {
+	animation-name: stateColorTransitionThree;
+	-webkit-animation-name: stateColorTransitionThree;	
+
+	animation-duration: 4.5s;	
+	-webkit-animation-duration: 4.5s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes stateColorTransitionThree {
+	0% { opacity: .6}
+	45% {opacity: .6}
+	50% {opacity: .5}
+	90% {opacity: .5}
+	95% {opacity: .6}
+	100% {opacity: .6}	
+}
+
+/* COLORADO FILL */
+
+.coloradoStateAnimation {
+	animation-name: stateColorTransitionFour;
+	-webkit-animation-name: stateColorTransitionFour;	
+
+	animation-duration: 4.5s;	
+	-webkit-animation-duration: 4.5s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes stateColorTransitionFour {
+	0% { opacity: .4}
+	45% {opacity: .4}
+	50% {opacity: .3}
+	90% {opacity: .3}
+	95% {opacity: .4}
+	100% {opacity: .4}	
+}
+
+/* CONNETICUT FILL */
+
+.conneticutStateAnimation {
+	animation-name: stateColorTransitionConneticut;
+	-webkit-animation-name: stateColorTransitionConneticut;	
+
+	animation-duration: 4.5s;	
+	-webkit-animation-duration: 4.5s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes stateColorTransitionConneticut {
+	0% { opacity: .8}
+	45% {opacity: .8}
+	50% {opacity: .7}
+	90% {opacity: .7}
+	95% {opacity: .8}
+	100% {opacity: .8}	
+}
+
+/* DELAWARE FILL */
+
+.delawareStateAnimation {
+	animation-name: stateColorTransitionDelaware;
+	-webkit-animation-name: stateColorTransitionDelaware;	
+
+	animation-duration: 4.5s;	
+	-webkit-animation-duration: 4.5s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes stateColorTransitionDelaware {
+	0% { opacity: .7}
+	45% {opacity: .7}
+	50% {opacity: .6}
+	90% {opacity: .6}
+	95% {opacity: .7}
+	100% {opacity: .7}	
+}
+
+/* IDAHO FILL */
+
+.idahoStateAnimation {
+	animation-name: stateColorTransitionIdaho;
+	-webkit-animation-name: stateColorTransitionIdaho;	
+
+	animation-duration: 4.5s;	
+	-webkit-animation-duration: 4.5s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes stateColorTransitionIdaho {
+	0% { opacity: .2}
+	45% {opacity: .2}
+	50% {opacity: .3}
+	90% {opacity: .3}
+	95% {opacity: .2}
+	100% {opacity: .2}	
+}
+
+/* ILLINOIS FILL */
+
+.illinoisStateAnimation {
+	animation-name: stateColorTransitionIllinois;
+	-webkit-animation-name: stateColorTransitionIllinois;	
+
+	animation-duration: 4.5s;	
+	-webkit-animation-duration: 4.5s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes stateColorTransitionIllinois {
+	0% { opacity: .7}
+	45% {opacity: .7}
+	50% {opacity: .6}
+	90% {opacity: .6}
+	95% {opacity: .8}
+	100% {opacity: .8}	
+}
+
+/* INDIANA FILL */
+
+.indianaStateAnimation {
+	animation-name: stateColorTransitionIndiana;
+	-webkit-animation-name: stateColorTransitionIndiana;	
+
+	animation-duration: 4.5s;	
+	-webkit-animation-duration: 4.5s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes stateColorTransitionIndiana {
+	0% { opacity: .5}
+	45% {opacity: .5}
+	50% {opacity: .6}
+	90% {opacity: .6}
+	95% {opacity: .7}
+	100% {opacity: .7}	
 }
