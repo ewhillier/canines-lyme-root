@@ -1,0 +1,129 @@
+.individualInnerWrapper {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.individualStateLeft {
+	width: 35%;
+	float: left;
+	padding: 120px 0 0 250px;
+}
+
+.individualStateRight {
+	width: 65%;
+	float: left;
+	padding: 50px 0 0 0;
+}
+
+.alabamaIndividual {
+	width: 100vw;
+	height: 100vh;
+}
+
+.alabamaIndividualSVG {
+	height: 200px;
+}
+
+.alabamaFill {
+	opacity:0.3;
+	fill:$dark-purple;
+}
+
+.graphSlider {
+	position: relative;
+	width: 100%;
+	height: 150px;
+	padding: 50px 50px 0px 50px;
+}
+
+.sliderBar {
+	position: absolute;
+	top: 70px;
+	height: 3px;
+	width: 450px;
+	background-color: #eee;
+}
+
+.sliderBarFilled {
+	position: absolute;
+	top: 70px;
+	height: 3px;
+	width: 450px;
+	background-color: $dark-purple;
+	transform: scaleX(0);
+	transform-origin: left;
+}
+
+.sliderDot {
+	height: 15px;
+	width: 15px;
+	border-radius: 15px;
+}
+
+.sliderDotOne {
+	position: absolute;
+	top: 64px;
+	background-color: $dark-purple;
+}
+
+.sliderDotTwelve {
+	position: absolute;
+	top: 64px;
+	left: 270px;
+	background-color: #eee;
+}
+
+.sliderDotThree {
+	position: absolute;
+	top: 64px;
+	left: 490px;
+}
+
+.elevenYear {
+    position: absolute;
+    top: 20px;
+}
+
+.elevenCases {
+	position: absolute;
+	top: 80px;
+	left: 53px;
+	font-size: .8em;
+	font-weight: 600;
+	color: $dark-purple;
+}
+
+.twelveYear {
+    position: absolute;
+    top: 20px;
+    left: 271px
+}
+
+.twelveCases {
+	position: absolute;
+	top: 80px;
+	left: 271px;
+	font-size: .8em;
+	font-weight: 600;
+	color: white;
+}
+
+.thirteenYear {
+    position: absolute;
+    top: 20px;
+    left: 491px
+}
+
+.thirteenCases {
+	position: absolute;
+	top: 80px;
+	left: 491px;
+	font-size: .8em;
+	font-weight: 600;
+	color: white;
+}
+
+
+
+
+

@@ -1,0 +1,173 @@
+/* PURPLE STATES */
+
+.elevenToTwelveAnimation {
+	animation-name: sliderBarPartOne;
+	-webkit-animation-name: sliderBarPartOne;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+	
+	animation-delay: 1s;
+	-webkit-animation-delay: 1s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes sliderBarPartOne {
+	0% { transform: scaleX(0);}
+	100% { transform: scaleX(.5);}	
+}
+
+
+.twelveToThirteenAnimation {
+	animation-name: sliderBarPartTwo;
+	-webkit-animation-name: sliderBarPartTwo;	
+
+	animation-duration: 1s;	
+	-webkit-animation-duration: 1s;
+	
+	animation-delay: 3s;
+	-webkit-animation-delay: 3s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes sliderBarPartTwo {
+	0% { transform: scaleX(.5);}
+	100% { transform: scaleX(1);}	
+}
+
+
+.twelveDotAnimation {
+	animation-name: twelveDotColor;
+	-webkit-animation-name: twelveDotColor;	
+
+	animation-duration: .5s;	
+	-webkit-animation-duration: .5s;
+	
+	animation-delay: 2s;
+	-webkit-animation-delay: 2s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;
+}
+
+.thirteenDotAnimation {
+	animation-name: twelveDotColor;
+	-webkit-animation-name: twelveDotColor;	
+
+	animation-duration: .5s;	
+	-webkit-animation-duration: .5s;
+	
+	animation-delay: 4s;
+	-webkit-animation-delay: 4s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;
+}
+
+@keyframes twelveDotColor {
+		0% {background-color: #eee;}
+		100% {background-color: $dark-purple;}
+}
+
+
+.twelveCasesAnimation {
+	animation-name: casesColor;
+	-webkit-animation-name: casesColor;	
+
+	animation-duration: .5s;	
+	-webkit-animation-duration: .5s;
+	
+	animation-delay: 2s;
+	-webkit-animation-delay: 2s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;
+}
+
+.thirteenCasesAnimation {
+	animation-name: casesColor;
+	-webkit-animation-name: casesColor;	
+
+	animation-duration: .5s;	
+	-webkit-animation-duration: .5s;
+	
+	animation-delay: 4s;
+	-webkit-animation-delay: 4s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;
+}
+
+@keyframes casesColor {
+		0% {color: white;}
+		100% {color: $dark-purple;}
+}
+
+
+
+
+
+
+
+
+
+/* ALABAMA FILL */
+
+.alabamaStateAnimation {
+	animation-name: stateColorTransitionOne;
+	-webkit-animation-name: stateColorTransitionOne;	
+
+	animation-duration: 4.5s;	
+	-webkit-animation-duration: 4.5s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes stateColorTransitionOne {
+	0% { opacity: .3}
+	45% {opacity: .3}
+	50% {opacity: .4}
+	90% {opacity: .4}
+	95% {opacity: .5}
+	100% { opacity: .5}	
+}

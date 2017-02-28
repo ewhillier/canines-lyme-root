@@ -10,6 +10,12 @@ h1 {
 p {
   font-family: 'Roboto', sans-serif; }
 
+h2 {
+  font-size: .7em;
+  letter-spacing: .1em;
+  color: #58595b;
+  font-weight: 400; }
+
 .isHidden {
   opacity: 0; }
 
@@ -834,7 +840,7 @@ hr {
   top: 155px;
   left: 255px; }
 
-.yourState {
+.yourStateSection {
   height: 100vh;
   width: 100vw;
   background-color: white; }
@@ -851,3 +857,753 @@ hr {
 
 .mountainPeaksSVG {
   fill: #FFFFFF; }
+
+.yourStateHeading {
+  color: #592c4e;
+  font-size: 1.6em;
+  font-weight: 400;
+  line-height: 1.3em; }
+
+.yourStateHeader {
+  width: 400px; }
+
+.yourStateP {
+  margin-top: 30px;
+  font-size: .8em;
+  line-height: 1.5em;
+  color: #58595b;
+  letter-spacing: .04em; }
+
+.yourState {
+  fill: white;
+  stroke: #592c4e;
+  stroke-width: 0.75;
+  stroke-miterlimit: 10; }
+
+.yourStateMap {
+  position: relative;
+  margin-top: 130px;
+  transform: scale(1.3); }
+
+.yourStateWashington {
+  width: 59.5px;
+  position: absolute;
+  top: 0;
+  left: 26px; }
+  .yourStateWashington:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateOregon {
+  width: 72px;
+  position: absolute;
+  top: 27px;
+  left: 11px; }
+  .yourStateOregon:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateCalifornia {
+  width: 74px;
+  position: absolute;
+  top: 70px;
+  left: 5px; }
+  .yourStateCalifornia:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateNevada {
+  width: 58px;
+  position: absolute;
+  top: 79px;
+  left: 36px; }
+  .yourStateNevada:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateIdaho {
+  width: 52px;
+  position: absolute;
+  top: 10px;
+  left: 68px; }
+  .yourStateIdaho:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateArizona {
+  width: 61px;
+  position: absolute;
+  top: 143px;
+  left: 67px; }
+  .yourStateArizona:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateUtah {
+  width: 50px;
+  position: absolute;
+  top: 89px;
+  left: 82px; }
+  .yourStateUtah:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateMontana {
+  width: 91px;
+  position: absolute;
+  top: 11px;
+  left: 87px; }
+  .yourStateMontana:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateWyoming {
+  width: 62px;
+  position: absolute;
+  top: 61px;
+  left: 113px; }
+  .yourStateWyoming:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateColorado {
+  width: 65px;
+  position: absolute;
+  top: 106px;
+  left: 126px; }
+  .yourStateColorado:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateNewmexico {
+  width: 62px;
+  position: absolute;
+  top: 150px;
+  left: 119px; }
+  .yourStateNewmexico:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateNdakota {
+  width: 60px;
+  position: absolute;
+  top: 22px;
+  left: 175px; }
+  .yourStateNdakota:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateSdakota {
+  width: 63px;
+  position: absolute;
+  top: 56px;
+  left: 173px; }
+  .yourStateSdakota:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateNebraska {
+  width: 75px;
+  position: absolute;
+  top: 87px;
+  left: 172px; }
+  .yourStateNebraska:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateKansas {
+  width: 67px;
+  position: absolute;
+  top: 120px;
+  left: 187px; }
+  .yourStateKansas:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateOklahoma {
+  width: 81px;
+  position: absolute;
+  top: 153px;
+  left: 178px; }
+  .yourStateOklahoma:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateTexas {
+  width: 130px;
+  position: absolute;
+  top: 158px;
+  left: 142px; }
+  .yourStateTexas:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateMinnesota {
+  width: 58px;
+  position: absolute;
+  top: 17px;
+  left: 226px; }
+  .yourStateMinnesota:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateIowa {
+  width: 55px;
+  position: absolute;
+  top: 79px;
+  left: 233px; }
+  .yourStateIowa:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateMissouri {
+  width: 63px;
+  position: absolute;
+  top: 111px;
+  left: 240px; }
+  .yourStateMissouri:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateLouisiana {
+  width: 55px;
+  position: absolute;
+  top: 194px;
+  left: 264px; }
+  .yourStateLouisiana:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateWisconsin {
+  width: 46px;
+  position: absolute;
+  top: 41px;
+  left: 260px; }
+  .yourStateWisconsin:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateIllinois {
+  width: 37px;
+  position: absolute;
+  top: 87px;
+  left: 277px; }
+  .yourStateIllinois:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateMichigan {
+  width: 70px;
+  position: absolute;
+  top: 36px;
+  left: 278px; }
+  .yourStateMichigan:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateIndiana {
+  width: 29px;
+  position: absolute;
+  top: 91px;
+  left: 307px; }
+  .yourStateIndiana:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateKentucky {
+  width: 65px;
+  position: absolute;
+  top: 119px;
+  left: 299px; }
+  .yourStateKentucky:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateTennessee {
+  width: 76px;
+  position: absolute;
+  top: 141px;
+  left: 293px; }
+  .yourStateTennessee:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateMississippi {
+  width: 34px;
+  position: absolute;
+  top: 169px;
+  left: 288px; }
+  .yourStateMississippi:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateAlabama {
+  width: 38px;
+  position: absolute;
+  top: 165px;
+  left: 315px; }
+  .yourStateAlabama:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateGeorgia {
+  width: 52px;
+  position: absolute;
+  top: 160px;
+  left: 338px; }
+  .yourStateGeorgia:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateOhio {
+  width: 38px;
+  position: absolute;
+  top: 81px;
+  left: 329px; }
+  .yourStateOhio:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateWVirginia {
+  width: 39px;
+  position: absolute;
+  top: 95px;
+  left: 355px; }
+  .yourStateWVirginia:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateVirginia {
+  width: 70px;
+  position: absolute;
+  top: 103px;
+  left: 349px; }
+  .yourStateVirginia:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateNCarolina {
+  width: 76px;
+  position: absolute;
+  top: 128px;
+  left: 347px; }
+  .yourStateNCarolina:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateSCarolina {
+  width: 47px;
+  position: absolute;
+  top: 155px;
+  left: 358px; }
+  .yourStateSCarolina:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateFlorida {
+  width: 87px;
+  position: absolute;
+  top: 202px;
+  left: 326px; }
+  .yourStateFlorida:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStatePennsylvania {
+  width: 54px;
+  position: absolute;
+  top: 69px;
+  left: 361px; }
+  .yourStatePennsylvania:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateMaryland {
+  width: 42px;
+  position: absolute;
+  top: 94px;
+  left: 378px; }
+  .yourStateMaryland:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateNewyork {
+  width: 68px;
+  position: absolute;
+  top: 32px;
+  left: 367px; }
+  .yourStateNewyork:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.blueState {
+  fill: #e5dbca;
+  stroke: #592c4e;
+  stroke-width: 0.75;
+  stroke-miterlimit: 10; }
+
+.purpleState {
+  fill: #e5dbca;
+  stroke: #592c4e;
+  stroke-width: 0.75;
+  stroke-miterlimit: 10; }
+
+.yourStateDelaware {
+  width: 11px;
+  position: absolute;
+  top: 93px;
+  left: 409px; }
+  .yourStateDelaware:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateNewjersey {
+  width: 13px;
+  position: absolute;
+  top: 74px;
+  left: 408px; }
+  .yourStateNewjersey:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateConneticut {
+  width: 16px;
+  position: absolute;
+  top: 58px;
+  left: 417px; }
+  .yourStateConneticut:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateMassachusetts {
+  width: 31px;
+  position: absolute;
+  top: 47px;
+  left: 416px; }
+  .yourStateMassachusetts:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateVermont {
+  width: 16px;
+  position: absolute;
+  top: 27px;
+  left: 407px; }
+  .yourStateVermont:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateNewhampshire {
+  width: 15px;
+  position: absolute;
+  top: 23px;
+  left: 419px; }
+  .yourStateNewhampshire:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateMaine {
+  width: 34px;
+  position: absolute;
+  top: -6px;
+  left: 422px; }
+  .yourStateMaine:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateRhodeIsland {
+  width: 5px;
+  position: absolute;
+  top: 57px;
+  left: 430px; }
+  .yourStateRhodeIsland:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateArkansas {
+  width: 47px;
+  position: absolute;
+  top: 155px;
+  left: 255px; }
+  .yourStateArkansas:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.individualInnerWrapper {
+  width: 1280px;
+  margin: 0 auto; }
+
+.individualStateLeft {
+  width: 35%;
+  float: left;
+  padding: 120px 0 0 250px; }
+
+.individualStateRight {
+  width: 65%;
+  float: left;
+  padding: 50px 0 0 0; }
+
+.alabamaIndividual {
+  width: 100vw;
+  height: 100vh; }
+
+.alabamaIndividualSVG {
+  height: 200px; }
+
+.alabamaFill {
+  opacity: 0.3;
+  fill: #592c4e; }
+
+.graphSlider {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  padding: 50px 50px 0px 50px; }
+
+.sliderBar {
+  position: absolute;
+  top: 70px;
+  height: 3px;
+  width: 450px;
+  background-color: #eee; }
+
+.sliderBarFilled {
+  position: absolute;
+  top: 70px;
+  height: 3px;
+  width: 450px;
+  background-color: #592c4e;
+  transform: scaleX(0);
+  transform-origin: left; }
+
+.sliderDot {
+  height: 15px;
+  width: 15px;
+  border-radius: 15px; }
+
+.sliderDotOne {
+  position: absolute;
+  top: 64px;
+  background-color: #592c4e; }
+
+.sliderDotTwelve {
+  position: absolute;
+  top: 64px;
+  left: 270px;
+  background-color: #eee; }
+
+.sliderDotThree {
+  position: absolute;
+  top: 64px;
+  left: 490px; }
+
+.elevenYear {
+  position: absolute;
+  top: 20px; }
+
+.elevenCases {
+  position: absolute;
+  top: 80px;
+  left: 53px;
+  font-size: .8em;
+  font-weight: 600;
+  color: #592c4e; }
+
+.twelveYear {
+  position: absolute;
+  top: 20px;
+  left: 271px; }
+
+.twelveCases {
+  position: absolute;
+  top: 80px;
+  left: 271px;
+  font-size: .8em;
+  font-weight: 600;
+  color: white; }
+
+.thirteenYear {
+  position: absolute;
+  top: 20px;
+  left: 491px; }
+
+.thirteenCases {
+  position: absolute;
+  top: 80px;
+  left: 491px;
+  font-size: .8em;
+  font-weight: 600;
+  color: white; }
+
+/* PURPLE STATES */
+.elevenToTwelveAnimation {
+  animation-name: sliderBarPartOne;
+  -webkit-animation-name: sliderBarPartOne;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes sliderBarPartOne {
+  0% {
+    transform: scaleX(0); }
+  100% {
+    transform: scaleX(0.5); } }
+.twelveToThirteenAnimation {
+  animation-name: sliderBarPartTwo;
+  -webkit-animation-name: sliderBarPartTwo;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-delay: 3s;
+  -webkit-animation-delay: 3s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes sliderBarPartTwo {
+  0% {
+    transform: scaleX(0.5); }
+  100% {
+    transform: scaleX(1); } }
+.twelveDotAnimation {
+  animation-name: twelveDotColor;
+  -webkit-animation-name: twelveDotColor;
+  animation-duration: .5s;
+  -webkit-animation-duration: .5s;
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+.thirteenDotAnimation {
+  animation-name: twelveDotColor;
+  -webkit-animation-name: twelveDotColor;
+  animation-duration: .5s;
+  -webkit-animation-duration: .5s;
+  animation-delay: 4s;
+  -webkit-animation-delay: 4s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes twelveDotColor {
+  0% {
+    background-color: #eee; }
+  100% {
+    background-color: #592c4e; } }
+.twelveCasesAnimation {
+  animation-name: casesColor;
+  -webkit-animation-name: casesColor;
+  animation-duration: .5s;
+  -webkit-animation-duration: .5s;
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+.thirteenCasesAnimation {
+  animation-name: casesColor;
+  -webkit-animation-name: casesColor;
+  animation-duration: .5s;
+  -webkit-animation-duration: .5s;
+  animation-delay: 4s;
+  -webkit-animation-delay: 4s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes casesColor {
+  0% {
+    color: white; }
+  100% {
+    color: #592c4e; } }
+/* ALABAMA FILL */
+.alabamaStateAnimation {
+  animation-name: stateColorTransitionOne;
+  -webkit-animation-name: stateColorTransitionOne;
+  animation-duration: 4.5s;
+  -webkit-animation-duration: 4.5s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes stateColorTransitionOne {
+  0% {
+    opacity: .3; }
+  45% {
+    opacity: .3; }
+  50% {
+    opacity: .4; }
+  90% {
+    opacity: .4; }
+  95% {
+    opacity: .5; }
+  100% {
+    opacity: .5; } }
