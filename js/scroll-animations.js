@@ -121,3 +121,29 @@ $(window).scroll(function() {
 	});
 	
 });
+
+
+// ALABAMA ANIMATIONS
+
+$(window).scroll(function() {
+	$('#individualAlabama').each(function(){
+	var imagePos = $(this).offset().top;
+
+	var topOfWindow = $(window).scrollTop();
+		if (imagePos < topOfWindow+200) {
+			$(this).addClass("alabamaStateAnimation");
+		}
+	});
+	
+	$('#sliderBarAnimation').each(function(){
+	var imagePos = $(this).offset().top;
+
+	var topOfWindow = $(window).scrollTop();
+		if (imagePos < topOfWindow+200) {
+			$(this).addClass("elevenToTwelveAnimation");
+		}
+	});
+	
+	
+	
+});

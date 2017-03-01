@@ -388,3 +388,115 @@
 	95% {opacity: .7}
 	100% {opacity: .7}	
 }
+
+
+/* MASSACHUSETTS FILL */
+
+.massachusettsStateAnimation {
+	animation-name: stateColorTransitionMassachusetts;
+	-webkit-animation-name: stateColorTransitionMassachusetts;	
+
+	animation-duration: 4.5s;	
+	-webkit-animation-duration: 4.5s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes stateColorTransitionMassachusetts {
+	0% { opacity: .9}
+	45% {opacity: .9}
+	50% {opacity: .8}
+	90% {opacity: .8}
+	95% {opacity: .9}
+	100% {opacity: 1}	
+}
+
+
+/* MICHIGAN FILL */
+
+.michiganStateAnimation {
+	animation-name: stateColorTransitionMichigan;
+	-webkit-animation-name: stateColorTransitionMichigan;	
+
+	animation-duration: 4.5s;	
+	-webkit-animation-duration: 4.5s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes stateColorTransitionMichigan {
+	0% { opacity: .6}
+	45% {opacity: .6}
+	50% {opacity: .7}
+	90% {opacity: .7}
+	95% {opacity: .8}
+	100% {opacity: .8}	
+}
+
+
+/* MISSISSIPPI FILL */
+
+.mississippiStateAnimation {
+	animation-name: stateColorTransitionMississippi;
+	-webkit-animation-name: stateColorTransitionMississippi;	
+
+	animation-duration: 4.5s;	
+	-webkit-animation-duration: 4.5s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes stateColorTransitionMississippi {
+	0% { opacity: .3}
+	45% {opacity: .3}
+	50% {opacity: .3}
+	90% {opacity: .3}
+	95% {opacity: .2}
+	100% {opacity: .2}	
+}
+
+
+/* NEBRASKA FILL */
+
+.nebraskaStateAnimation {
+	animation-name: stateColorTransitionNebraska;
+	-webkit-animation-name: stateColorTransitionNebraska;	
+
+	animation-duration: 4.5s;	
+	-webkit-animation-duration: 4.5s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes stateColorTransitionNebraska {
+	0% { opacity: .2}
+	45% {opacity: .2}
+	50% {opacity: .2}
+	90% {opacity: .2}
+	95% {opacity: .3}
+	100% {opacity: .3}	
+}
