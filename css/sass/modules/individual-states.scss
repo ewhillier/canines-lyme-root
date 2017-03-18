@@ -1,3 +1,16 @@
+.individualStates {
+	position: relative;
+}
+
+.selectNewState {
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	border: 1px solid #666;
+    padding: 5px 7px 5px 7px;
+    border-radius: 3px;
+}
+
 .individualInnerWrapper {
 	width: 1280px;
 	margin: 0 auto;
@@ -455,6 +468,357 @@
 
 .nebraskaFill {
 	opacity:0.2;
+}
+
+
+.nevadaIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.nevadaIndividualSVG {
+	height: 256px;
+    margin-top: -50px;
+}
+
+.nevadaFill {
+	opacity:0.2;
+}
+
+
+.newhampshireIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.newhampshireIndividualSVG {
+	height: 256px;
+    margin-top: -40px;
+    margin-left: 40px;
+}
+
+.newhampshireFill {
+	opacity:0.2;
+}
+
+
+.newjerseyIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.newjerseyIndividualSVG {
+	height: 256px;
+    margin-top: -50px;
+    margin-left: 40px;
+}
+
+.newjerseyFill {
+	opacity:0.2;
+}
+
+
+.newmexicoIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.newmexicoIndividualSVG {
+    height: 186px;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+
+.newmexicoFill {
+	opacity:0.3;
+}
+
+
+.newyorkIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.newyorkIndividualSVG {
+    height: 166px;
+    margin-top: -10px;
+}
+
+.newyorkFill {
+	opacity:0.8;
+}
+
+
+.ncarolinaIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.ncarolinaIndividualSVG {
+    height: 116px;
+    margin-left: -20px;
+}
+
+.ncarolinaFill {
+	opacity:0.6;
+}
+
+
+.ndakotaIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.ndakotaIndividualSVG {
+    height: 126px;
+}
+
+.ndakotaFill {
+	opacity:0.6;
+}
+
+
+.ohioIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.ohioIndividualSVG {
+    height: 196px;
+    margin-top: -30px;
+    margin-left: 20px;
+}
+
+.ohioFill {
+	opacity:0.6;
+}
+
+
+.oklahomaIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.oklahomaIndividualSVG {
+    height: 116px;
+    margin-left: -20px;
+}
+
+.oklahomaFill {
+	opacity:0.6;
+}
+
+
+.oregonIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.oregonIndividualSVG {
+    height: 176px;
+    margin-left: -10px;
+    margin-top: -20px;
+}
+
+.oregonFill {
+	opacity:0.55;
+}
+
+
+.pennsylvaniaIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.pennsylvaniaIndividualSVG {
+    height: 156px;
+}
+
+.pennsylvaniaFill {
+	opacity: 0.9;
+}
+
+
+.rhodeislandIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.rhodeislandIndividualSVG {
+    height: 226px;
+    margin-top: -30px;
+    margin-left: 30px;
+}
+
+.rhodeislandFill {
+	opacity: 0.7;
+}
+
+
+.scarolinaIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.scarolinaIndividualSVG {
+	height: 176px;
+    margin-top: -20px;
+}
+
+.scarolinaFill {
+	opacity: 0.6;
+}
+
+
+.sdakotaIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.sdakotaIndividualSVG {
+    height: 136px;
+}
+
+.sdakotaFill {
+	opacity: 0.2;
+}
+
+
+.tennesseeIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.tennesseeIndividualSVG {
+    height: 116px;
+    margin-left: -30px;
+}
+
+.tennesseeFill {
+	opacity: 0.4;
+}
+
+
+.texasIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.texasIndividualSVG {
+    height: 216px;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+
+.texasFill {
+	opacity: 0.5;
+}
+
+
+.utahIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.utahIndividualSVG {
+    height: 196px;
+    margin-top: -30px;
+}
+
+.utahFill {
+	opacity: 0.2;
+}
+
+
+.vermontIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.vermontIndividualSVG {
+    height: 216px;
+    margin-top: -30px;
+    margin-left: 30px;
+}
+
+.vermontFill {
+	opacity: 0.6;
+}
+
+
+.virginiaIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.virginiaIndividualSVG {
+    height: 156px;
+    margin-top: -10px;
+    margin-left: -30px;
+}
+
+.virginiaFill {
+	opacity: 0.8;
+}
+
+
+.washingtonIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.washingtonIndividualSVG {
+	height: 156px;
+    margin-top: -20px;
+}
+
+.washingtonFill {
+	opacity: 0.2;
+}
+
+
+.wVirginiaIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.wVirginiaIndividualSVG {
+    height: 186px;
+    margin-top: -30px;
+}
+
+.wVirginiaFill {
+	opacity: 0.55;
+}
+
+
+.wisconsinIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.wisconsinIndividualSVG {
+	height: 186px;
+    margin-top: -20px;
+}
+
+.wisconsinFill {
+	opacity: 0.8;
+}
+
+
+.wyomingIndividual {
+	width: 100vw;
+	height: 500px;
+}
+
+.wyomingIndividualSVG {
+	height: 156px;
+    margin-top: -20px;
+}
+
+.wyomingFill {
+	opacity: 0.2;
 }
 
 

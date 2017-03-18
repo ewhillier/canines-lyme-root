@@ -8,22 +8,26 @@
 	<link href="css/main.css" rel="stylesheet" type="text/css">
 	<link href="css/css/main.css" rel="stylesheet" type="text/css">
 	<link href="css/animation.css" rel="stylesheet" type="text/css">
+	<link href="css/onepage-scroll.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 </head>
 
 	<script src="js/scroll-animations.js"></script>
+	<script src="js/jquery.onepage-scroll.js"></script>
 
 <body>
+	
+	<div class="main">
 	
 	
 <! INTRO SECTION>
 
-	<div class="sectionOne">
+	<section class="sectionOne">
 			
 		<! CLOUD ONE>
 			<img class="heroCloudOne slideRightCloudOne" src="assets/hero-cloud1.png">
@@ -426,11 +430,11 @@
 			<img class="tickSix tickThreeAnimate" src="assets/tick-icon.png">
 	
 
-	</div> <! END INTRO SECTION>
+	</section> <! END INTRO SECTION>
 	
 <! DISEASE TRANSFER >
 
-	<div class="diseaseTransfer">
+	<section class="diseaseTransfer">
 		
 		<div class="sectionHeader">
 			<h1 class="diseaseTransferHeader">How is Lyme<br> disease transferred?</h1><hr>
@@ -451,12 +455,12 @@
 		
 		<img class="diseaseTransferGrass" src="assets/grass.png">
 		
-	</div> <! END DISEASE TRANSFER >
+	</section> <! END DISEASE TRANSFER >
 	
 	
 	
 <! ANALYSIS >	
-	<section class="analysis">
+	<section class="analysis" id="analysis">
 		<div class="analysis-wrapper">
 		
 			<div class="analysisLeft">
@@ -713,6 +717,7 @@
 						c0,0.6-0.2,1.5-0.1,2.1c0.1,0.6,0.7,1.1,0.8,1.6c11.2,3.5,22.5,6.7,33.9,9.6c8.1,2.1,16.3,4,24.5,5.7C61,54.6,62.3,48.4,63.6,42.2"
 						/>
 				</svg>
+					
 					<svg class="analysisCalifornia" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 75 122.7"
 					 style="enable-background:new 0 0 75 122.7;" xml:space="preserve">
@@ -722,7 +727,7 @@
 							<sliceSourceBounds  bottomLeftOrigin="true" height="-32766" width="-32766" x="8498" y="24970"></sliceSourceBounds>
 						</sfw>
 					</metadata>
-					<path class="purpleState purpleStateAnimation" d="M67.6,122.2c0.4-0.1,0-0.5,0.1-0.7c0.1-0.3,0.8-0.3,0.9-0.6c0-0.1,0-0.2,0-0.3l0-0.5c0.1-1.7-1.9-0.8-1.9-2
+						<path class="purpleState purpleStateAnimation" d="M67.6,122.2c0.4-0.1,0-0.5,0.1-0.7c0.1-0.3,0.8-0.3,0.9-0.6c0-0.1,0-0.2,0-0.3l0-0.5c0.1-1.7-1.9-0.8-1.9-2
 						c0-0.5,0.6-0.9,0.6-1.4c0-0.4-0.4-0.7-0.5-1c0-0.2,0.4-0.5,0.5-0.7c0-0.1-0.1-0.1-0.1-0.2c0-0.1,0.1-0.2,0.2-0.2c0,0,0.7,0,0.7,0
 						c0.3-0.1,0.5-0.8,0.7-1c0.2-0.2,0.4-0.3,0.6-0.5c0.2-0.3,0.2-0.9,0.4-1.2l0.4-0.3c0.2-0.5-0.3-1.2,0-1.7c0,0,0.4-0.3,0.4-0.3
 						l-0.2-0.6c0.1-0.3,0.9-0.5,1.1-0.7c0.2-0.2,0.2-0.7,0.5-0.9c0.5-0.4,2.6-0.6,2.8-1.4c0.1-0.3-1.4-2.2-1.7-2.4c-0.1,0-0.2,0-0.3-0.1
@@ -742,7 +747,8 @@
 						c0,0.5,1.1,0.6,2.3,1.5c0.5,0.4,0.8,1.3,1.2,1.8c0.2,0.2,0.6,0.3,0.9,0.6c0.4,0.4,0.6,1.1,1,1.5c1.4,2,2.5,1.6,3.1,4.3
 						c0.1,0.7,0.1,2.6-0.1,3.2c-0.1,0.2-0.4,0.3-0.4,0.5c-0.1,0.2,0.8,2.8,0.8,3c0,0.2,0,0.4,0,0.5l0,0c5.5,0.7,11.1,1.3,16.7,1.9
 						c0.8,0.1,6.1,0.5,6.3,0.6c0.1,0,0.1,0.1,0.1,0.2l0.2-0.1C66.5,121.5,66.8,122.3,67.6,122.2"/>
-				</svg>
+					</svg>
+					
 					<svg class="analysisNevada" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 58.3 88.9"
 					 style="enable-background:new 0 0 58.3 88.9;" xml:space="preserve">
@@ -752,13 +758,14 @@
 							<sliceSourceBounds  bottomLeftOrigin="true" height="122.7" width="75" x="322.2" y="-349.6"></sliceSourceBounds>
 						</sfw>
 					</metadata>
-					<path class="purpleState purpleStateAnimation" d="M38.9,86.3c0,0,0.7-0.5,0.8-1c0.2-1.2-0.4-2.2-0.3-3.3c0-0.4,0.3-0.8,0.4-1.3c0.1-0.8-0.1-1.5,0.1-2.3
+						<path class="purpleState purpleStateAnimation" d="M38.9,86.3c0,0,0.7-0.5,0.8-1c0.2-1.2-0.4-2.2-0.3-3.3c0-0.4,0.3-0.8,0.4-1.3c0.1-0.8-0.1-1.5,0.1-2.3
 						c0.1-0.2,0.3-0.5,0.3-0.7c0-0.1-0.2-0.1-0.3-0.2c-0.3-0.7-0.1-2.1,0.6-2.4c1.3-0.5,1.1-0.1,2.2,0.2l0.6,0c0.1,0,0.2,0,0.3,0
 						c0.3,0.1,0.5,2.5,1.7,1.6c0.3-0.2,0.3-0.8,0.5-1c0.2-0.2,0.6-0.4,0.7-0.6c0.5-0.8,0.8-4.4,1-5.6c0.1-0.8,0.3-1.5,0.4-2.3
 						c0.1-0.3,0.2-1,0.2-1c3.3-18.5,6.5-37,9.8-55.5C49.6,9.6,41.4,8,33.2,6.2C25,4.4,16.9,2.5,8.7,0.5c-2,7.8-4,15.6-5.9,23.4
 						c-0.6,2.2-1.1,4.4-1.7,6.6c-0.2,0.7-0.8,2.1-0.7,2.8c0.1,0.6,2.3,3.7,2.8,4.4c2.3,3.6,4.7,7.2,7.1,10.8c9,13.4,18.5,26.5,28.5,39.3
 						c0-0.8,0.3-0.7,0.4-1.1C39.2,86.4,38.8,86.5,38.9,86.3"/>
-				</svg>
+					</svg>
+					
 					<svg class="analysisIdaho" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 54.2 87.1"
 					 style="enable-background:new 0 0 54.2 87.1;" xml:space="preserve">
@@ -768,7 +775,7 @@
 							<sliceSourceBounds  bottomLeftOrigin="true" height="88.9" width="58.3" x="323.9" y="-337.5"></sliceSourceBounds>
 						</sfw>
 					</metadata>
-					<path class="purpleState purpleStateAnimation" d="M53.8,58.7c-1.2-0.2-1.2-3.2-2.1-3.2c-1.1,0-0.5,0.4-0.8,0.8c-0.1,0.2-0.4,0-0.5,0.4c-0.3,0.6,0.1,0.5,0.3,0.9
+						<path class="purpleState purpleStateAnimation" d="M53.8,58.7c-1.2-0.2-1.2-3.2-2.1-3.2c-1.1,0-0.5,0.4-0.8,0.8c-0.1,0.2-0.4,0-0.5,0.4c-0.3,0.6,0.1,0.5,0.3,0.9
 						c0,0-0.7-0.3-0.8-0.3c-0.4-0.1-0.8-0.2-1.2-0.1c-1,0.2-0.5,0-1.3-0.3c-0.4-0.1-1,0.1-1.3,0.2c-0.4,0.1-1.4-0.5-1.7-0.6
 						c-0.9-0.4-0.9,1.2-1.5,1.1c0,0-0.3-0.4-0.3-0.4c-0.5-0.3-1.8-0.6-2.4-0.4c-0.8,0.4-0.6,1.2-0.9,1.2l-0.2-0.4
 						c-0.3-0.3-0.8-0.5-0.9-0.9c-0.1-0.3,0.2-0.6,0.1-0.7c-0.1-0.3-0.3-0.6-0.4-0.8c0-0.2,0.2-0.3,0.2-0.5c0-0.4-0.3-1.2-0.4-1.6
@@ -791,7 +798,8 @@
 						c0.1,0.2,0.5,0.5,0.5,0.7c0.1,0.7-0.7,0.4-0.8,0.6c-0.1,0.1,0.1,0.9-0.1,1.3c-0.1,0.3-0.2,0.8-0.5,1.1c-0.2,0.2-0.5,0.4-0.7,0.6
 						c-0.2,0.4-0.2,1.2-0.3,1.6C3,65.6,1.7,71.8,0.4,78c8.2,1.8,16.4,3.4,24.7,4.8c8.3,1.5,16.5,2.8,24.8,3.9
 						C51.3,77.4,52.6,68,53.8,58.7"/>
-				</svg>
+					</svg>
+					
 					<svg class="analysisArizona" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 62.2 70"
 					 style="enable-background:new 0 0 62.2 70;" xml:space="preserve">
@@ -801,7 +809,7 @@
 							<sliceSourceBounds  bottomLeftOrigin="true" height="62.9" width="50.9" x="299.9" y="-329.4"></sliceSourceBounds>
 						</sfw>
 					</metadata>
-					<path class="purpleState purpleStateAnimation" d="M16.6,0.4c0,0-0.1,0.7-0.2,1c-0.1,0.8-0.3,1.5-0.4,2.3c-0.2,1.1-0.5,4.7-1,5.6c-0.1,0.3-0.6,0.4-0.7,0.6
+						<path class="purpleState purpleStateAnimation" d="M16.6,0.4c0,0-0.1,0.7-0.2,1c-0.1,0.8-0.3,1.5-0.4,2.3c-0.2,1.1-0.5,4.7-1,5.6c-0.1,0.3-0.6,0.4-0.7,0.6
 						c-0.2,0.3-0.2,0.9-0.5,1c-1.2,0.9-1.5-1.5-1.7-1.6c-0.1,0-0.2,0-0.3,0l-0.6,0C10.1,8.9,10.3,8.5,9,9c-0.7,0.3-0.9,1.6-0.6,2.4
 						c0,0.1,0.3,0.1,0.3,0.2c0,0.2-0.2,0.5-0.3,0.7c-0.2,0.8,0,1.5-0.1,2.3c0,0.4-0.4,0.8-0.4,1.3c0,1.1,0.6,2.1,0.3,3.3
 						c-0.1,0.5-0.8,0.9-0.8,1c-0.1,0.3,0.3,0.1,0.2,0.4c-0.1,0.3-0.4,0.2-0.4,1.1c0,0-0.3,0.7-0.2,1.1c0,0.3,0.4,0.5,0.3,0.8
@@ -812,7 +820,8 @@
 						c0,0.1,0.1,0.2,0,0.3c-0.2,0.3-0.8,0.3-0.9,0.6c-0.1,0.2,0.3,0.7-0.1,0.7c-0.8,0.1-1.1-0.7-1.8-0.1l-0.2,0.1
 						c0.2,0.5-1.3,1.6-1.2,2.1c0,0,1.9,1,2,1.1c2.1,1.1,4.1,2.3,6.2,3.4c5.8,3.2,11.7,6.3,17.6,9.5c2,1.1,4.1,2.2,6.1,3.3
 						c0.8,0.4,1.7,1.1,2.6,1.4c2,0.6,4.6,0.6,6.7,0.9c4.3,0.6,8.7,1.1,13,1.6c2.4-20.9,4.8-41.8,7.2-62.7C46.7,5.2,31.6,3,16.6,0.4"/>
-				</svg>
+					</svg>
+					
 					<svg class="analysisUtah" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50.9 62.9"
 					 style="enable-background:new 0 0 50.9 62.9;" xml:space="preserve">
@@ -822,9 +831,10 @@
 							<sliceSourceBounds  bottomLeftOrigin="true" height="87.1" width="54.2" x="298.4" y="-341.5"></sliceSourceBounds>
 						</sfw>
 					</metadata>
-					<path class="purpleState purpleStateAnimation" d="M37.8,16.1c-0.4-0.1-4.2-0.5-4.2-0.6c0,0,0.4-2.7,0.4-3c0.4-2.7,0.8-5.5,1.1-8.2c-8.3-1.2-16.6-2.5-24.8-3.9
+						<path class="purpleState purpleStateAnimation" d="M37.8,16.1c-0.4-0.1-4.2-0.5-4.2-0.6c0,0,0.4-2.7,0.4-3c0.4-2.7,0.8-5.5,1.1-8.2c-8.3-1.2-16.6-2.5-24.8-3.9
 						C7,18.9,3.7,37.4,0.4,55.9c15,2.6,30.1,4.8,45.2,6.5c1.6-14.9,3.3-29.8,4.9-44.8C46.3,17.2,42,16.7,37.8,16.1"/>
-				</svg>
+					</svg>
+					
 					<svg class="analysisMontana" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="91.9px" height="57.6px"
 					 viewBox="0 0 91.9 57.6" style="enable-background:new 0 0 91.9 57.6;" xml:space="preserve">
@@ -834,7 +844,7 @@
 							<sliceSourceBounds  bottomLeftOrigin="true" height="70" width="62.2" x="294.1" y="-333.3"></sliceSourceBounds>
 						</sfw>
 					</metadata>
-					<path class="purpleState purpleStateAnimation" d="M2.5,1.8C2.3,2.5,2.1,3.3,2,4c-0.3,1.3-1.7,6.6-1.6,7.5c0,0.3,0.5,1.2,0.6,1.5c0.1,0.2,0.5,0.3,0.5,0.5
+						<path class="purpleState purpleStateAnimation" d="M2.5,1.8C2.3,2.5,2.1,3.3,2,4c-0.3,1.3-1.7,6.6-1.6,7.5c0,0.3,0.5,1.2,0.6,1.5c0.1,0.2,0.5,0.3,0.5,0.5
 						c0.1,0.3-0.1,0.7,0.1,1c0.1,0.3,0.6,0.6,0.6,0.9l-0.1,0.6c0,0.2,0.3,0.3,0.3,0.4c0,0.2-0.6,0.4-0.6,0.6c0,0,0.6,0.7,0.6,0.9
 						c0,0.3-0.9-0.2-0.7,0.4c0.1,0.3,0.8,0.5,1,0.8c0.2,0.3,0.1,0.8,0.3,1c0.3,0.3,1,0.4,1.3,0.8c0.4,0.6,0.6,1.4,0.9,2.1
 						c0.1,0.2,0.4,0.4,0.5,0.7l0,0.6c0.1,0.1,0.7,0.3,0.9,0.9c0.1,0.5-0.3,1.2,0.4,1.6c0.1,0.1,0.4,0,0.5,0.1c0.1,0.1-0.3,0.7,0,0.8
@@ -851,7 +861,8 @@
 						c0.3-0.5-0.3-0.8,0.8-0.8c0.9,0,0.9,3,2.1,3.2c0.1-0.6,0.7-5.5,0.8-5.6c0,0,2.3,0.3,2.6,0.4c2.5,0.3,4.9,0.7,7.4,1
 						c9.7,1.2,19.4,2.2,29.1,2.9c3.8,0.3,7.7,0.6,11.5,0.8c1.2,0.1,2.4,0.1,3.6,0.2c0.5,0,1,0.1,1.6,0.1c0.1,0,0.4,0,0.4,0
 						c0.1-3.5,0.4-7.1,0.4-10.6c0.6-11.6,1.2-23.1,1.9-34.7v0C61.7,10.1,32,6.4,2.8,0.4l0,0C2.7,0.5,2.6,1.3,2.5,1.8"/>
-				</svg>
+					</svg>
+					
 					<svg class="analysisWyoming" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="63.2px" height="51.2px"
 					 viewBox="0 0 63.2 51.2" style="enable-background:new 0 0 63.2 51.2;" xml:space="preserve">
@@ -861,11 +872,12 @@
 							<sliceSourceBounds  bottomLeftOrigin="true" height="57.6" width="91.9" x="279.2" y="-326.2"></sliceSourceBounds>
 						</sfw>
 					</metadata>
-					<path class="purpleState purpleStateAnimation" d="M0.4,45.2c0,0.1,3.8,0.5,4.2,0.6c4.2,0.6,8.5,1.1,12.8,1.6c14.3,1.6,28.6,2.8,43,3.5c0.3-7.5,0.7-15.1,1-22.6
+						<path class="purpleState purpleStateAnimation" d="M0.4,45.2c0,0.1,3.8,0.5,4.2,0.6c4.2,0.6,8.5,1.1,12.8,1.6c14.3,1.6,28.6,2.8,43,3.5c0.3-7.5,0.7-15.1,1-22.6
 						c0.5-7.5,0.9-15.1,1.4-22.6c0,0-0.3,0-0.4,0c-0.5,0-1-0.1-1.6-0.1c-1.2-0.1-2.4-0.1-3.6-0.2c-3.8-0.2-7.7-0.5-11.5-0.8
 						c-9.7-0.7-19.4-1.7-29.1-2.9c-2.5-0.3-4.9-0.6-7.4-1c-0.2,0-2.6-0.4-2.6-0.4C6.5,0.4,5.9,5.4,5.8,6c-1.3,9.3-2.6,18.7-3.9,28
 						c-0.4,2.7-0.8,5.5-1.1,8.2C0.7,42.5,0.4,45.2,0.4,45.2"/>
-				</svg>
+					</svg>
+					
 					<svg class="analysisColorado" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="65.7px" height="50px"
 					 viewBox="0 0 65.7 50" style="enable-background:new 0 0 65.7 50;" xml:space="preserve">
@@ -875,10 +887,11 @@
 							<sliceSourceBounds  bottomLeftOrigin="true" height="51.2" width="63.2" x="293.8" y="-323.3"></sliceSourceBounds>
 						</sfw>
 					</metadata>
-					<path class="blueState blueStateAnimation" d="M65.2,15.8c0-2.8,0.1-5.5,0.1-8.3c0-0.3,0.1-3,0-3c0,0-3.8-0.1-4.2-0.1c-4.2-0.1-8.5-0.3-12.7-0.5
+						<path class="blueState blueStateAnimation" d="M65.2,15.8c0-2.8,0.1-5.5,0.1-8.3c0-0.3,0.1-3,0-3c0,0-3.8-0.1-4.2-0.1c-4.2-0.1-8.5-0.3-12.7-0.5
 						C34,3.2,19.6,2,5.3,0.4C3.7,15.3,2,30.3,0.4,45.2c12.2,1.4,24.5,2.5,36.7,3.2c4,0.3,8,0.5,12.1,0.7c1.4,0.1,2.8,0.1,4.2,0.2
 						c0.5,0,1.1,0,1.6,0.1c0.1,0,0.3,0,0.3,0c3,0.1,6.1,0.2,9.1,0.3C64.7,38.3,64.9,27.1,65.2,15.8"/>
-				</svg>
+					</svg>
+					
 					<svg class="analysisNewmexico" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="63px" height="64.4px"
 					 viewBox="0 0 63 64.4" style="enable-background:new 0 0 63 64.4;" xml:space="preserve">
@@ -888,12 +901,12 @@
 							<sliceSourceBounds  bottomLeftOrigin="true" height="50" width="65.7" x="292.4" y="-322.5"></sliceSourceBounds>
 						</sfw>
 					</metadata>
-					<path class="blueState blueStateAnimation" d="M25.1,60c-0.2-0.4-0.5-1.9-0.5-1.9c0.1-0.1,1.4,0.1,1.6,0.1c1.6,0.1,3.3,0.3,4.9,0.4c6.9,0.5,13.8,0.9,20.6,1.3
+						<path class="blueState blueStateAnimation" d="M25.1,60c-0.2-0.4-0.5-1.9-0.5-1.9c0.1-0.1,1.4,0.1,1.6,0.1c1.6,0.1,3.3,0.3,4.9,0.4c6.9,0.5,13.8,0.9,20.6,1.3
 						c2,0.1,4,0.2,6,0.3c0.5,0,2,0.1,2,0.1c0.5-12.8,1.3-25.6,1.8-38.4c0.1-3,0.2-6,0.3-9c0-0.6-0.1-2.7,0.4-2.7c0.1-1.9,0.1-3.7,0.2-5.6
 						c0,0-0.2,0-0.3,0c-0.5,0-1.1,0-1.6-0.1c-1.4-0.1-2.8-0.1-4.2-0.2c-4-0.2-8-0.4-12.1-0.7C32.1,2.9,19.9,1.8,7.7,0.4
 						C5.3,21.3,2.8,42.2,0.4,63.1c0.6,0.1,1.1,0.1,1.7,0.2c1.7,0.2,6.5,0.9,6.7,0.7c0.3-0.3,0-4.7,0.3-5c0,0,3.6,0.4,4,0.4
 						c3.1,0.3,6.2,0.6,9.3,0.9c1,0.1,2.4-0.1,3.3,0.3C25.6,60.4,25.2,60.2,25.1,60"/>
-				</svg>
+					</svg>
 					<svg class="analysisNdakota" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="59.6px" height="36.2px"
 					 viewBox="0 0 59.6 36.2" style="enable-background:new 0 0 59.6 36.2;" xml:space="preserve">
@@ -2020,7 +2033,7 @@
 	
 	
 <! YOUR STATE >	
-	<section class="yourStateSection">
+	<section class="yourStateSection" id="yourStateSection">
 		<div class="mountainPeaksContainer">
 			<svg class="mountainPeaks" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 				 viewBox="0 0 1185.5 100" xml:space="preserve">
@@ -2053,7 +2066,7 @@
 		
 		<div class="analysisRight">
 			<div class="yourStateMap">
-					<a href="#"><svg class="yourStateWashington" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				<a href="#washington"><svg class="yourStateWashington" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60.3 45"
 					 style="enable-background:new 0 0 60.3 45;" xml:space="preserve">
 					<path class="yourState" d="M8.5,35.6c0,0.4-0.3,0.7-0.3,1.1c0,1,1,0.9,1.6,1.2c0.6,0.3,1.1,1,1.9,1.1c0.6,0.1,1.8,0,2.4-0.1
@@ -2081,7 +2094,8 @@
 						c0.3,0.1,0.7,0,1,0.1c0.1,0,0.2,0,0.2,0.1c0.3,0.3,0.4,1.3,0.8,1.6c0.1,0,0.2,0,0.3,0c0.1-0.1,0.3-0.1,0.4-0.1c0,0,0,0,0,0.1
 						c0.3,0,0.6,0.1,0.8,0.2C8.8,31.8,8.7,33.9,8.5,35.6"/>
 				</svg></a>
-					<svg class="yourStateOregon" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				
+				<a href="#oregon"><svg class="yourStateOregon" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 73.1 61.2"
 					 style="enable-background:new 0 0 73.1 61.2;" xml:space="preserve">
 					<metadata>
@@ -2113,8 +2127,9 @@
 						c0,0.1,0.2,0,0.3,0.1c0,0,0.4,1,0.4,1.1C2,38.5,1.3,39,1,39.6c-0.1,0.3,0,0.8-0.2,1.1c-0.1,0.2-0.4,0.3-0.4,0.5l0.2,0.4
 						c0,0.6-0.2,1.5-0.1,2.1c0.1,0.6,0.7,1.1,0.8,1.6c11.2,3.5,22.5,6.7,33.9,9.6c8.1,2.1,16.3,4,24.5,5.7C61,54.6,62.3,48.4,63.6,42.2"
 						/>
-				</svg>
-					<a href="#california"><svg class="yourStateCalifornia" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#california"><svg class="yourStateCalifornia" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 75 122.7"
 					 style="enable-background:new 0 0 75 122.7;" xml:space="preserve">
 					<metadata>
@@ -2144,7 +2159,8 @@
 						c0.1,0.7,0.1,2.6-0.1,3.2c-0.1,0.2-0.4,0.3-0.4,0.5c-0.1,0.2,0.8,2.8,0.8,3c0,0.2,0,0.4,0,0.5l0,0c5.5,0.7,11.1,1.3,16.7,1.9
 						c0.8,0.1,6.1,0.5,6.3,0.6c0.1,0,0.1,0.1,0.1,0.2l0.2-0.1C66.5,121.5,66.8,122.3,67.6,122.2"/>
 				</svg></a>
-					<svg class="yourStateNevada" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				
+				<a href="#nevada"><svg class="yourStateNevada" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 58.3 88.9"
 					 style="enable-background:new 0 0 58.3 88.9;" xml:space="preserve">
 					<metadata>
@@ -2159,8 +2175,9 @@
 						c0.1-0.3,0.2-1,0.2-1c3.3-18.5,6.5-37,9.8-55.5C49.6,9.6,41.4,8,33.2,6.2C25,4.4,16.9,2.5,8.7,0.5c-2,7.8-4,15.6-5.9,23.4
 						c-0.6,2.2-1.1,4.4-1.7,6.6c-0.2,0.7-0.8,2.1-0.7,2.8c0.1,0.6,2.3,3.7,2.8,4.4c2.3,3.6,4.7,7.2,7.1,10.8c9,13.4,18.5,26.5,28.5,39.3
 						c0-0.8,0.3-0.7,0.4-1.1C39.2,86.4,38.8,86.5,38.9,86.3"/>
-				</svg>
-					<a href="#idaho"><svg class="yourStateIdaho" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#idaho"><svg class="yourStateIdaho" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 54.2 87.1"
 					 style="enable-background:new 0 0 54.2 87.1;" xml:space="preserve">
 					<metadata>
@@ -2193,7 +2210,8 @@
 						c-0.2,0.4-0.2,1.2-0.3,1.6C3,65.6,1.7,71.8,0.4,78c8.2,1.8,16.4,3.4,24.7,4.8c8.3,1.5,16.5,2.8,24.8,3.9
 						C51.3,77.4,52.6,68,53.8,58.7"/>
 				</svg></a>
-					<a href="#arizona"><svg class="yourStateArizona" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				
+				<a href="#arizona"><svg class="yourStateArizona" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 62.2 70"
 					 style="enable-background:new 0 0 62.2 70;" xml:space="preserve">
 					<metadata>
@@ -2214,7 +2232,8 @@
 						c0.2,0.5-1.3,1.6-1.2,2.1c0,0,1.9,1,2,1.1c2.1,1.1,4.1,2.3,6.2,3.4c5.8,3.2,11.7,6.3,17.6,9.5c2,1.1,4.1,2.2,6.1,3.3
 						c0.8,0.4,1.7,1.1,2.6,1.4c2,0.6,4.6,0.6,6.7,0.9c4.3,0.6,8.7,1.1,13,1.6c2.4-20.9,4.8-41.8,7.2-62.7C46.7,5.2,31.6,3,16.6,0.4"/>
 				</svg></a>
-					<svg class="yourStateUtah" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				
+				<a href="#utah"><svg class="yourStateUtah" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50.9 62.9"
 					 style="enable-background:new 0 0 50.9 62.9;" xml:space="preserve">
 					<metadata>
@@ -2225,8 +2244,9 @@
 					</metadata>
 					<path class="yourState" d="M37.8,16.1c-0.4-0.1-4.2-0.5-4.2-0.6c0,0,0.4-2.7,0.4-3c0.4-2.7,0.8-5.5,1.1-8.2c-8.3-1.2-16.6-2.5-24.8-3.9
 						C7,18.9,3.7,37.4,0.4,55.9c15,2.6,30.1,4.8,45.2,6.5c1.6-14.9,3.3-29.8,4.9-44.8C46.3,17.2,42,16.7,37.8,16.1"/>
-				</svg>
-					<svg class="yourStateMontana" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#montana"><svg class="yourStateMontana" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="91.9px" height="57.6px"
 					 viewBox="0 0 91.9 57.6" style="enable-background:new 0 0 91.9 57.6;" xml:space="preserve">
 					<metadata>
@@ -2252,8 +2272,9 @@
 						c0.3-0.5-0.3-0.8,0.8-0.8c0.9,0,0.9,3,2.1,3.2c0.1-0.6,0.7-5.5,0.8-5.6c0,0,2.3,0.3,2.6,0.4c2.5,0.3,4.9,0.7,7.4,1
 						c9.7,1.2,19.4,2.2,29.1,2.9c3.8,0.3,7.7,0.6,11.5,0.8c1.2,0.1,2.4,0.1,3.6,0.2c0.5,0,1,0.1,1.6,0.1c0.1,0,0.4,0,0.4,0
 						c0.1-3.5,0.4-7.1,0.4-10.6c0.6-11.6,1.2-23.1,1.9-34.7v0C61.7,10.1,32,6.4,2.8,0.4l0,0C2.7,0.5,2.6,1.3,2.5,1.8"/>
-				</svg>
-					<svg class="yourStateWyoming" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#wyoming"><svg class="yourStateWyoming" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="63.2px" height="51.2px"
 					 viewBox="0 0 63.2 51.2" style="enable-background:new 0 0 63.2 51.2;" xml:space="preserve">
 					<metadata>
@@ -2266,8 +2287,9 @@
 						c0.5-7.5,0.9-15.1,1.4-22.6c0,0-0.3,0-0.4,0c-0.5,0-1-0.1-1.6-0.1c-1.2-0.1-2.4-0.1-3.6-0.2c-3.8-0.2-7.7-0.5-11.5-0.8
 						c-9.7-0.7-19.4-1.7-29.1-2.9c-2.5-0.3-4.9-0.6-7.4-1c-0.2,0-2.6-0.4-2.6-0.4C6.5,0.4,5.9,5.4,5.8,6c-1.3,9.3-2.6,18.7-3.9,28
 						c-0.4,2.7-0.8,5.5-1.1,8.2C0.7,42.5,0.4,45.2,0.4,45.2"/>
-				</svg>
-					<a href="#colorado"><svg class="yourStateColorado" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#colorado"><svg class="yourStateColorado" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="65.7px" height="50px"
 					 viewBox="0 0 65.7 50" style="enable-background:new 0 0 65.7 50;" xml:space="preserve">
 					<metadata>
@@ -2280,7 +2302,8 @@
 						C34,3.2,19.6,2,5.3,0.4C3.7,15.3,2,30.3,0.4,45.2c12.2,1.4,24.5,2.5,36.7,3.2c4,0.3,8,0.5,12.1,0.7c1.4,0.1,2.8,0.1,4.2,0.2
 						c0.5,0,1.1,0,1.6,0.1c0.1,0,0.3,0,0.3,0c3,0.1,6.1,0.2,9.1,0.3C64.7,38.3,64.9,27.1,65.2,15.8"/>
 				</svg></a>
-					<svg class="yourStateNewmexico" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				
+				<a href="#newmexico"><svg class="yourStateNewmexico" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="63px" height="64.4px"
 					 viewBox="0 0 63 64.4" style="enable-background:new 0 0 63 64.4;" xml:space="preserve">
 					<metadata>
@@ -2294,8 +2317,9 @@
 						c0,0-0.2,0-0.3,0c-0.5,0-1.1,0-1.6-0.1c-1.4-0.1-2.8-0.1-4.2-0.2c-4-0.2-8-0.4-12.1-0.7C32.1,2.9,19.9,1.8,7.7,0.4
 						C5.3,21.3,2.8,42.2,0.4,63.1c0.6,0.1,1.1,0.1,1.7,0.2c1.7,0.2,6.5,0.9,6.7,0.7c0.3-0.3,0-4.7,0.3-5c0,0,3.6,0.4,4,0.4
 						c3.1,0.3,6.2,0.6,9.3,0.9c1,0.1,2.4-0.1,3.3,0.3C25.6,60.4,25.2,60.2,25.1,60"/>
-				</svg>
-					<svg class="yourStateNdakota" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#ndakota"><svg class="yourStateNdakota" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="59.6px" height="36.2px"
 					 viewBox="0 0 59.6 36.2" style="enable-background:new 0 0 59.6 36.2;" xml:space="preserve">
 					<metadata>
@@ -2311,8 +2335,9 @@
 						c0-0.4-0.3-0.8-0.3-1.1c0,0,0.2-0.6,0.2-0.6c0-0.4-0.3-0.9-0.3-1.3c0-0.4,0.3-0.8,0.3-1.1c0.1-0.7-0.6-1.9-0.8-2.6
 						c-0.1-0.4-0.4-0.8-0.2-1.2c0-0.1,0.1-0.2,0.1-0.2l0,0c-12,0.4-24.1,0.5-36.1,0.2C11.9,0.8,7.1,0.6,2.2,0.4v0
 						C1.6,11.9,1,23.5,0.4,35.1"/>
-				</svg>
-					<svg class="yourStateSdakota" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#sdakota"><svg class="yourStateSdakota" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="63.8px" height="39.6px"
 					 viewBox="0 0 63.8 39.6" style="enable-background:new 0 0 63.8 39.6;" xml:space="preserve">
 					<metadata>
@@ -2330,8 +2355,9 @@
 						c0-0.1,0-0.2,0-0.3c-0.1-0.3-1-0.9-0.6-1.3c0.1-0.1,1.1,0,1.4-0.1c-0.2-4.8-0.5-9.6-0.7-14.4c-0.1-1.2,0.1-5.1-0.3-5.9
 						c-0.4-0.9-1.4-0.7-2-1.2c-0.3-0.2-1.4-1.6-1.4-2c-0.1-0.8,1.4-1.4,1.8-2c0.5-0.6,0.2-1.4,0.6-1.9c0,0-1.6,0.1-2.3,0.1
 						c-1.4,0.1-2.9,0.1-4.3,0.2c-4.3,0.1-8.7,0.2-13,0.3C28.2,1.3,15.2,1,2.2,0.4c0,3.4-0.3,7-0.4,10.6C1.3,18.5,0.8,26,0.4,33.6"/>
-				</svg>
-					<svg class="yourStateNebraska" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#nebraska"><svg class="yourStateNebraska" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="76.5px" height="35.5px"
 					 viewBox="0 0 76.5 35.5" style="enable-background:new 0 0 76.5 35.5;" xml:space="preserve">
 					<metadata>
@@ -2351,8 +2377,9 @@
 						c-0.2-0.2-0.6,0-0.8-0.2c-0.1-0.1,0-0.3-0.2-0.4c-0.3-0.2-2.1-0.5-2.5-0.7c-0.5-0.2-0.7-0.6-1.1-0.9c-0.7-0.5-1.6,0.2-2.3,0.3
 						c-0.4,0-2.4-0.2-2.6-0.1c-0.7,0.2-0.1,0.9-1.2,1c-0.5,0-2.6-1.1-3.1-1.4c-0.3-0.2-0.7-0.8-1-0.9c-0.1,0-0.2,0-0.3,0
 						c-0.1,0-0.2,0-0.3,0c-0.3,0-0.7,0-1,0c-14.8,0.2-29.6,0-44.3-0.8C1.1,7.9,0.7,15.5,0.4,23C4.6,23.2,8.9,23.4,13.1,23.5"/>
-				</svg>
-					<svg class="yourStateKansas" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#kansas"><svg class="yourStateKansas" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="68.2px" height="35.5px"
 					 viewBox="0 0 68.2 35.5" style="enable-background:new 0 0 68.2 35.5;" xml:space="preserve">
 					<metadata>
@@ -2367,8 +2394,9 @@
 						c0.1-0.2-0.1-0.5,0.1-0.6c0.1-0.1,0.8,0.4,0.9-0.1c0-0.2-0.1-0.4-0.1-0.6c0-0.1,0-0.2-0.1-0.3c-0.1-0.2-0.5-0.2-0.6-0.3l0-0.6
 						c-0.4-0.4-0.7,0.6-1.1,0.4c-0.7-0.2-2-1.2-2-1.2s-1.5,0.1-2.3,0.1c-1.4,0.1-2.8,0.1-4.2,0.2c-4.3,0.2-8.7,0.3-13,0.4
 						c-13,0.4-26,0.4-38.9,0.1C0.8,12.4,0.6,23.7,0.4,34.9C15.3,35.3,30.3,35.2,45.2,34.7"/>
-				</svg>
-					<svg class="yourStateOklahoma" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#oklahoma"><svg class="yourStateOklahoma" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="81.3px" height="38.6px"
 					 viewBox="0 0 81.3 38.6" style="enable-background:new 0 0 81.3 38.6;" xml:space="preserve">
 					<metadata>
@@ -2394,8 +2422,9 @@
 						c-0.2-4.4-0.4-8.9-0.6-13.3c-0.1-2.6-0.1-5.3-0.6-7.8c-0.4-2.3-1-4.6-1.5-6.9c-0.2-0.8-0.3-1.5-0.5-2.3C77.7,6.9,77.5,6,77.5,6
 						c-0.1-1.9-0.3-3.7-0.4-5.6c0,0-1.7,0.1-2.6,0.2c-1.6,0.1-3.3,0.2-4.9,0.3c-5,0.3-10,0.5-15.1,0.7C39.6,2.1,24.7,2.2,9.7,1.8
 						c-3-0.1-6.1-0.2-9.1-0.3C0.5,3.4,0.5,5.3,0.4,7.1C7,7.4,13.7,7.5,20.3,7.6C22.2,7.6,24.1,7.6,26,7.6"/>
-				</svg>
-					<svg class="yourStateTexas" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#texas"><svg class="yourStateTexas" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="130.7px" height="118.5px"
 					 viewBox="0 0 130.7 118.5" style="enable-background:new 0 0 130.7 118.5;" xml:space="preserve">
 					<metadata>
@@ -2459,8 +2488,9 @@
 						c1.2-0.6,2.5-1.6,3.8-1.9c0.4-0.1,1.4,0.1,1.7-0.1c0.5-0.4-0.7-1-0.8-1.2c-0.2-0.4,0.6-1.9,0.9-2.1c0.3-0.2,0.5-0.2,0.7,0l0,0
 						c1-1.7,0.5-2.3,0-4c-0.2-0.6,0.3-0.6,0.4-1.1c0.1-0.4-0.4-0.7-0.4-1.1c0-0.4,0.4-0.4,0.5-0.6l0-0.6c0.1-0.2,0.5-0.4,0.6-0.6
 						c0.4-0.7,0.2-1.5,0.3-2.2l0.3-0.6C130.2,59.9,129.6,59.8,129.8,59.3"/>
-				</svg>
-					<svg class="yourStateMinnesota"version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#minnesota"><svg class="yourStateMinnesota"version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="59.1px" height="67.8px"
 					 viewBox="0 0 59.1 67.8" style="enable-background:new 0 0 59.1 67.8;" xml:space="preserve">
 					<metadata>
@@ -2489,8 +2519,9 @@
 						c-1,0.3-0.3,0.3-0.6,0.6c-0.3,0.4-2.9-0.3-3.3-0.5c-0.7-0.4-2.9-0.5-3-0.5c-0.5-0.2-1.1,0.2-1.6,0.1c-0.3,0-2.5-6.3-2.9-6.8
 						c-0.2-0.2-2.3-0.7-2.4-0.6c-0.2,0.2,0.5,4,0.3,4.3c0,0-2.7,0.2-3,0.2C9.6,5.1,6.4,5.2,3.2,5.3c-0.9,0-1.8,0.1-2.7,0.1l0,0
 						C0.6,5.4,0.5,5.6,0.5,5.6"/>
-				</svg>
-					<svg class="yourStateIowa" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#iowa"><svg class="yourStateIowa" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="55.9px" height="36.6px"
 					 viewBox="0 0 55.9 36.6" style="enable-background:new 0 0 55.9 36.6;" xml:space="preserve">
 					<metadata>
@@ -2514,8 +2545,9 @@
 						c-0.3-2.9-3.2-1-3.9-2.4c-0.2-0.4-0.1-0.9-0.3-1.3c-0.1-0.2-0.4-0.3-0.5-0.5c-0.3-0.5-0.6-1.6-0.7-2.2c-0.1-0.6,0.8-1.4,0.6-2
 						c-0.2-0.7-0.7-0.5-1.1-0.8c-0.3-0.4-0.3-1.5-0.3-1.5s-0.2,0-0.3,0c-0.4,0-0.9,0.1-1.3,0.1c-1,0.1-2,0.2-3,0.3
 						c-3.2,0.3-6.4,0.6-9.7,0.9C20.8,2.7,11.3,3.3,1.9,3.7C1.6,3.7,0.6,3.6,0.5,3.8"/>
-				</svg>
-					<svg class="yourStateMissouri" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#missouri"><svg class="yourStateMissouri" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="63.6px" height="51.4px"
 					 viewBox="0 0 63.6 51.4" style="enable-background:new 0 0 63.6 51.4;" xml:space="preserve">
 					<metadata>
@@ -2544,8 +2576,9 @@
 						c0.1-0.3,0.2-0.8,0.4-1.1c0.1-0.1,0.6-0.3,0.6-0.4c0-0.3-0.7-0.5-0.7-0.8c0-0.4,1.1-0.6,1-0.7c-0.1-0.2-0.7-0.2-0.8-0.5
 						c-0.3-0.5,0.8-0.4,0.8-0.7c0-0.5-0.8-1.5-0.6-2c0-0.1,0.1-0.1,0.1-0.1c1-0.8-0.2,1.9,1.3,0.7c0,0,0.1-0.8,0.2-1.2
 						c0-0.1-0.2-0.5,0.1-0.6c0.3,0,0.7,0.7,1.2,0.6c0.3,0,0.6-1,0.6-1.2c0-0.2-0.4-0.5-0.4-0.7C62.5,40.7,63,41,63.2,40.8"/>
-				</svg>
-					<svg class="yourStateLouisiana" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#louisiana"><svg class="yourStateLouisiana" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="55.4px" height="43.3px"
 					 viewBox="0 0 55.4 43.3" style="enable-background:new 0 0 55.4 43.3;" xml:space="preserve">
 					<metadata>
@@ -2596,8 +2629,9 @@
 						c0.6-0.3,0.2,0.7,0.5,0.9c0.2,0.1,0.7,0,0.9,0.1l0.4,0.1c0.1,0,0-0.1,0-0.2c0-0.1-0.1-0.1,0-0.2c0,0,0.1,0,0.2,0
 						c0.1,0,0.2-0.1,0.2,0c0,0.1-0.1,0.1-0.1,0.2c0,0.5,1.2,2.8,1.1,3.2c-0.1,0.2,2.4-0.6,2.8-0.9c0.2-0.1,0.7-1.2,0.7-1.2l0.3-0.6
 						C54.6,39.8,55.7,39.1,54.3,39.3"/>
-				</svg>
-					<svg class="yourStateWisconsin" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#wisconsin"><svg class="yourStateWisconsin" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="46.3px" height="50.8px"
 					 viewBox="0 0 46.3 50.8" style="enable-background:new 0 0 46.3 50.8;" xml:space="preserve">
 					<metadata>
@@ -2628,8 +2662,9 @@
 						c0.1-0.2-0.2-0.4-0.2-0.5c-0.2-0.6,1.2-1.5,0.4-2.3c-0.1-0.1-0.2,0.1-0.3,0.1c-0.1,0-0.1-0.2-0.3-0.3c-0.4-0.1-1.3,1-1.4,1
 						c-0.3,0.1-0.8,0.6-1.1,0.5c0,0,0.1-0.5-0.1-0.4c-0.8,0.5-1.2,1.2-2,1.6C8.9,3.7,6.8,5,5.6,4C5.5,3.9,5.4,3.8,5.4,3.7
 						C5.3,3.8,5.2,3.9,5.1,4C5,4.2,4.8,4.2,4.7,4.3"/>
-				</svg>
-					<a href="#illinois"><svg class="yourStateIllinois" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#illinois"><svg class="yourStateIllinois" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="37.7px" height="63.9px"
 					 viewBox="0 0 37.7 63.9" style="enable-background:new 0 0 37.7 63.9;" xml:space="preserve">
 					<metadata>
@@ -2659,7 +2694,8 @@
 						c0.1,0.1,0.1,0.2,0.2,0.2c0.1-0.1,0-0.2,0.1-0.3c0.1-0.6,0.3-0.5,0.5-0.9c0.1-0.2,0-0.6,0-0.8c0.1-0.4,0.6-0.5,0.8-0.7
 						c0.1-0.1-0.3-0.6-0.3-0.7c0-0.2,0.3-0.3,0.4-0.4l-0.1-0.6C36.8,42.4,37.7,42.4,37.2,41.1"/>
 				</svg></a>
-					<svg class="yourStateMichigan" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				
+				<a href="#michigan"><svg class="yourStateMichigan" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="71.2px" height="59.9px"
 					 viewBox="0 0 71.2 59.9" style="enable-background:new 0 0 71.2 59.9;" xml:space="preserve">
 					<metadata>
@@ -2707,8 +2743,9 @@
 						c0.1-0.4,0.1-1.6,0-2.2c-0.1-0.6-1.5-2.8-2-2.8c-0.3,0-0.3,0.2-0.4,0.4c-0.3,0.5-0.9,0.8-1.2,1.3c-0.3,0.4-0.1,0.8-0.5,1.2
 						c-0.4,0.3-0.8,0.1-1.2,0.3c-0.3,0.1-1,1.7-2,2C6.9,5.7,5.5,5.7,4.8,6.1C4.1,6.5,3.8,7.5,3.2,8C2.6,8.5,1.5,8.7,0.8,9.1
 						C0.7,9.2,0.6,9.4,0.5,9.5C0.7,10.1,0.7,9.5,1.1,9.6"/>
-				</svg>
-					<a href="#indiana"><svg class="yourStateIndiana" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#indiana"><svg class="yourStateIndiana" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="29.7px" height="50px"
 					 viewBox="0 0 29.7 50" style="enable-background:new 0 0 29.7 50;" xml:space="preserve">
 					<metadata>
@@ -2734,7 +2771,8 @@
 						c-0.5-0.1-3.3,0.7-3.9,0.8C14.7,2,10.4,2.8,6,3.6l0,0C5,4.6,3.6,5.5,2.5,5.7c-0.3,0-1.4,0.1-1.3-0.4c0,0,0-0.1,0-0.1
 						C0.9,5.1,0.6,5,0.4,4.9l0,0C1.5,12.3,2.6,19.6,3.7,27"/>
 				</svg></a>
-					<svg class="yourStateKentucky" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				
+				<a href="#kentucky"><svg class="yourStateKentucky" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="65.8px" height="37.3px"
 					 viewBox="0 0 65.8 37.3" style="enable-background:new 0 0 65.8 37.3;" xml:space="preserve">
 					<metadata>
@@ -2767,8 +2805,9 @@
 						c-0.6-0.5-1.6-1.1-2.5-1.1c-0.4,0-1.1,0.6-1.5,0.4c-0.6-0.3,0.2-0.2-0.4-0.4c-0.1,0-0.1,0.2-0.1,0.2c0.1,0.5,0.7,0.7,0,1.1
 						c-0.8,0.5-0.1-0.7-0.6-0.7c-0.3,0-0.6,0.5-0.8,0.5c-0.5,0.1-0.8-0.5-1.2-0.6c-0.8-0.1,0.8,1.5-0.2,1.7c-0.2,0.1-0.6-0.3-0.7-0.2
 						l0,0.2c-0.2,0.6-0.9,1.4-0.9,2C10,23.1,11.1,23.2,11,24"/>
-				</svg>
-					<svg class="yourStateTennessee" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#tennessee"><svg class="yourStateTennessee" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="76.9px" height="32.4px"
 					 viewBox="0 0 76.9 32.4" style="enable-background:new 0 0 76.9 32.4;" xml:space="preserve">
 					<metadata>
@@ -2794,8 +2833,9 @@
 						c0.5-0.5,1.5-0.5,1.6-0.5c0.5-0.3,0.4-2,0.4-2c0.3-0.2,0.7,0.1,0.9,0c0.1-0.1,0.1-0.7,0.1-0.8c0.1-0.2,0.9-1,1-1
 						c0.8-0.1,0.3,1.1,0.8,1c0.9-0.3,0.9-1.5,1.6-2.1c0.2-0.2,1-0.8,1.2-0.8c0.5-0.2,1,0.8,1.4,0.5c0.3-0.2,0.8-2.1,1-2.5
 						c0.1-0.2,0.4-0.8,0.6-0.9c0.2-0.1,0.8,0.2,0.7-0.3C76.2,2.2,76.1,1.2,76.5,0.4"/>
-				</svg>
-					<svg class="yourStateMississippi" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#mississippi"><svg class="yourStateMississippi" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="34.2px" height="55.6px"
 					 viewBox="0 0 34.2 55.6" style="enable-background:new 0 0 34.2 55.6;" xml:space="preserve">
 					<metadata>
@@ -2828,8 +2868,9 @@
 						c0.3,0.4,0.3-0.2,0.7,0.1c0.2-0.1,0.3-0.3,0.5-0.2c0.1,0,0.1,0.2,0.2,0.2c0.1,0,0.2-0.7,0.2-0.8c0.2-0.3,0.8-0.4,0.9-0.7
 						c0.3-0.6-0.7-0.5-0.3-0.7c0.1-0.1,0.7,0.5,0.7,0.5c0,0.1,0.6-0.2,0.7-0.2c0.4-0.1,2.4-0.8,2.6-1c0.3-0.3,1.5,0.1,2,0.2
 						c0.2,0.1,1-0.2,1.1-0.3c0.1-0.1,0-0.4,0.1-0.4c0.2,0,0.2,0.4,0.4,0.5c0,0,1,0.2,1,0.2s0.5-0.4,0.6-0.5L33.8,51.5"/>
-				</svg>
-					<a href="#alabama"><svg class="yourStateAlabama" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#alabama"><svg class="yourStateAlabama" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="38.6px" height="56.8px"
 					 viewBox="0 0 38.6 56.8" style="enable-background:new 0 0 38.6 56.8;" xml:space="preserve">
 					<metadata>
@@ -2851,7 +2892,8 @@
 						c0-0.1-0.2-0.2-0.2-0.3c0,0,0.1,0,0.1-0.1c-0.3-0.2-0.6-0.3-0.6-0.6c-0.1-0.4,0.3-0.9,0.3-1.3c-0.1-0.5-1-0.5-1.3-0.7
 						c-0.2-0.2-1.3-1-1.4-1.3c-0.1-0.2,0.2-0.7,0.2-1c0-0.1-0.1-0.5-0.1-0.5C13.2,47.1,18.9,46.4,20,46.3"/>
 				</svg></a>
-					<a href="#georgia"><svg class="yourStateGeorgia" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				
+				<a href="#georgia"><svg class="yourStateGeorgia" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="52.8px" height="50.9px"
 					 viewBox="0 0 52.8 50.9" style="enable-background:new 0 0 52.8 50.9;" xml:space="preserve">
 					<metadata>
@@ -2883,7 +2925,8 @@
 						c-0.1,0-0.2-0.1-0.1-0.2c0-0.1,0.1-0.1,0.1-0.1c0-0.1,0-0.2,0-0.3c0-0.1,0-0.2,0-0.2c0.3-0.1,0.8,0.5,1.2,0.3
 						c0.8-0.4-0.7-1.1,0.6-1.1c0.1,0,0.5-0.6,0.5-0.7C52.4,27.9,52.2,28,52,28.1"/>
 				</svg></a>
-					<svg class="yourStateOhio" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				
+				<a href="#ohio"><svg class="yourStateOhio" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="39.2px" height="44.3px"
 					 viewBox="0 0 39.2 44.3" style="enable-background:new 0 0 39.2 44.3;" xml:space="preserve">
 					<metadata>
@@ -2908,8 +2951,9 @@
 						c-0.1,0-0.1-0.2-0.2-0.2c-0.2,0-0.4,0.1-0.6,0.1C15.3,11.2,16,11,16,11c0.1-0.1,0-0.2,0.2-0.3c0.5-0.3,2.1-0.4,1.9-1
 						c-0.1-0.3-0.6,0.2-0.7,0.1c-0.3,0-0.2-0.4-0.5-0.4c-0.1,0-0.1,0.1-0.1,0.1c0.1,0.4-0.2,0.8-0.8,0.8c-0.5,0-0.7-0.4-1.1-0.6
 						c-0.5-0.2-1.1,0-1.6-0.3c-0.2-0.1-0.6-0.5-0.8-0.5c-0.2,0-1.2,0.1-1.2,0l0,0C7.7,9.8,4,10.8,0.4,11.7"/>
-				</svg>
-					<svg class="yourStateWVirginia" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#wvirginia"><svg class="yourStateWVirginia" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40.9px"
 					 viewBox="0 0 40 40.9" style="enable-background:new 0 0 40 40.9;" xml:space="preserve">
 					<metadata>
@@ -2941,8 +2985,9 @@
 						c-0.2,0.3-0.2,1-0.6,1.3C28.6,10.4,28.3,10,28,10c-0.5,0.1-0.4,0.6-0.5,0.9c-0.2,0.4-0.6,0.6-0.8,1l-0.1,0.6L26,12.7
 						c-0.2,0.1-0.6,1.4-0.9,1.1c-0.3-0.3-1.2-4.6-1.4-5.3c-2.2,0.6-4.3,1.1-6.5,1.7c-0.2,0.1-2.2,0.6-2.3,0.6c0,0-0.6-2.3-0.6-2.6
 						c-0.6-2.5-1.2-5-1.8-7.4C12.1,0.9,11.2,1,11.3,1.5"/>
-				</svg>
-					<svg class="yourStateVirginia" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#virginia"><svg class="yourStateVirginia" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="71.4px" height="43.5px"
 					 viewBox="0 0 71.4 43.5" style="enable-background:new 0 0 71.4 43.5;" xml:space="preserve">
 					<metadata>
@@ -2975,8 +3020,9 @@
 						c-0.5,0.5-2.5,1.3-3.2,1.6c-0.4,0.2-0.8,0.5-1,0.8C1.1,42.7,1,42.9,1,42.9c4-0.8,8.1-1.7,12.1-2.6c1-0.2,2.5-0.3,3.3-0.8
 						c0.3-0.2,0.2-0.2,0.6-0.3c0.7-0.1,2.1-0.3,2.1-0.3c7.9-1.2,15.7-3.2,23.5-5.3c8.9-2.4,17.7-4.9,26.5-7.6c0,0,1.6-0.5,1.8-0.5
 						C70.4,24.8,69.8,24.2,69.4,23.6"/>
-				</svg>
-					<svg class="yourStateNCarolina" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#ncarolina"><svg class="yourStateNCarolina" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="77.1px" height="36.7px"
 					 viewBox="0 0 77.1 36.7" style="enable-background:new 0 0 77.1 36.7;" xml:space="preserve">
 					<metadata>
@@ -3018,8 +3064,9 @@
 						c0.1,0.1,0-0.3,0-0.4c0,0,0.5-0.4,0.5-0.4c0.1-0.1-0.3-0.5,0-0.6c0.1,0,0.1,0.2,0.2,0.1c0.2-0.1,0-0.7,0.1-0.8l0.2-0.3
 						c0-0.1-0.2-0.1-0.2-0.1c0-0.1,0.4-0.4,0.5-0.5c0.1-0.1-0.1-1,0-1c0.2,0,0.1,0.4,0.3,0.5c0.1,0,0.8,0,0.8-0.1
 						c0.1-0.1-0.1-0.2-0.1-0.4C76.5,9.8,76.8,9.7,76.8,9.4"/>
-				</svg>
-					<svg class="yourStateSCarolina" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#scarolina"><svg class="yourStateSCarolina" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="47.7px" height="34.2px"
 					 viewBox="0 0 47.7 34.2" style="enable-background:new 0 0 47.7 34.2;" xml:space="preserve">
 					<metadata>
@@ -3043,8 +3090,9 @@
 						c-0.2-0.2,0-1.2-0.2-1.5c-0.3-0.4-1.2-0.7-1.6-1.1c-0.1-0.1-0.1-0.2-0.2-0.2c-0.4,0-0.3,0.9-0.9,0.8c-0.2,0,0-0.7-0.3-0.9
 						c0,0-4.4,0.8-4.9,0.8c-1.9,0.3-3.7,0.6-5.5,1C9.5,2.3,8.5,2.8,8.1,2.5C7.9,2.3,8,3,7.7,3.1L7.2,3c-0.1,0-0.5,0.3-0.6,0.4
 						C6.4,3.6,5.8,3.7,5.5,4C5.3,4.2,5.5,4.7,5.1,4.9L4.7,4.7C3.9,4.9,2.8,5.8,2,6.3C1.9,7.1,0.1,9.5,0.4,10"/>
-				</svg>
-					<a href="#florida"><svg class="yourStateFlorida" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#florida"><svg class="yourStateFlorida" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="87.7px" height="59.7px"
 					 viewBox="0 0 87.7 59.7" style="enable-background:new 0 0 87.7 59.7;" xml:space="preserve">
 					<metadata>
@@ -3101,7 +3149,8 @@
 						c0-0.7,1-1.3,0.8-1.9c-0.1-0.2-0.7-2.2-0.6-2.4c0.1-0.2,0.4-0.3,0.4-0.5l0-0.6c0-0.1-0.1-0.2,0-0.3c0.1-0.2,0.6-0.2,0.6-0.3
 						c0.1-0.2,0.3-0.3,0.5-0.3c0,0-0.3-2.1-0.4-2.6"/>
 				</svg></a>
-					<svg class="yourStatePennsylvania" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				
+				<a href="#pennsylvania"><svg class="yourStatePennsylvania" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="54.3px" height="37.6px"
 					 viewBox="0 0 54.3 37.6" style="enable-background:new 0 0 54.3 37.6;" xml:space="preserve">
 					<metadata>
@@ -3121,8 +3170,9 @@
 						c2.2-0.5,4.3-1.1,6.5-1.7c10.4-2.7,20.8-5.7,31.1-8.9c0.4-1.4,1.1-2.6,2.6-1.9c0.2-0.2,0.3-0.5,0.4-0.6c0.4-0.4,1.3-0.6,1.6-1.1
 						c0.1-0.1-0.1-1.3,0.4-1.2c0,0,0,0,0,0l0.2-0.2c0,0,0.1-0.1,0.2-0.2c0.3-0.2,0.2-0.5,0.4-0.8c0.2-0.3,1.6-1.4,1.4-1.7
 						C53.6,18.1,52.2,17.6,51.8,17.4"/>
-				</svg>
-					<svg class="yourStateMaryland" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#maryland"><svg class="yourStateMaryland" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="42.6px" height="20.2px"
 					 viewBox="0 0 42.6 20.2" style="enable-background:new 0 0 42.6 20.2;" xml:space="preserve">
 					<metadata>
@@ -3164,8 +3214,9 @@
 						c0-0.1-0.1-0.1-0.1-0.2c-0.3-0.3-0.1,0,0.2-0.2c0,0,0-0.2,0.1-0.2c-1.3,0.4-2.6,0.8-4,1.3c-0.2,0.1-1.3,0.6-1.5,0.5
 						c0,0-0.7-2-0.7-2.2c-0.7-2.2-1.5-4.4-2.3-6.6c-0.4-1-0.8-2.1-1.2-3.1c-0.2-0.4-0.3-0.8-0.5-1.3c0-0.1-0.1-0.3-0.1-0.3
 						C21.3,3.7,10.9,6.6,0.5,9.4c0.2,0.7,1.1,5.1,1.4,5.3C2.2,15,2.6,13.7,2.8,13.6"/>
-				</svg>
-					<svg class="yourStateNewyork" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#newyork"><svg class="yourStateNewyork" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="68.7px" height="49.9px"
 					 viewBox="0 0 68.7 49.9" style="enable-background:new 0 0 68.7 49.9;" xml:space="preserve">
 					<metadata>
@@ -3203,9 +3254,10 @@
 							c-0.3,0.6,0.3,0.4,0.3,0.7L64,40.4c-0.1,0.2,0.1,0.2-0.1,0.2c-0.1,0,0.9,0,1-0.2c0.1-0.1-0.2-0.3-0.1-0.4c0.2-0.3,0.5,0.4,0.7-0.1
 							l-0.1-0.4c0.4-0.1,0.1,0.3,0.5,0.2c0.2-0.1-0.2-0.4,0.1-0.5c0.2,0,0.6,0.4,0.7,0.3c0.4-0.1,1-1.3,1.2-1.4c0.1-0.1,0.4,0,0.4,0.2
 							C68.3,38.6,68.1,38.7,68.1,38.7"/>
-							</g>
-				</svg>
-					<a href="#delaware"><svg class="yourStateDelaware" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+					</g>
+				</svg></a>
+				
+				<a href="#delaware"><svg class="yourStateDelaware" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="11.5px" height="16.3px"
 					 viewBox="0 0 11.5 16.3" style="enable-background:new 0 0 11.5 16.3;" xml:space="preserve">
 					<metadata>
@@ -3221,7 +3273,8 @@
 						C3.8,5.5,3.8,5.2,3.6,5C3.5,4.9,3,4.8,2.9,4.6c-0.1-0.1,0-0.2,0-0.3l0-0.7C2.8,3.4,2.3,3.3,2.2,3.1C2,2.7,2.8,2.1,2.9,1.7
 						c0-0.2-0.2-0.6-0.1-0.8c0,0,0.1-0.2,0.2-0.4C1.5-0.1,0.7,1.1,0.4,2.5"/>
 				</svg></a>
-					<svg class="yourStateNewjersey" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				
+				<a href="#newjersey"><svg class="yourStateNewjersey" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="13.5px" height="27.6px"
 					 viewBox="0 0 13.5 27.6" style="enable-background:new 0 0 13.5 27.6;" xml:space="preserve">
 					<metadata>
@@ -3245,8 +3298,9 @@
 						c-0.3,0.1-1.1,0.9-1.4,0.3C9.2,8.5,9.1,6.8,9.2,6.6c0-0.3,0.3-0.6,0.5-0.9c0,0,0.1-0.2,0.1-0.1C9.8,5.8,9.6,6,9.7,6.2
 						c0,0,0.7-0.7,0.8-0.9c0.1-0.2-0.1-0.5-0.1-0.8c0-1.1,0.1-1.7-0.1-2.5C9.8,1.9,8.8,1.8,8.5,1.8C6.5,1.3,4.6,0.9,2.6,0.4
 						c-0.4,0.4-0.9,0.9-1,1.5C1.6,2.2,1.8,2.6,1.8,2.9"/>
-				</svg>
-					<a href="#conneticut"><svg class="yourStateConneticut" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#conneticut"><svg class="yourStateConneticut" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17px" height="17.3px"
 					 viewBox="0 0 17 17.3" style="enable-background:new 0 0 17 17.3;" xml:space="preserve">
 					<metadata>
@@ -3263,7 +3317,8 @@
 						c0.2-0.2,1,0.4,1.8-0.5c0.1-0.1,0.8-0.6,0.9-0.6c0.1-0.2-0.1-0.5,0.1-0.6c0.2-0.1,0.5,0.4,0.8,0.1c0.1-0.1,0-0.4,0.1-0.5
 						c0.3-0.3,0.9,0.1,1.2,0c0,0-0.4-0.6-0.3-0.9C16.2,6.6,16.6,7.3,16.2,6.3"/>
 				</svg></a>
-					<svg class="yourStateMassachusetts" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				
+				<a href="#massachusetts"><svg class="yourStateMassachusetts" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="31.3px" height="17.3px"
 					 viewBox="0 0 31.3 17.3" style="enable-background:new 0 0 31.3 17.3;" xml:space="preserve">
 					<metadata>
@@ -3285,8 +3340,9 @@
 						c0.1,0,0-0.1,0-0.2c0-0.1-0.1-0.2,0-0.2c0.2-0.1,0.2,0.1,0.1,0.3c0.3-0.2,0.8-0.4,1-0.6c0.2-0.2,0.3-0.7,0.6-0.8
 						c0.1,0,0.1-0.1,0.1-0.1c1.3,0.9,0,1.9,0.2,2.7c0,0.1,0.4-1,0.7-1.7c0.4-0.7,1.9-1,1.9-1.1c0-0.1,0-0.7,0.1-0.8
 						c0.1-0.2,3.4-2.4,3.5-2.4c0.5,0,0.2,0.9,0.3,0.9C31.2,11.4,30.8,9.7,30.8,9.6"/>
-				</svg>
-					<svg class="yourStateVermont" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#vermont"><svg class="yourStateVermont" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16.7px" height="30.2px"
 					 viewBox="0 0 16.7 30.2" style="enable-background:new 0 0 16.7 30.2;" xml:space="preserve">
 					<metadata>
@@ -3303,8 +3359,9 @@
 						c0-0.1-0.2-0.2-0.3-0.3c-0.1-0.4,0.2-0.9,0.1-1.2c-0.1-0.7-0.7-1.4-0.6-2.2c0.1-0.9,0.7-0.6,1.2-1c0.1-0.1,0.1-0.5,0.2-0.7
 						c0.4-0.6,1.3-1,1.2-1.8l-0.3-0.5c0-0.1,0.4-0.2,0.3-0.3c-0.1-0.6-1.1-1-1.3-1.5c-0.1-0.6,0.5-1.4,0.4-2c0-0.2-0.8-0.8-0.6-1.1
 						c-0.3,0.2-1.1,0.4-1.4,0.4c-1.7,0.6-3.3,1.2-5,1.8C5.4,4.1,3,5,0.5,5.9c0.4,0.9,0.1,1.4,0.3,1.8C0.9,7.9,1.3,8,1.5,8.3"/>
-				</svg>
-					<svg class="yourStateNewhampshire" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#newhampshire"><svg class="yourStateNewhampshire" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15.9px" height="32px"
 					 viewBox="0 0 15.9 32" style="enable-background:new 0 0 15.9 32;" xml:space="preserve">
 					<metadata>
@@ -3321,8 +3378,9 @@
 						c0-0.1-0.2-0.2-0.3-0.4l0,0c0,0-0.8-0.3-1.1-0.6c-0.2-0.3,0-0.9-0.3-1.1c-0.4-0.5-1.5-0.4-1.9-1.1c-0.3-0.5-0.2-1.3-0.4-1.9
 						c-0.2-0.7-0.6-1.4-0.9-2.1c-2.3-5.3-4.7-10.6-7-15.9c0,0-1.3,0.5-1.6,0.6C1.9,1.1,1.3,2,1.3,2.2c0,0,0.4,2.3,0.4,2.5
 						C1.6,4.7,2,5.7,2.1,5.9"/>
-				</svg>
-					<svg class="yourStateMaine" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#maine"><svg class="yourStateMaine" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="34.3px" height="53.1px"
 					 viewBox="0 0 34.3 53.1" style="enable-background:new 0 0 34.3 53.1;" xml:space="preserve">
 					<metadata>
@@ -3367,8 +3425,9 @@
 						c-0.1,0-0.2,0-0.3-0.1c0,0,0-0.1,0-0.2c0,0,0-0.1,0-0.1c0.1,0,0.2,0,0.2-0.1c0,0,0,0,0-0.1c0.1,0.1,0.1,0.3,0.2,0.4
 						C17.5,41,17.5,41,17.5,41z M15.4,40.3c-0.1,0-0.1,0.1-0.2,0.1c0-0.1,0.1-0.2,0.1-0.4c0,0,0,0.1,0,0.1C15.4,40.2,15.4,40.3,15.4,40.3
 						z"/>
-				</svg>
-					<svg class="yourStateRhodeIsland" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#rhodeisland"><svg class="yourStateRhodeIsland" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="6px" height="9.6px"
 					 viewBox="0 0 6 9.6" style="enable-background:new 0 0 6 9.6;" xml:space="preserve">
 					<metadata>
@@ -3381,8 +3440,9 @@
 						c0.5,1.2,1,2.5,1.4,3.7c0.4,1.1,0,0.3-0.1,0.9c0,0.3,0.3,0.9,0.3,0.9c0.8-0.3,1.3-1.2,2-1.5l0.6,0c0.2-0.2,0.1-1.7-0.1-2L5,5.3
 						C4.9,5,5.2,4.7,4.9,4.4L4.6,4.1c-0.1-0.7,0.5,0,0.6,0c0.3-0.1,0.5-0.9,0.5-1c0,0,0-0.1,0-0.1C5.4,2.9,5.2,2.8,5.1,2.7
 						C4.8,2.5,4.9,1.9,4.7,1.6"/>
-				</svg>
-					<a href="#arkansas"><svg class="yourStateArkansas" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+				</svg></a>
+				
+				<a href="#arkansas"><svg class="yourStateArkansas" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
 					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="46.9px" height="42.9px"
 					 viewBox="0 0 46.9 42.9" style="enable-background:new 0 0 46.9 42.9;" xml:space="preserve">
 					<metadata>
@@ -3418,6 +3478,8 @@
 	
 <! INDIVIDUAL STATES >
 	<section class="individualStates">
+		
+		<a class="selectNewState" href="#yourStateSection">Select New State</a>
 		
 		<div class="alabamaIndividual" id="alabama">
 			<div class="individualInnerWrapper">
@@ -4853,9 +4915,1260 @@
 			</div>
 		</div><! END nebraska>
 		
+		<div class="nevadaIndividual" id="nevada">
+			<div class="individualInnerWrapper">
+				<div class="individualStateLeft">
+					<svg class="nevadaIndividualSVG" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 58.3 88.9"
+					 style="enable-background:new 0 0 58.3 88.9;" xml:space="preserve">
+						<metadata>
+							<sfw  xmlns="&ns_sfw;">
+								<slices></slices>
+								<sliceSourceBounds  bottomLeftOrigin="true" height="122.7" width="75" x="322.2" y="-349.6"></sliceSourceBounds>
+							</sfw>
+						</metadata>
+						<path class="individualStateFill nevadaFill nevadaStateAnimation" d="M38.9,86.3c0,0,0.7-0.5,0.8-1c0.2-1.2-0.4-2.2-0.3-3.3c0-0.4,0.3-0.8,0.4-1.3c0.1-0.8-0.1-1.5,0.1-2.3
+							c0.1-0.2,0.3-0.5,0.3-0.7c0-0.1-0.2-0.1-0.3-0.2c-0.3-0.7-0.1-2.1,0.6-2.4c1.3-0.5,1.1-0.1,2.2,0.2l0.6,0c0.1,0,0.2,0,0.3,0
+							c0.3,0.1,0.5,2.5,1.7,1.6c0.3-0.2,0.3-0.8,0.5-1c0.2-0.2,0.6-0.4,0.7-0.6c0.5-0.8,0.8-4.4,1-5.6c0.1-0.8,0.3-1.5,0.4-2.3
+							c0.1-0.3,0.2-1,0.2-1c3.3-18.5,6.5-37,9.8-55.5C49.6,9.6,41.4,8,33.2,6.2C25,4.4,16.9,2.5,8.7,0.5c-2,7.8-4,15.6-5.9,23.4
+							c-0.6,2.2-1.1,4.4-1.7,6.6c-0.2,0.7-0.8,2.1-0.7,2.8c0.1,0.6,2.3,3.7,2.8,4.4c2.3,3.6,4.7,7.2,7.1,10.8c9,13.4,18.5,26.5,28.5,39.3
+							c0-0.8,0.3-0.7,0.4-1.1C39.2,86.4,38.8,86.5,38.9,86.3"/>
+					</svg>
+				</div>
+				<div class="individualStateRight">
+					<div class="sectionHeader">
+						<h1>Nevada</h1><hr class="analysishr">
+					</div>
+					
+					<div class="graphSlider">
+						<div class="sliderBar"></div>
+						<div class="sliderBarFilled elevenToTwelveAnimation"></div>
+						<h2 class="elevenYear">2011</h2>
+						<div class="sliderDot sliderDotOne"></div>
+						<h2 class="elevenCases">13</h2>
+						<div class="sliderBarFilled twelveToThirteenAnimation"></div>
+						<h2 class="twelveYear">2012</h2>
+						<div class="sliderDot sliderDotTwelve twelveDotAnimation"></div>
+						<h2 class="twelveCases twelveCasesAnimation">4</h2>
+						<h2 class="thirteenYear">2013</h2>
+						<div class="sliderDot sliderDotThree thirteenDotAnimation"></div>
+						<h2 class="thirteenCases thirteenCasesAnimation">7</h2>
+					</div>
+				</div>
+			</div>
+		</div><! END nevada>
+		
+		<div class="newhampshireIndividual" id="newhampshire">
+			<div class="individualInnerWrapper">
+				<div class="individualStateLeft">
+					<svg class="newhampshireIndividualSVG" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 
+						 viewBox="0 0 15.9 32" style="enable-background:new 0 0 15.9 32;" xml:space="preserve">
+						<metadata>
+							<sfw  xmlns="&ns_sfw;">
+								<slices></slices>
+								<sliceSourceBounds  bottomLeftOrigin="true" height="30.2" width="16.7" x="314.4" y="-409.7"></sliceSourceBounds>
+							</sfw>
+						</metadata>
+						<path class="individualStateFill newhampshireFill newhampshireStateAnimation" d="M2.1,5.9c0.1,0.6-0.6,1.4-0.4,2c0.1,0.6,1.1,1,1.3,1.5c0,0.1-0.3,0.2-0.3,0.3L3,10.2C3,11,2.1,11.5,1.8,12
+							c-0.1,0.2-0.1,0.5-0.2,0.7c-0.5,0.4-1.1,0.2-1.2,1c-0.1,0.8,0.6,1.4,0.6,2.2c0,0.4-0.2,0.9-0.1,1.2c0,0.1,0.2,0.2,0.3,0.3
+							c0,0.3-0.3,0.8-0.3,1.1C0.8,19,1,19.4,1,19.7c0,0.3-0.4,0.6-0.4,0.9c0,0.4,0.3,0.9,0.2,1.3c-0.1,0.3-0.5,0.2-0.3,0.7
+							c0.3,1,1.7,5.3,1.6,6c0,0-0.4,0.5-0.4,0.5c-0.2,0.8,0.5,1.7,1.2,2c0.1,0.1,0.4,0.3,0.4,0.3c1.3-0.4,8.5-2.5,9.1-2.9
+							c0.3-0.2,0.1-0.6,0.5-0.8c0.1,0,0.2,0,0.2-0.1l-0.1-0.6c0.1-0.4,0.4-0.2,0.6-0.4c0.9-0.8,0.5-1.2,1.9-1.3c-0.2-0.6,0.3-1.4,0.1-2
+							c0-0.1-0.2-0.2-0.3-0.4l0,0c0,0-0.8-0.3-1.1-0.6c-0.2-0.3,0-0.9-0.3-1.1c-0.4-0.5-1.5-0.4-1.9-1.1c-0.3-0.5-0.2-1.3-0.4-1.9
+							c-0.2-0.7-0.6-1.4-0.9-2.1c-2.3-5.3-4.7-10.6-7-15.9c0,0-1.3,0.5-1.6,0.6C1.9,1.1,1.3,2,1.3,2.2c0,0,0.4,2.3,0.4,2.5
+							C1.6,4.7,2,5.7,2.1,5.9"/>
+					</svg>
+				</div>
+				<div class="individualStateRight">
+					<div class="sectionHeader">
+						<h1>New Hampshire</h1><hr class="analysishr">
+					</div>
+					
+					<div class="graphSlider">
+						<div class="sliderBar"></div>
+						<div class="sliderBarFilled elevenToTwelveAnimation"></div>
+						<h2 class="elevenYear">2011</h2>
+						<div class="sliderDot sliderDotOne"></div>
+						<h2 class="elevenCases">3,159</h2>
+						<div class="sliderBarFilled twelveToThirteenAnimation"></div>
+						<h2 class="twelveYear">2012</h2>
+						<div class="sliderDot sliderDotTwelve twelveDotAnimation"></div>
+						<h2 class="twelveCases twelveCasesAnimation">2,854</h2>
+						<h2 class="thirteenYear">2013</h2>
+						<div class="sliderDot sliderDotThree thirteenDotAnimation"></div>
+						<h2 class="thirteenCases thirteenCasesAnimation">5,639</h2>
+					</div>
+				</div>
+			</div>
+		</div><! END newhampshire>
+		
+		<div class="newjerseyIndividual" id="newjersey">
+			<div class="individualInnerWrapper">
+				<div class="individualStateLeft">
+					<svg class="newjerseyIndividualSVG" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 
+						 viewBox="0 0 13.5 27.6" style="enable-background:new 0 0 13.5 27.6;" xml:space="preserve">
+						<metadata>
+							<sfw  xmlns="&ns_sfw;">
+								<slices></slices>
+								<sliceSourceBounds  bottomLeftOrigin="true" height="16.3" width="11.5" x="317.5" y="-402.6"></sliceSourceBounds>
+							</sfw>
+						</metadata>
+						<path class="individualStateFill newjerseyFill californiaStateAnimation" d="M1.8,2.9c-0.1,0.4-0.5,1-0.6,1.4C1.1,4.5,0.3,5.3,0.4,5.5c0.1,0.4,0.8,0.5,1,0.9c0.2,0.3-0.2,0.4-0.3,0.5
+							C1,7,1.3,7.4,1.2,7.6c0,0.1-0.3,0-0.4,0.1C0.5,8,1,8.8,1.1,9c0,0.2,0,0.7,0.3,0.9C1.6,10.1,2,9.9,2.3,10c0.4,0.2,0.3,1.1,0.7,1.3
+							c0.3,0.2,0.5-0.1,0.7,0c0.3,0.1,0.5,0.6,0.8,0.8c0.4,0.2,1.8,0.7,2.1,1.1c0.1,0.2-1.2,1.4-1.4,1.7C5,15.1,5,15.4,4.8,15.6
+							c-0.1,0.1-0.2,0.2-0.2,0.2L4.4,16c0.3,0.1-0.3,0.5-0.4,0.6c-0.1,0.4,0.6,0.4,0.1,0.8c-1.7,1.5-1.9,1.3-2.4,3.5
+							c0,0.2-0.2,0.3-0.2,0.4c0,0.1,1.2,1.8,0.4,1.3c-0.1-0.1,0.2,0.1,0.2,0.2c0.2,0.2,0.1,0.1,0.4,0.2c0.4,0.2,1,0.9,1.4,0.9
+							c0.1,0,0.1-0.3,0.2-0.3c0.2,0.1,0.3,0.3,0.5,0.4c0.3,0.2,1,0.1,1.3,0.4c0.1,0.1,0,0.5,0.3,0.5c0.3,0,0.6-0.7,0.9-0.7l0.3,0.3
+							c0.3,0,0.6-0.6,1-0.3c0.6,0.4-0.2,3.3,0.6,2.9c0.6-0.3,1.2-2,1.3-2.6c0-0.1,0.1-0.2,0-0.2c-0.1,0.1-0.3,0.1-0.3,0.1s0.2-0.1,0.3-0.1
+							c0.2-0.3,0-1.1,0.2-1.5c0-0.1,0.2-0.2,0.1-0.2c0-0.1-0.8-0.2-0.6-0.4c0.2-0.2,0.7-0.1,0.8-0.3c0.1-0.1-0.1-0.4,0.1-0.6
+							c0.1-0.1,0.2-0.4,0.2-0.3c0,0-0.1,0.6-0.1,0.6c0.1,0.2,0.7-0.5,0.7-0.6c0.1-0.8-0.9,0.1-0.5-1c0-0.1,0-0.2,0.1-0.2
+							c0.1,0,0.2,0.4,0.3,0.3c0.2-0.3-0.3-0.8-0.4-1.1c0-0.1-0.1-0.2-0.1-0.2c0.1,0,1.1,0.2,1.1,0c0-0.2-0.4-0.2-0.5-0.4
+							c-0.1-0.6,1-1.3,0.9-1.9c0-0.2-0.5-0.4-0.5-0.6c-0.1-0.4,0.7-0.8,0.7-1.1c0.1-0.8-0.3-2.3-0.6-2.7c0-0.1,0-0.2,0-0.3
+							c0-0.1,0-0.2,0-0.3c0-0.4,0-0.8,0-1.2c0-0.8-0.2-1.7-0.9-2.3c-0.1,0-0.1-0.2-0.2-0.1l0.2,0.4c0,0.4-0.8,0-1,0
+							c-0.3,0.1-1.1,0.9-1.4,0.3C9.2,8.5,9.1,6.8,9.2,6.6c0-0.3,0.3-0.6,0.5-0.9c0,0,0.1-0.2,0.1-0.1C9.8,5.8,9.6,6,9.7,6.2
+							c0,0,0.7-0.7,0.8-0.9c0.1-0.2-0.1-0.5-0.1-0.8c0-1.1,0.1-1.7-0.1-2.5C9.8,1.9,8.8,1.8,8.5,1.8C6.5,1.3,4.6,0.9,2.6,0.4
+							c-0.4,0.4-0.9,0.9-1,1.5C1.6,2.2,1.8,2.6,1.8,2.9"/>
+					</svg>
+				</div>
+				<div class="individualStateRight">
+					<div class="sectionHeader">
+						<h1>New Jersey</h1><hr class="analysishr">
+					</div>
+					
+					<div class="graphSlider">
+						<div class="sliderBar"></div>
+						<div class="sliderBarFilled elevenToTwelveAnimation"></div>
+						<h2 class="elevenYear">2011</h2>
+						<div class="sliderDot sliderDotOne"></div>
+						<h2 class="elevenCases">6,402</h2>
+						<div class="sliderBarFilled twelveToThirteenAnimation"></div>
+						<h2 class="twelveYear">2012</h2>
+						<div class="sliderDot sliderDotTwelve twelveDotAnimation"></div>
+						<h2 class="twelveCases twelveCasesAnimation">5,301</h2>
+						<h2 class="thirteenYear">2013</h2>
+						<div class="sliderDot sliderDotThree thirteenDotAnimation"></div>
+						<h2 class="thirteenCases thirteenCasesAnimation">7,900</h2>
+					</div>
+				</div>
+			</div>
+		</div><! END newjersey>
+		
+		<div class="newmexicoIndividual" id="newmexico">
+			<div class="individualInnerWrapper">
+				<div class="individualStateLeft">
+					<svg class="newmexicoIndividualSVG" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 
+						 viewBox="0 0 63 64.4" style="enable-background:new 0 0 63 64.4;" xml:space="preserve">
+						<metadata>
+							<sfw  xmlns="&ns_sfw;">
+								<slices></slices>
+								<sliceSourceBounds  bottomLeftOrigin="true" height="50" width="65.7" x="292.4" y="-322.5"></sliceSourceBounds>
+							</sfw>
+						</metadata>
+						<path class="individualStateFill newmexicoFill nevadaStateAnimation" d="M25.1,60c-0.2-0.4-0.5-1.9-0.5-1.9c0.1-0.1,1.4,0.1,1.6,0.1c1.6,0.1,3.3,0.3,4.9,0.4c6.9,0.5,13.8,0.9,20.6,1.3
+							c2,0.1,4,0.2,6,0.3c0.5,0,2,0.1,2,0.1c0.5-12.8,1.3-25.6,1.8-38.4c0.1-3,0.2-6,0.3-9c0-0.6-0.1-2.7,0.4-2.7c0.1-1.9,0.1-3.7,0.2-5.6
+							c0,0-0.2,0-0.3,0c-0.5,0-1.1,0-1.6-0.1c-1.4-0.1-2.8-0.1-4.2-0.2c-4-0.2-8-0.4-12.1-0.7C32.1,2.9,19.9,1.8,7.7,0.4
+							C5.3,21.3,2.8,42.2,0.4,63.1c0.6,0.1,1.1,0.1,1.7,0.2c1.7,0.2,6.5,0.9,6.7,0.7c0.3-0.3,0-4.7,0.3-5c0,0,3.6,0.4,4,0.4
+							c3.1,0.3,6.2,0.6,9.3,0.9c1,0.1,2.4-0.1,3.3,0.3C25.6,60.4,25.2,60.2,25.1,60"/>
+					</svg>
+				</div>
+				<div class="individualStateRight">
+					<div class="sectionHeader">
+						<h1>New Mexico</h1><hr class="analysishr">
+					</div>
+					
+					<div class="graphSlider">
+						<div class="sliderBar"></div>
+						<div class="sliderBarFilled elevenToTwelveAnimation"></div>
+						<h2 class="elevenYear">2011</h2>
+						<div class="sliderDot sliderDotOne"></div>
+						<h2 class="elevenCases">13</h2>
+						<div class="sliderBarFilled twelveToThirteenAnimation"></div>
+						<h2 class="twelveYear">2012</h2>
+						<div class="sliderDot sliderDotTwelve twelveDotAnimation"></div>
+						<h2 class="twelveCases twelveCasesAnimation">9</h2>
+						<h2 class="thirteenYear">2013</h2>
+						<div class="sliderDot sliderDotThree thirteenDotAnimation"></div>
+						<h2 class="thirteenCases thirteenCasesAnimation">16</h2>
+					</div>
+				</div>
+			</div>
+		</div><! END newmexico>
+		
+		<div class="newyorkIndividual" id="newyork">
+			<div class="individualInnerWrapper">
+				<div class="individualStateLeft">
+					<svg class="newyorkIndividualSVG" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 
+						 viewBox="0 0 68.7 49.9" style="enable-background:new 0 0 68.7 49.9;" xml:space="preserve">
+						<metadata>
+							<sfw  xmlns="&ns_sfw;">
+								<slices></slices>
+								<sliceSourceBounds  bottomLeftOrigin="true" height="9.6" width="6" x="320.6" y="-399.2"></sliceSourceBounds>
+							</sfw>
+						</metadata>
+						<g>
+							<path class="individualStateFill newyorkFill newyorkStateAnimation" d="M53.4,43.3c0-0.2,1.5-1.6,1.5-1.9c0-0.2-0.7-0.5-0.8-0.7c-0.1-0.2-0.1-0.4-0.2-0.6c-0.7-2.5-1.4-5-2-7.6
+								c-0.6-0.4-0.4-1.5-0.5-2.2c-0.1-2-0.2-3.9-0.3-5.9c0,0-0.4-0.4-0.5-0.6c-0.3-0.7-0.4-1.6-0.6-2.3c-0.5-1.6-1.1-5-2.3-6
+								c-0.9-0.8-0.3,1-1.2,0.4c0-0.1,0-0.2,0-0.3c0-0.1,0-0.2,0-0.3c-0.1-0.9-0.1-1.7-0.4-2.5c0-0.1-0.7-1.4-0.8-1.5l-0.4-0.3
+								c-0.2-0.3-0.2-1.4-0.2-1.7C44.7,9,45,8.7,45,8.5c0-0.4-0.5-0.8-0.6-1.2c-0.1-0.3,0.2-0.7,0.1-1c-0.2-0.6-1.1-0.9-1.4-1.5
+								c-0.2-0.6,0-1.4-0.2-1.9c-0.1-0.2-0.5-0.3-0.6-0.6c-0.2-0.4,0.1-0.9-0.3-1.8c-1.7,0.6-3.4,1.2-5.1,1.8c-1.6,0.6-3.3,1.2-5,1.6
+								c-0.4,0.1-1,0.1-1.3,0.2c-0.3,0.2-0.6,0.6-0.9,0.9c-1.6,1.6-2.8,3.6-3.7,5.7c-0.2,0.5-0.4,1-0.6,1.5c0.6,0.7-2.3,3.7-2.6,4.2
+								c-0.1,0.2-0.9,0.9-0.8,1.2c0.1,0.3,0.2,0.2,0.5,0.3c0.2,0.1,0.1,0.5,0.2,0.5c0.1,0,0.3-1.1,0.6-0.7c0.1,0.1,0.4-0.3,0.5-0.1
+								c0.1,0.1-0.1,0.3,0,0.3c0.5-0.3,0.2,0.1,0,0.4c-0.1,0.1-0.3,0.4-0.1,0.4c0.5-0.1,0.8-0.7,1.1-0.6c0.3,0-0.4,0.8-0.4,0.8
+								c-0.1,0.2,0,0.7-0.3,1.2c-0.1,0.1-0.2-0.2-0.2-0.3c0-0.1-0.1,0.1-0.2,0.1c-0.1,0.1-0.4,0.2-0.3,0.5c0,0.1,0.5,0,0.6,0.2
+								c0.1,0.3,0.5,0.6,0.5,0.8c0,0.3,0,0.7,0.3,1c0.1,0.1,0.1-0.6,0.3-0.2c0.1,0.1-0.2,0.4-0.2,0.6c0,0.3,0.3,0.2,0.3,0.3
+								c0,0.1-0.2,0.2-0.2,0.3c-0.4,1.2-1.1,0.4-1.4,0.7c-0.4,0.4-0.4,0.7-0.9,1.1c-0.3,0.2-0.6,0.8-0.7,1.2c0,0.1-0.2,0.4-0.4,0.5
+								c-0.5,0.5-2.6,1.3-3,1.5c-1,0.3-1.8,0.6-2.6,1.2c-0.2,0.1-0.4,0.3-0.6,0.3c-0.6,0.1-1.1-0.5-1.5-0.6c-0.9-0.2-2.3,0.1-3.2,0.3
+								c-2.7,0.6-4.9,1.8-7.2,3.3l-0.1,0c0,0,0,0,0,0.1c0.3,0.5,0.2,1.3,0.5,1.8c0.1,0.2,0.3,0.3,0.4,0.5c0,0.1-0.6,0.6-0.6,0.7
+								c0,0.1,1.6,2.8,1.4,3.6c0,0.2-0.2,0.4-0.3,0.6c0,0-0.1,0.6-0.1,0.6c-1.7,1-2.5,3.1-3.9,4.4c-0.1,0.1-0.2,0.2-0.3,0.3
+								c0.4,1.5,0.8,2.8,0.8,2.8c0.2,0.1,1.6-0.4,1.9-0.5c1.9-0.5,3.9-1,5.8-1.5c7.7-2.1,15.4-4.3,23.1-6.7c0.7-0.2,4.8-1.7,5.1-1.6
+								c0.6,0.1,0.8,1,1.1,1.2c0.3,0.2,1.1-0.5,1.5-0.1c0,0,0,0.4,0,0.4c0,0,0.5,0,0.5,0.1c0.2,0.2,0.3,1.5,0.4,1.8
+								c0.1,0.2,0.9,1.1,1.1,1.2l0.5-0.2c0.2,0,0.2,0.2,0.4,0.3c0.4,0.1,0.8-0.2,1.1-0.2c0.3,0.1,0.7,0.8,0.7,0.8c1.9,0.5,3.9,0.9,5.8,1.3
+								c0.3,0.1,1.4,0.1,1.8,0.3c-0.1-0.4-0.2-0.8-0.4-1.3c-0.1-0.3-0.1-0.9,0.4,0.1c0.8,1.7,0.1,4.3,0.3,4.4c0.2,0.1,0.3-1,0.4-1.1
+								c0.1-0.2,0.9-0.3,0.9-0.5L53.4,46c0-0.1,0.2,0,0.3-0.1c0.2-0.2,0-0.8,0.2-1.1l0.4-0.1l0.1-0.6C54.2,44,53.4,43.5,53.4,43.3"/>
+							<path class="individualStateFill newyorkFill newyorkStateAnimation" d="M68.1,38.7c-0.5,0.5-6.3,5.8-6.5,5.9l-0.3-0.1c-0.3,0.1-0.8,0.6-1,0.7c-0.2,0.2-0.6,0.1-0.8,0.3
+								c0,0,0,0.1,0,0.2c-0.1,0.1-0.1,0.2-0.3,0.2c-0.1,0.1-0.4-0.1-0.5,0c-0.3,0.2-0.6,0.7-1,1c-0.4,0.3-1.9,1.5-1.8,1.4
+								c0.1,0-0.1,0-0.2,0.1c-0.2,0.1-0.4,0.1-0.6,0.2c-0.5,0.2-1,0.8-1.4,0.9c-0.1,0,0.1-0.1,0.1-0.2c0.1-0.1-0.2-1.1-0.2-0.6
+								c0,0.2,0.6-0.1,0.3,0.3c-0.5,0.6-0.9,0.5-1.3,0.1c-0.3-0.4,0.5-2.1,0.9-2.3c0.2-0.1,0.6,0.1,0.7-0.1c0.2-0.2-0.3-0.7,0.1-0.5
+								c0.1,0,0.5-0.1,0.4-0.2l-0.5,0c-0.3-0.4,0.7-0.2,0.7-0.2c0.1-0.5-0.3-0.7,0.4-1c0.2-0.1,0.4-0.5,0.6-0.6c0.3-0.3,2.7-1.4,3-1.4
+								l0.1,0.4c0.1,0,0.1-0.1,0.1-0.1c0.4-0.5,1.6-0.8,2.2-1c1.3-0.6,2.1-1.4,2.9-2.5c0.1-0.1,0.5-1.4,1-1.1c0.5,0.3-0.7,0.6-1,1.1
+								c-0.3,0.6,0.3,0.4,0.3,0.7L64,40.4c-0.1,0.2,0.1,0.2-0.1,0.2c-0.1,0,0.9,0,1-0.2c0.1-0.1-0.2-0.3-0.1-0.4c0.2-0.3,0.5,0.4,0.7-0.1
+								l-0.1-0.4c0.4-0.1,0.1,0.3,0.5,0.2c0.2-0.1-0.2-0.4,0.1-0.5c0.2,0,0.6,0.4,0.7,0.3c0.4-0.1,1-1.3,1.2-1.4c0.1-0.1,0.4,0,0.4,0.2
+								C68.3,38.6,68.1,38.7,68.1,38.7"/>
+						</g>
+					</svg>
+				</div>
+				<div class="individualStateRight">
+					<div class="sectionHeader">
+						<h1>New York</h1><hr class="analysishr">
+					</div>
+					
+					<div class="graphSlider">
+						<div class="sliderBar"></div>
+						<div class="sliderBarFilled elevenToTwelveAnimation"></div>
+						<h2 class="elevenYear">2011</h2>
+						<div class="sliderDot sliderDotOne"></div>
+						<h2 class="elevenCases">8,320</h2>
+						<div class="sliderBarFilled twelveToThirteenAnimation"></div>
+						<h2 class="twelveYear">2012</h2>
+						<div class="sliderDot sliderDotTwelve twelveDotAnimation"></div>
+						<h2 class="twelveCases twelveCasesAnimation">8,732</h2>
+						<h2 class="thirteenYear">2013</h2>
+						<div class="sliderDot sliderDotThree thirteenDotAnimation"></div>
+						<h2 class="thirteenCases thirteenCasesAnimation">16,049</h2>
+					</div>
+				</div>
+			</div>
+		</div><! END newyork>
+		
+		<div class="ncarolinaIndividual" id="ncarolina">
+			<div class="individualInnerWrapper">
+				<div class="individualStateLeft">
+					<svg class="ncarolinaIndividualSVG" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					 viewBox="0 0 77.1 36.7" style="enable-background:new 0 0 77.1 36.7;" xml:space="preserve">
+					<metadata>
+						<sfw  xmlns="&ns_sfw;">
+							<slices></slices>
+							<sliceSourceBounds  bottomLeftOrigin="true" height="43.5" width="71.4" x="270.1" y="-417.7"></sliceSourceBounds>
+						</sfw>
+					</metadata>
+					<path class="individualStateFill newcarolinaFill ncarolinaStateAnimation" d="M76.8,9.4c0-0.1-0.7-0.5-0.5-0.6c0,0,0.5,0,0.5,0c0-0.1-0.7-1.9-1-2c-0.2-0.2-0.5-0.2-0.8-0.4
+						c0,0-0.1,0.1-0.1,0.1c-0.1,0.1-0.6,0.1-0.6,0.1c-0.1,0.1,1,0.3,0.5,0.6c-0.4,0.2-0.9-0.9-1.1,0.1c-0.1,0.4,0.7,2.3,0.3,2.6
+						c-0.1,0.1-0.9,0-1-0.1c-0.2-0.2,0.7-0.1,0.9-0.3c0.2-0.2-0.7-0.7-0.8-0.8c-0.1,0-0.4-0.2-0.3-0.2l0.6,0c0,0-0.2-0.7-0.2-0.7
+						c-0.1-0.1-0.4,0-0.4-0.1c0.4-0.4,0.5-0.6,0.1-1.2c-0.3-0.5-5.8,2.7-6.1,1.8c0-0.1,0.1-0.1,0.1-0.2c0-0.1,0-0.1-0.1-0.2
+						c-0.4-0.7-1.9-2.1-0.9-3c0.4-0.4-0.1,1,0.1,1.3c0.1,0.3,0.8,1.3,1.2,1.2c0.1,0,0.1-0.3,0.2-0.3c0.3,0,0.6,0.5,1.1,0.3
+						c0.5-0.3,0.3-0.9,0.6-1.2c0,0,0.9-0.3,0.8-0.4C70,6,69.8,6,69.7,6c-0.5,0-0.8-0.3-1.1-0.5c-0.1,0-0.2-0.1-0.2-0.1
+						c0,0,2.7,0.6,2.7,0.4c0,0-1.3-1-1.1-1c0.4,0,0.9,0.8,1.4,0.8c0.1,0,0.9-0.7,0.9-0.8c-0.1-0.3,0,0.1,0.8-0.3C73.3,4,72.3,3,72.3,3
+						c0.1-0.2,0.4-0.1,0.5,0c0,0.1,0,0.1,0,0.2c0,0.1-0.1,0.2,0,0.2c0.1,0.1,0.4-0.1,0.5,0c0,0.1-0.1,0.1-0.1,0.2c0,0.1,0.5,0.3,0.6,0.4
+						c0.1,0.1,0.4,1.1,0.8,0.8c0.2-0.1-0.1-0.4-0.1-0.4C74,3.8,73.2,3,72.8,2.3l-0.2-0.6c-0.1,0-1.4-1-1.5-1.2
+						c-8.8,2.7-17.6,5.2-26.5,7.6c-7.8,2.1-15.5,4.1-23.5,5.3c-0.4,0.8-0.4,1.8-0.2,2.6c0.1,0.5-0.6,0.2-0.7,0.3
+						c-0.1,0.1-0.5,0.7-0.6,0.9c-0.2,0.5-0.7,2.3-1,2.5c-0.4,0.3-0.9-0.6-1.4-0.5c-0.2,0.1-1,0.7-1.2,0.8c-0.7,0.5-0.7,1.8-1.6,2.1
+						c-0.6,0.2-0.1-1.1-0.8-1c-0.2,0-1,0.8-1,1c-0.1,0.1,0,0.7-0.1,0.8c-0.2,0.2-0.7-0.2-0.9,0c0,0,0.1,1.7-0.4,2
+						C10.9,25,9.9,25,9.4,25.5c-0.4,0.3-0.6,1.1-1,1.4c-0.1,0.1-0.3,0-0.5,0.1c-0.1,0.1,0,0.3-0.1,0.4c-0.2,0.2-0.5,0.2-0.7,0.3
+						c-0.3,0.3-0.3,0.9-0.9,1c0,0-0.4-0.3-0.4-0.3c-0.1,0-0.2,0.2-0.3,0.2c-0.3,0.1-0.6,0.1-0.9,0.2c-0.5,0.2-2.1,1.8-2.3,2.2
+						c0,0.1,0,0.2,0,0.3c0,0.3,0,0.6,0,0.9c0,0.1,0,0.2,0,0.3c-0.3,0.9-1.9,0.1-2,1c-0.2,0.9,0.2,2.8,0.2,2.8c3.7-0.8,7.5-1.6,11.2-2.5
+						c0.8-0.4,1.8-1.3,2.7-1.5l0.3,0.1c0.4-0.2,0.3-0.7,0.5-0.9c0.2-0.3,0.8-0.4,1.2-0.6c0.1,0,0.5-0.4,0.6-0.4l0.5,0.1
+						c0.2-0.1,0.1-0.8,0.3-0.6c0.4,0.3,1.4-0.1,1.9-0.2c1.8-0.4,3.7-0.7,5.5-1c0.5-0.1,4.9-0.8,4.9-0.8c0.3,0.2,0.1,0.8,0.3,0.9
+						c0.5,0.1,0.5-0.8,0.9-0.8c0.1,0,0.1,0.1,0.2,0.2c0.4,0.4,1.3,0.7,1.6,1.1c0.2,0.3,0,1.3,0.2,1.5c0.1,0,2.4-0.5,2.6-0.5
+						c1.3-0.3,7-1.8,7.8-1.7c0.6,0.1,3.2,1.9,3.9,2.3c3,1.7,6,3.5,9,5.1c0.3-0.2,0.7-0.4,1.1-0.7c0.2-0.2,0.1-0.7,0.4-0.8
+						c0.2-0.1,0.1,0.4,0.3,0.5c0.2,0.1,0.8-0.4,1-0.5c0.4-0.1,1.8,0.1,2.1-0.2c0.3-0.3,0.5-0.7,0.8-0.8c0.1,0,1.5-6.5,2.4-7.2
+						c0.2-0.1,1-0.4,0.8-0.8c-0.2-0.3,0-1.3,0-1.2c0,0.2-0.5,0.6-0.4,0.9c0,0,0.7,0.2,0.7,0.2c0.4-0.2,1.5-2.2,1.4-2.4L67,22.7
+						c0-0.1,0.1,0.1,0.2,0.1c0.1,0.1,0.3,0,0.4,0.1c0,0.1,0,0.1,0,0.2c0,0.1-0.1,0.2,0,0.2c0.2,0.1,4.1-2.1,4.5-1.9c0.9,0.3,1-2,1.2-2.1
+						c0,0,0.3,0.3,0.5-0.1c0.2-0.4-0.1-0.4,0.3-0.7l0.2-0.4c0-0.2-0.9-0.6-0.9-0.3c0,0.2,0.5,0.2,0.5,0.4l-0.6,0.2
+						c-0.1,0.1,0.2,0.3,0.1,0.4l-0.4-0.1l-0.2,0.3c-0.6,0,0.1-0.6,0.1-0.6c0,0-0.3-0.4-0.3-0.5c0,0-0.1-0.4-0.3-0.3c-0.3,0.2,0,0.8,0,1
+						c-0.1,0.5-0.3,0-0.5,0c-1,0,0.8,0.8-0.2,0.7c-0.1,0-0.2,0-0.3,0l-0.1-0.4c-0.6-0.1-0.7,1.2-1.1,1.3c0,0-0.6-0.2-0.6-0.2
+						c-0.3,0-0.6,0.1-1,0.1c-0.5-0.1-1.6-0.8-1.8-1.2c-0.1-0.2,0.4,0.2,0.7,0.2c0.5,0.1,1.6,0.6,2.1,0.4c0.7-0.3,2.4-3,1.9-3.9
+						c0-0.1-3.4-0.5-3.9-0.6c-0.4-0.1-0.9,0.3-1.2,0.2c-0.1,0,0-0.3-0.1-0.4c0,0-0.8-0.2-0.6-0.4c0.1-0.1,0.3-0.1,0.4,0
+						c0.4,0.1,2.2,0.4,2.5,0.3c0.2,0,0.4-0.3,0.6-0.3c0.3-0.1,0.9-0.1,0.8-0.2c-0.4-0.5-1.1-1.1-0.3-1.4c0.2-0.1,0.9-0.2,1.1,0.1
+						c0.3,0.4-0.8,0.2-0.7,0.6c0.1,0.2,0.1,0.4,0.3,0.5c0.1,0.1,0.3-0.3,0.4-0.1c0.1,0.1,0.3,0.3,0.3,0.3c0-0.4,0.6,0.3,0.4-0.4
+						c0-0.1-0.1-0.5,0.1-0.4c0.9,0.3,0,1.5,0.8,1.2c0.3-0.1-0.4-0.9-0.1-0.9c0.2,0,0.6,0.5,0.8,0.5c0.1,0,0.8-0.5,1.2-0.2
+						c0.1,0.1,0-0.3,0-0.4c0,0,0.5-0.4,0.5-0.4c0.1-0.1-0.3-0.5,0-0.6c0.1,0,0.1,0.2,0.2,0.1c0.2-0.1,0-0.7,0.1-0.8l0.2-0.3
+						c0-0.1-0.2-0.1-0.2-0.1c0-0.1,0.4-0.4,0.5-0.5c0.1-0.1-0.1-1,0-1c0.2,0,0.1,0.4,0.3,0.5c0.1,0,0.8,0,0.8-0.1
+						c0.1-0.1-0.1-0.2-0.1-0.4C76.5,9.8,76.8,9.7,76.8,9.4"/>
+				</svg>
+				</div>
+				<div class="individualStateRight">
+					<div class="sectionHeader">
+						<h1>North Carolina</h1><hr class="analysishr">
+					</div>
+					
+					<div class="graphSlider">
+						<div class="sliderBar"></div>
+						<div class="sliderBarFilled elevenToTwelveAnimation"></div>
+						<h2 class="elevenYear">2011</h2>
+						<div class="sliderDot sliderDotOne"></div>
+						<h2 class="elevenCases">554</h2>
+						<div class="sliderBarFilled twelveToThirteenAnimation"></div>
+						<h2 class="twelveYear">2012</h2>
+						<div class="sliderDot sliderDotTwelve twelveDotAnimation"></div>
+						<h2 class="twelveCases twelveCasesAnimation">630</h2>
+						<h2 class="thirteenYear">2013</h2>
+						<div class="sliderDot sliderDotThree thirteenDotAnimation"></div>
+						<h2 class="thirteenCases thirteenCasesAnimation">2,119</h2>
+					</div>
+				</div>
+			</div>
+		</div><! END ncarolina>
+		
+		<div class="ndakotaIndividual" id="ndakota">
+			<div class="individualInnerWrapper">
+				<div class="individualStateLeft">
+					<svg class="ndakotaIndividualSVG" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 
+						 viewBox="0 0 59.6 36.2" style="enable-background:new 0 0 59.6 36.2;" xml:space="preserve">
+						<metadata>
+							<sfw  xmlns="&ns_sfw;">
+								<slices></slices>
+								<sliceSourceBounds  bottomLeftOrigin="true" height="64.4" width="63" x="293.8" y="-330.1"></sliceSourceBounds>
+							</sfw>
+						</metadata>
+						<path class="individualStateFill ndakotaFill ndakotaStateAnimation" d="M0.4,35.1c13,0.6,26.1,0.9,39.1,0.7c4.3,0,8.7-0.1,13-0.3c1.4,0,2.9-0.1,4.3-0.2c0.8,0,2.3-0.1,2.3-0.1
+							c-0.3-0.9-0.1-1-0.1-1.9c0-0.5-0.3-0.9-0.4-1.3c-0.1-0.3,0.1-0.8,0-1.1c-0.2-0.5-0.8-0.8-1-1.3c-0.2-0.5-0.1-1.2-0.3-1.7
+							c-0.1-0.2-0.4-0.5-0.4-0.7c-0.1-0.6,0.3-2.6,0.1-3c-0.1-0.3-0.5-0.5-0.6-0.9c-0.3-1.4,0.2-3-0.2-4.3L56,18.6c-0.1-0.6,0.1-1.4,0-2.1
+							c-0.1-0.9-0.7-1.5-1.1-2.2c-0.2-0.4-0.1-1-0.2-1.3c-0.1-0.2-0.3-0.2-0.4-0.4c-0.1-0.1-0.7-2.1-0.7-2.2c-0.1-0.5,0.1-1,0.1-1.5
+							c0-0.4-0.3-0.8-0.3-1.1c0,0,0.2-0.6,0.2-0.6c0-0.4-0.3-0.9-0.3-1.3c0-0.4,0.3-0.8,0.3-1.1c0.1-0.7-0.6-1.9-0.8-2.6
+							c-0.1-0.4-0.4-0.8-0.2-1.2c0-0.1,0.1-0.2,0.1-0.2l0,0c-12,0.4-24.1,0.5-36.1,0.2C11.9,0.8,7.1,0.6,2.2,0.4v0
+							C1.6,11.9,1,23.5,0.4,35.1"/>
+					</svg>
+				</div>
+				<div class="individualStateRight">
+					<div class="sectionHeader">
+						<h1>North Dakota</h1><hr class="analysishr">
+					</div>
+					
+					<div class="graphSlider">
+						<div class="sliderBar"></div>
+						<div class="sliderBarFilled elevenToTwelveAnimation"></div>
+						<h2 class="elevenYear">2011</h2>
+						<div class="sliderDot sliderDotOne"></div>
+						<h2 class="elevenCases">147</h2>
+						<div class="sliderBarFilled twelveToThirteenAnimation"></div>
+						<h2 class="twelveYear">2012</h2>
+						<div class="sliderDot sliderDotTwelve twelveDotAnimation"></div>
+						<h2 class="twelveCases twelveCasesAnimation">160</h2>
+						<h2 class="thirteenYear">2013</h2>
+						<div class="sliderDot sliderDotThree thirteenDotAnimation"></div>
+						<h2 class="thirteenCases thirteenCasesAnimation">238</h2>
+					</div>
+				</div>
+			</div>
+		</div><! END ndakota>
+		
+		<div class="ohioIndividual" id="ohio">
+			<div class="individualInnerWrapper">
+				<div class="individualStateLeft">
+					<svg class="ohioIndividualSVG" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 
+						 viewBox="0 0 39.2 44.3" style="enable-background:new 0 0 39.2 44.3;" xml:space="preserve">
+						<metadata>
+							<sfw  xmlns="&ns_sfw;">
+								<slices></slices>
+								<sliceSourceBounds  bottomLeftOrigin="true" height="50.9" width="52.8" x="280.3" y="-421.4"></sliceSourceBounds>
+							</sfw>
+						</metadata>
+						<path class="individualStateFill ohioFill ndakotaStateAnimation" d="M0.4,11.7C2.2,21.3,4,30.9,5.7,40.5c0,0,0.3-0.6,0.6-0.7c0.4-0.1,0.8,0.6,1.3,0.5c0.3-0.1,0.9-0.8,1.2-0.8
+							c0.2,0,0.4,0.6,0.6,0.7c0.3,0.2,0.7,0.2,1,0.4c0.5,0.5,0.8,1.5,1.3,1.9c0.8,0.6,2.2-0.5,3,0c0.4,0.2,0.7,0.9,1.1,1.1
+							c1.2,0.5,1.2-1.1,2.2-1c0.2,0,0.2,0.3,0.4,0.3c0.1,0,0.2,0,0.3,0c0.1,0,0.2,0,0.3,0c0.1,0,0.2,0,0.3,0c0.2,0.1,0.5,0.4,0.7,0.4
+							c0,0,0.4-0.3,0.5-0.3c0.1,0,0.7-0.1,0.8-0.2l0.2-0.6c0.1-0.2,1.6-1.4,1.8-1.4c0.4,0.2,0.5,1.4,0.8,1.7c0.7,0.5,1.6,0.2,2.6,1.4
+							c0,0,0.2,0.1,0.3,0.1c0.3,0,1.7-0.7,1.9-1c0.2-0.4-0.2-1.2,0.1-1.6c0.1-0.2,0.4,0,0.6-0.1c0.6-0.5-0.6-1.7-0.6-2
+							c0-0.1,0.9-3,1.1-3.1c0.3-0.2,1.1,0.4,1.2,0.7c0.1,0.3-0.4,0.5,0,0.7c0.1,0,0.1,0.1,0.2,0.1c0.6-0.4,0-1.2,1-1
+							c0.1,0-0.2-0.2-0.2-0.3l0-0.6c-0.1-0.1-0.3-0.2-0.4-0.3c-0.2-0.5,0.2-0.3,0.3-0.6c0.2-0.6-0.4-1.4,0.2-2c0.2-0.2,0.8-0.2,1-0.4
+							c0.2-0.4,0.1-1.1,0.6-1.5c0.4-0.3,0.6,0.5,1,0.3c0.3-0.1,0.8-0.6,1-0.8c1.1-0.9,1.3-2.3,2.4-3.1c0.1-0.1,0.2-1.1,0.2-1.2
+							c0,0-0.4-0.5-0.4-0.5c0,0,0.3-0.8,0.3-0.9c0-0.1-0.2-0.8-0.1-0.9c0.1-0.3,0.3,0.2,0.4-0.1c0.1-0.1-0.2-0.2-0.2-0.3
+							c0-0.2,0.1-0.4,0.1-0.6c0-0.3-0.2-0.6-0.2-0.9c-0.1-1,0.9-2.5,0.4-3.4l-0.4-0.3c-0.1-0.2,0.2-0.6,0.1-0.8c-0.1-0.4-0.8-0.7-0.9-1.1
+							c-0.1-0.5,0.8-0.6,1.1-0.9c-0.9-3.6-2.5-9.9-3.7-14.8c-1.9,1.1-3.2,2.9-4.9,4.3c-1.2,1-2.5,2.8-3.8,3.5c-0.8,0.4-2.1,0.1-2.7,0.5
+							c-0.4,0.3-3,2.1-3.1,2.1c-0.7,0.1-1.5-0.4-2-0.8c-0.2-0.1,0.3,0.4,0.6,0.5c0.1,0,0.3,0.2,0.2,0.2c-0.3,0-0.5-0.3-0.8-0.3
+							c-0.2,0-0.2,0.1-0.5,0.2c-0.1,0.1-0.4-0.2-0.5-0.2c-0.1,0-0.7,0.7-0.8,0.8c-0.1,0.1-0.3-0.1-0.4-0.2c0,0,0,0.2-0.1,0.2
+							c-0.1,0-0.1-0.2-0.2-0.2c-0.2,0-0.4,0.1-0.6,0.1C15.3,11.2,16,11,16,11c0.1-0.1,0-0.2,0.2-0.3c0.5-0.3,2.1-0.4,1.9-1
+							c-0.1-0.3-0.6,0.2-0.7,0.1c-0.3,0-0.2-0.4-0.5-0.4c-0.1,0-0.1,0.1-0.1,0.1c0.1,0.4-0.2,0.8-0.8,0.8c-0.5,0-0.7-0.4-1.1-0.6
+							c-0.5-0.2-1.1,0-1.6-0.3c-0.2-0.1-0.6-0.5-0.8-0.5c-0.2,0-1.2,0.1-1.2,0l0,0C7.7,9.8,4,10.8,0.4,11.7"/>
+					</svg>
+				</div>
+				<div class="individualStateRight">
+					<div class="sectionHeader">
+						<h1>Ohio</h1><hr class="analysishr">
+					</div>
+					
+					<div class="graphSlider">
+						<div class="sliderBar"></div>
+						<div class="sliderBarFilled elevenToTwelveAnimation"></div>
+						<h2 class="elevenYear">2011</h2>
+						<div class="sliderDot sliderDotOne"></div>
+						<h2 class="elevenCases">218</h2>
+						<div class="sliderBarFilled twelveToThirteenAnimation"></div>
+						<h2 class="twelveYear">2012</h2>
+						<div class="sliderDot sliderDotTwelve twelveDotAnimation"></div>
+						<h2 class="twelveCases twelveCasesAnimation">250</h2>
+						<h2 class="thirteenYear">2013</h2>
+						<div class="sliderDot sliderDotThree thirteenDotAnimation"></div>
+						<h2 class="thirteenCases thirteenCasesAnimation">543</h2>
+					</div>
+				</div>
+			</div>
+		</div><! END ohio>
+		
+		<div class="oklahomaIndividual" id="oklahoma">
+			<div class="individualInnerWrapper">
+				<div class="individualStateLeft">
+					<svg class="oklahomaIndividualSVG" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 
+						 viewBox="0 0 81.3 38.6" style="enable-background:new 0 0 81.3 38.6;" xml:space="preserve">
+						<metadata>
+							<sfw  xmlns="&ns_sfw;">
+								<slices></slices>
+								<sliceSourceBounds  bottomLeftOrigin="true" height="38.6" width="81.3" x="284.4" y="-317.7"></sliceSourceBounds>
+							</sfw>
+						</metadata>
+						<path class="individualStateFill oklahomaFill oklahomaStateAnimation" d="M26,7.6c0.4,0,0.9,0,1.3,0c0.1,0,0.2,0,0.3,0c0.1,0,0.2-0.1,0.3,0c0.1,0,0,0.1,0,0.2c0,0.3,0,0.6,0,0.9
+							c0,1.3,0,2.6,0,4c0,4.1,0,8.1,0,12.2c0,1.2,0,2.4,0,3.6c0,0.1,0,0.2,0,0.2c0,0.1-0.1,0.2,0,0.3c0.1,0.2,0.9,0.1,1.1,0.2
+							c0.8,0.4,1.7,2.5,2.9,2c0.2-0.1,0.3-0.4,0.5-0.4c0.3,0,0.7,0.5,1,0.6c0.4,0,0.5-1.3,0.8-1.1c0.2,0.1,0,0.4,0.2,0.6
+							c0.4,0.3,1,0.4,1.3,0.9c0.1,0.3-0.2,1.1,0.2,1.3c0.6,0.3,1.5-0.1,2.1,0c0.7,0.1,1.4,0.8,2.2,0.9c0.4,0,0.9-0.3,1.3-0.2
+							c0.4,0.1,0.8,1.1,1.3,0.9c0.6-0.2,0.7-0.6,1.1-0.8c0.2,0,2.3-0.3,2.4-0.2c0.4,0.3-0.2,1.1,0.2,1.5c0.3,0.2,1.1,0.1,1.3,0.3
+							c0.2,0.3-0.4,0.9,0,1.1c1.5,0.8,2.1-1.4,2.8-1.2c1.4,0.4,0.3,0.6,0.7,0.9c0.1,0.1,0.2,0,0.3,0c0.2,0,0.4,0,0.6,0
+							c0.1,0,0.2-0.1,0.3,0c0.2,0.2,0,0.8,0.4,0.9c0.7,0.2,0.8-0.7,1.1-0.8c0.2-0.1,0.3,0.4,0.5,0.4c0.2,0,0.3-0.6,0.5-0.6
+							c0.5,0,0,1.4,0.6,1.8c0.1,0.1,0.2,0.3,0.3,0.2c0.1-0.1,0.8-1.1,0.8-1.1l-0.3-0.4c0-0.1,0.6,0,0.6,0c0.5-0.5-0.1-1.3,0.9-1.3
+							c0.6,0,0.4,0.9,0.7,1.1c0.1,0,1.5,0.2,1.6,0.1c0.1-0.1,0.3-1.2,0.8-0.8c0.1,0.1-0.1,0.6,0,0.7c0.1,0.2,0.6,0.2,0.8,0.3l0.2,0.4
+							l0.6,0c0.1,0,0.2-0.1,0.3,0c0.1,0,0.7,1.1,0.8,0.9c0.1-0.2,0.1-0.6,0.3-0.8c0.2-0.1,0.6,0.1,0.8,0c0.2-0.1,0.2-0.6,0.4-0.8
+							c0.3-0.2,0.9-0.1,1.3-0.2c0.2-0.1,0.7-0.6,0.8-0.6c0.1,0,1.3,0.7,1.5,0.5l0.1-0.6c0.1-0.1,0.2,0,0.2,0c0.6,0,1.2-0.6,1.3-0.6
+							c0.4,0,0.7,0.8,1,0.9c0.2,0.1,1.2,0,1.4-0.1c0.2-0.1,0.5-0.2,0.6-0.4c0,0-0.1-0.2,0-0.2c0.1,0,0.1,0.2,0.2,0.2c0.3,0,0-0.7,0.3-0.8
+							c0.6-0.2,0.7,0.4,1,0.5l0.5,0c0.2,0.1,0.4,0.4,0.5,0.5c0.3,0.2,0.3-0.1,0.5,0c0.2,0,0.2,0.4,0.4,0.5c0.1,0,0.2-0.1,0.3,0
+							c0.2,0.1,0.3,0.6,0.5,0.7c0.4,0.2,0.8,0.1,1.5,0.5c0.2,0.1,0.8,0.3,1,0.3c0.1,0,0.2-0.3,0.3-0.2c0.3,0.2,1,0.3,1,0.3
+							c-0.2-4.4-0.4-8.9-0.6-13.3c-0.1-2.6-0.1-5.3-0.6-7.8c-0.4-2.3-1-4.6-1.5-6.9c-0.2-0.8-0.3-1.5-0.5-2.3C77.7,6.9,77.5,6,77.5,6
+							c-0.1-1.9-0.3-3.7-0.4-5.6c0,0-1.7,0.1-2.6,0.2c-1.6,0.1-3.3,0.2-4.9,0.3c-5,0.3-10,0.5-15.1,0.7C39.6,2.1,24.7,2.2,9.7,1.8
+							c-3-0.1-6.1-0.2-9.1-0.3C0.5,3.4,0.5,5.3,0.4,7.1C7,7.4,13.7,7.5,20.3,7.6C22.2,7.6,24.1,7.6,26,7.6"/>
+					</svg>
+				</div>
+				<div class="individualStateRight">
+					<div class="sectionHeader">
+						<h1>Oklahoma</h1><hr class="analysishr">
+					</div>
+					
+					<div class="graphSlider">
+						<div class="sliderBar"></div>
+						<div class="sliderBarFilled elevenToTwelveAnimation"></div>
+						<h2 class="elevenYear">2011</h2>
+						<div class="sliderDot sliderDotOne"></div>
+						<h2 class="elevenCases">24</h2>
+						<div class="sliderBarFilled twelveToThirteenAnimation"></div>
+						<h2 class="twelveYear">2012</h2>
+						<div class="sliderDot sliderDotTwelve twelveDotAnimation"></div>
+						<h2 class="twelveCases twelveCasesAnimation">12</h2>
+						<h2 class="thirteenYear">2013</h2>
+						<div class="sliderDot sliderDotThree thirteenDotAnimation"></div>
+						<h2 class="thirteenCases thirteenCasesAnimation">42</h2>
+					</div>
+				</div>
+			</div>
+		</div><! END oklahoma>
+		
+		<div class="oregonIndividual" id="oregon">
+			<div class="individualInnerWrapper">
+				<div class="individualStateLeft">
+					<svg class="oregonIndividualSVG" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 73.1 61.2"
+						 style="enable-background:new 0 0 73.1 61.2;" xml:space="preserve">
+						<metadata>
+							<sfw  xmlns="&ns_sfw;">
+								<slices></slices>
+								<sliceSourceBounds  bottomLeftOrigin="true" height="45" width="60.3" x="329.8" y="-261.2"></sliceSourceBounds>
+							</sfw>
+						</metadata>
+						<path class="individualStateFill oregonFill oregonStateAnimation" d="M63.6,42.2c0.1-0.5,0.1-1.2,0.3-1.6c0.1-0.3,0.5-0.4,0.7-0.6c0.2-0.3,0.3-0.8,0.5-1.1c0.1-0.3,0-1.2,0.1-1.3
+							c0.1-0.2,0.9,0.1,0.8-0.6c0-0.2-0.5-0.5-0.5-0.7c-0.1-0.1,0.2-0.5,0-0.6c-0.2-0.1-0.3,0.2-0.6,0.1c-0.5-0.2,0.4-0.3-0.3-0.5
+							c-0.3-0.1-0.5,0.4-0.7-0.1c-0.1-0.2,0.1-2.1,0.2-2.3c0.2-0.3,0.6-0.4,0.8-0.6c0.5-0.5,0.7-1.6,1.3-2c0.2-0.2,0.6-0.1,0.9-0.2
+							c1-0.7,0.9-1.7,1.4-2.6c0.3-0.5,0.9-0.8,1.2-1.3c0.4-0.6,0.6-1.3,0.9-1.9c0.5-0.8,1.9-1.6,2.1-2.4c0.3-0.9-0.8-2.5-1.4-3l-0.4-0.1
+							c-0.5-0.5-0.6-2.1-0.6-2.1c-3.8-0.8-7.5-1.6-11.3-2.5c-1.1-0.2-3.9-1.2-4.8-1.1c-0.5,0-0.8,0.5-1.3,0.5c-0.6,0-2.3-0.3-2.9-0.5
+							c-0.2-0.1-0.3-0.3-0.5-0.3c-0.3,0-0.6,0.5-0.9,0.5c-0.4,0-0.8-0.2-1.2-0.2c-0.8,0-1.8,0-2.6,0.2c-0.3,0.1-0.5,0.3-0.8,0.4
+							c-0.5,0.1-1.7-0.1-2.1-0.3c-0.3-0.2-0.3-0.6-0.8-0.6c-0.9,0-1.8,0.6-2.6,0.5c-0.4,0-0.7-0.5-1.1-0.5c-0.3,0-0.7,0.4-0.9,0.3
+							c0,0-0.3-1.1-0.9-1.4c-0.4-0.2-1.3-0.6-1.7-0.7c-0.1,0-0.2,0-0.3,0c-0.3,0-0.5,0-0.8,0c-0.1,0-0.2,0-0.3,0c-0.3-0.1-0.6-0.4-0.8-0.4
+							c-0.4,0-1,0.5-1.4,0.6c-0.6,0.1-1.8,0.2-2.4,0.1c-0.7-0.2-1.3-0.8-1.9-1.1c-0.6-0.3-1.6-0.2-1.6-1.2c0-0.4,0.3-0.7,0.3-1.1
+							C25,6,25.1,3.9,23.6,2.7c-0.2-0.2-0.5-0.2-0.8-0.2c0,0.1,0,0.1-0.1,0.2c-0.3,0.2-1.3-0.2-1.5-0.4C21,1.9,21.2,1,20.7,1
+							c-0.7,0.1-1.1,0.7-1.8,0.2c-0.1-0.1-0.5-0.9-0.8-0.4c-0.1,0.2,0.5,0.5,0.2,0.9c0,0.1-0.1,0.2-0.1,0.2c-0.2-0.1,0.1-0.5,0-0.6
+							c-0.1-0.1-0.3,0-0.4-0.1c-0.1-0.1-0.6-1-0.8-0.7c-0.2,0.4,0,1.5-0.2,2c-0.1,0.6-0.4,0.4-0.7,0.8c0,0.1,0,0.2,0,0.3
+							c0,0.1,0,0.2,0,0.3c0,0.1,0,0.2,0,0.3c-0.1,0.3-0.5,0.7-0.6,1c0,0.2,0.2,0.6,0.2,0.8l-0.1,0.4c0.1,0,0.1-0.4,0.4-0.3
+							c0.1,0,0.2,0,0.2,0.1c0,0.1-0.9,0.6-1,1.1c-0.1,0.4,0.2,0.1,0.3,0.3c0.1,0.1,0,0.2,0,0.3c0,0.1-0.1,0.2,0,0.3c0,0.1,0.2,0.1,0.2,0.3
+							c0,0.1-0.1,0.1-0.2,0.1c-0.4,0.3-0.3-0.8-0.8-0.2c-0.2,0.3,0.2,0.8,0.1,1c-0.1,0.1-0.2,0.1-0.3,0.1l0.1-0.4
+							c-0.2,0.1-0.2,0.5-0.3,0.7c-0.1,0.1-0.3,0-0.3,0.1c0,0,0.2,0.6,0.2,0.8C14,11.4,13.3,12,13,12.7c-0.2,0.4-0.2,1-0.4,1.4
+							c-0.5,0.9-0.9,1.7-1.2,2.7c-0.1,0.3,0.5,0.7,0.2,0.8c-0.1,0.1-0.3-0.2-0.4-0.1c-0.1,0.1-1.4,3.2-1.5,3.5c-0.5,1.6-1.1,3-1.8,4.4
+							c-0.1,0.3-0.9,1.4-0.8,1.7c0,0.1,0.3-0.4,0.4-0.5c0.2-0.1,0.6,0.5,0.5,0.6c-0.1,0.1-0.2-0.3-0.3-0.3c-0.1,0-0.2,0.2-0.4,0.3
+							c-0.4,0.3-1,3.3-1,3.4c-0.1,0.3-0.4,0-0.4-0.1c0-0.1,0-0.2,0-0.3c0-0.1,0.1-0.2,0-0.3c-0.4-0.3-0.5,0.5-1,0.9
+							c-0.1,0.1,0,0.4-0.1,0.4c-0.1,0,0.1-1-0.4-0.7c-0.4,0.3-1.4,3-2,3.7c-0.2,0.2-1.1,0.9-1.1,1.2l0.3,0.5c0,0.2-0.3,0.6-0.2,0.7
+							c0,0.1,0.2,0,0.3,0.1c0,0,0.4,1,0.4,1.1C2,38.5,1.3,39,1,39.6c-0.1,0.3,0,0.8-0.2,1.1c-0.1,0.2-0.4,0.3-0.4,0.5l0.2,0.4
+							c0,0.6-0.2,1.5-0.1,2.1c0.1,0.6,0.7,1.1,0.8,1.6c11.2,3.5,22.5,6.7,33.9,9.6c8.1,2.1,16.3,4,24.5,5.7C61,54.6,62.3,48.4,63.6,42.2"
+							/>
+					</svg>
+				</div>
+				<div class="individualStateRight">
+					<div class="sectionHeader">
+						<h1>Oregon</h1><hr class="analysishr">
+					</div>
+					
+					<div class="graphSlider">
+						<div class="sliderBar"></div>
+						<div class="sliderBarFilled elevenToTwelveAnimation"></div>
+						<h2 class="elevenYear">2011</h2>
+						<div class="sliderDot sliderDotOne"></div>
+						<h2 class="elevenCases">39</h2>
+						<div class="sliderBarFilled twelveToThirteenAnimation"></div>
+						<h2 class="twelveYear">2012</h2>
+						<div class="sliderDot sliderDotTwelve twelveDotAnimation"></div>
+						<h2 class="twelveCases twelveCasesAnimation">57</h2>
+						<h2 class="thirteenYear">2013</h2>
+						<div class="sliderDot sliderDotThree thirteenDotAnimation"></div>
+						<h2 class="thirteenCases thirteenCasesAnimation">106</h2>
+					</div>
+				</div>
+			</div>
+		</div><! END oregon>
+		
+		<div class="pennsylvaniaIndividual" id="pennsylvania">
+			<div class="individualInnerWrapper">
+				<div class="individualStateLeft">
+					<svg class="pennsylvaniaIndividualSVG" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 
+						 viewBox="0 0 54.3 37.6" style="enable-background:new 0 0 54.3 37.6;" xml:space="preserve">
+						<metadata>
+							<sfw  xmlns="&ns_sfw;">
+								<slices></slices>
+								<sliceSourceBounds  bottomLeftOrigin="true" height="59.7" width="87.7" x="262.7" y="-425.8"></sliceSourceBounds>
+							</sfw>
+						</metadata>
+						<path class="individualStateFill pennsylvaniaFill pennsylvaniaStateAnimation" d="M51.8,17.4c-0.3-0.2-0.5-0.7-0.8-0.8c-0.2-0.1-0.5,0.2-0.7,0c-0.4-0.3-0.4-1.1-0.7-1.3
+							c-0.2-0.2-0.6,0.1-0.9-0.1c-0.3-0.2-0.3-0.7-0.3-0.9c0-0.2-0.6-1-0.3-1.3c0.1-0.1,0.4,0,0.4-0.1c0.1-0.2-0.2-0.6-0.1-0.8
+							c0.1-0.1,0.5-0.2,0.3-0.5c-0.2-0.3-0.9-0.5-1-0.9c-0.1-0.2,0.7-1,0.8-1.2c0.1-0.4,0.5-1,0.6-1.4c0.1-0.3-0.2-0.6-0.2-0.9
+							c0.1-0.6,0.6-1.1,1-1.5c0,0-0.4-0.7-0.7-0.8c-0.4-0.1-0.8,0.2-1.1,0.2c-0.2,0-0.2-0.3-0.4-0.3L47.1,5c-0.2-0.1-1-1-1.1-1.2
+							c-0.2-0.3-0.2-1.7-0.4-1.8c0,0-0.5,0-0.5-0.1c0,0,0-0.4,0-0.4c-0.4-0.4-1.2,0.2-1.5,0.1c-0.3-0.2-0.5-1.1-1.1-1.2
+							c-0.3-0.1-4.4,1.4-5.1,1.6c-7.7,2.4-15.4,4.6-23.1,6.7c-1.9,0.5-3.9,1-5.8,1.5c-0.3,0.1-1.7,0.6-1.9,0.5c0,0-0.4-1.3-0.8-2.8
+							c-0.7,0.7-1.9,1.9-2.5,2.2c-0.1,0,0.5-0.6,0.3-0.6c-0.4,0-0.5,0.7-0.6,0.9c-0.4,0.5-0.9,0.9-1.4,1.3C1.4,11.9,1,12,0.8,12.2
+							c-0.1,0.1-0.2,0.1-0.3,0.2c1.3,5,2.8,11.2,3.7,14.8c0.6,2.5,1.2,5,1.8,7.4c0.1,0.2,0.6,2.6,0.6,2.6c0,0,2.1-0.5,2.3-0.6
+							c2.2-0.5,4.3-1.1,6.5-1.7c10.4-2.7,20.8-5.7,31.1-8.9c0.4-1.4,1.1-2.6,2.6-1.9c0.2-0.2,0.3-0.5,0.4-0.6c0.4-0.4,1.3-0.6,1.6-1.1
+							c0.1-0.1-0.1-1.3,0.4-1.2c0,0,0,0,0,0l0.2-0.2c0,0,0.1-0.1,0.2-0.2c0.3-0.2,0.2-0.5,0.4-0.8c0.2-0.3,1.6-1.4,1.4-1.7
+							C53.6,18.1,52.2,17.6,51.8,17.4"/>
+					</svg>
+				</div>
+				<div class="individualStateRight">
+					<div class="sectionHeader">
+						<h1>Pennsylvania</h1><hr class="analysishr">
+					</div>
+					
+					<div class="graphSlider">
+						<div class="sliderBar"></div>
+						<div class="sliderBarFilled elevenToTwelveAnimation"></div>
+						<h2 class="elevenYear">2011</h2>
+						<div class="sliderDot sliderDotOne"></div>
+						<h2 class="elevenCases">12,364</h2>
+						<div class="sliderBarFilled twelveToThirteenAnimation"></div>
+						<h2 class="twelveYear">2012</h2>
+						<div class="sliderDot sliderDotTwelve twelveDotAnimation"></div>
+						<h2 class="twelveCases twelveCasesAnimation">9,731</h2>
+						<h2 class="thirteenYear">2013</h2>
+						<div class="sliderDot sliderDotThree thirteenDotAnimation"></div>
+						<h2 class="thirteenCases thirteenCasesAnimation">19,672</h2>
+					</div>
+				</div>
+			</div>
+		</div><! END pennsylvania>
+		
+		<div class="rhodeislandIndividual" id="rhodeisland">
+			<div class="individualInnerWrapper">
+				<div class="individualStateLeft">
+					<svg class="rhodeislandIndividualSVG" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 
+						 viewBox="0 0 6 9.6" style="enable-background:new 0 0 6 9.6;" xml:space="preserve">
+						<metadata>
+							<sfw  xmlns="&ns_sfw;">
+								<slices></slices>
+								<sliceSourceBounds  bottomLeftOrigin="true" height="53.1" width="34.3" x="305.9" y="-420.8"></sliceSourceBounds>
+							</sfw>
+						</metadata>
+						<path class="individualStateFill rhodeislandFill rhodeislandStateAnimation" d="M4.7,1.6c-0.5-0.4-0.3,0.3-0.8-1c0-0.1,0-0.3-0.1-0.3c0,0-2.8,1-3.3,1.2c0.2,0.4,0.6,1.6,0.8,2
+							c0.5,1.2,1,2.5,1.4,3.7c0.4,1.1,0,0.3-0.1,0.9c0,0.3,0.3,0.9,0.3,0.9c0.8-0.3,1.3-1.2,2-1.5l0.6,0c0.2-0.2,0.1-1.7-0.1-2L5,5.3
+							C4.9,5,5.2,4.7,4.9,4.4L4.6,4.1c-0.1-0.7,0.5,0,0.6,0c0.3-0.1,0.5-0.9,0.5-1c0,0,0-0.1,0-0.1C5.4,2.9,5.2,2.8,5.1,2.7
+							C4.8,2.5,4.9,1.9,4.7,1.6"/>
+					</svg>
+				</div>
+				<div class="individualStateRight">
+					<div class="sectionHeader">
+						<h1>Rhode Island</h1><hr class="analysishr">
+					</div>
+					
+					<div class="graphSlider">
+						<div class="sliderBar"></div>
+						<div class="sliderBarFilled elevenToTwelveAnimation"></div>
+						<h2 class="elevenYear">2011</h2>
+						<div class="sliderDot sliderDotOne"></div>
+						<h2 class="elevenCases">1,918</h2>
+						<div class="sliderBarFilled twelveToThirteenAnimation"></div>
+						<h2 class="twelveYear">2012</h2>
+						<div class="sliderDot sliderDotTwelve twelveDotAnimation"></div>
+						<h2 class="twelveCases twelveCasesAnimation">859</h2>
+						<h2 class="thirteenYear">2013</h2>
+						<div class="sliderDot sliderDotThree thirteenDotAnimation"></div>
+						<h2 class="thirteenCases thirteenCasesAnimation">1,621</h2>
+					</div>
+				</div>
+			</div>
+		</div><! END rhodeisland>
+		
+		<div class="scarolinaIndividual" id="scarolina">
+			<div class="individualInnerWrapper">
+				<div class="individualStateLeft">
+					<svg class="scarolinaIndividualSVG" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						 viewBox="0 0 47.7 34.2" style="enable-background:new 0 0 47.7 34.2;" xml:space="preserve">
+						<metadata>
+							<sfw  xmlns="&ns_sfw;">
+								<slices></slices>
+								<sliceSourceBounds  bottomLeftOrigin="true" height="36.7" width="77.1" x="267.5" y="-414.1"></sliceSourceBounds>
+							</sfw>
+						</metadata>
+						<path class="individualStateFill scarolinaFill scarolinaStateAnimation" d="M0.4,10c0.1,0.2,1.6,0.8,1.8,0.8c0.1,0,0-0.2,0.1-0.2L2.4,11c0.2,0.1,1.2,0.8,1.5,0.8c0.4,0.1,1-0.5,1.4-0.3
+							c0.2,0.1,0.2,0.4,0.4,0.5c0.4,0.6,1,1,1.4,1.6c0.2,0.3,0.2,0.8,0.4,1.1C7.6,14.8,8,14.8,8.3,15c0.5,0.4,0.7,1.3,1.2,1.6
+							c0.1,0.1,0.3-0.1,0.5-0.1c0.3,0.1,0.5,0.5,0.8,0.6c0.5,0.2,1.1,0.2,1.6,0.4c0.7,0.4,0.9,1.5,1.6,1.9c0.5,0.3,2.4,0.5,2.7,1.1
+							c0.3,0.5,0.1,0.6,0.2,1.1c0.1,0.4,0.7,0.3,0.9,0.4c0.3,0.1,0.3,0.9,0.7,1c0.1,0,0.2-0.1,0.3-0.1c0.1,0.1,0.1,0.6,0.2,0.7
+							c0.3,0.4,2.8,0.3,3,0.8c0,0.1,0,0.2,0,0.3c0,0.1,0,0.2,0,0.3c0,0.1,0,0.2,0,0.3c0.3,0.7,1.2,1.2,1.5,1.9c0.1,0.4,0,1,0.3,1.4
+							c0.3,0.4,1.5,0.4,1.8,0.5l0.1,0.4c0.2,0.1,0.4,0.1,0.6,0.2l-0.1,0.4c0.2,0.5,0.6,0.7,0.9,1.1c0.2,0.3,0.1,1,0.1,1.3
+							c0.2,1.2,1.7,1,2.5,1.3c0.2,0.1,0.5,0.1,0.5,0.1l0.1,0c-0.2,0,5-7.4,5-7.5c0-0.1-0.8-0.3-0.8-0.4c0.2-0.4,0.9,0.5,1.1,0.5
+							c0.2,0,0.5-0.6,0.7-0.7c0.2-0.1,1-0.1,0.9-0.4c0,0-0.6-0.1-0.4-0.3c0.4-0.4,3.2-3.6,3.3-3.9c0.1-0.3-0.5,0.4-0.6-0.2
+							c0-0.2,0.5-1,0.7-1.1c0.4-0.2,0.4,0.5,0.5,0.5c0.1,0,0.9-0.5,1-0.6c0.1-0.1-0.1-0.2-0.1-0.4c0.1-0.3,0.8-0.7,0.7-1
+							c0-0.2-0.8-0.2-0.6-0.2c0.2-0.1,0.6,0.2,0.7,0.2c0.4-0.1-0.2-0.4-0.1-0.5c0,0,0.8,0.5,0.6-0.2c-0.2-0.8-1-0.6-1.3-1
+							c-0.2-0.3,0.1-1.3,0.4-1.4c0.2-0.1-0.4,0.8-0.1,1l0.7,0c0.1,0.1,0,0.4,0.2,0.4c0.5-0.2,0.1-1.4,0.1-1.8c0.2-1.3,1.6-3.9,2.5-4.9
+							c0.5-0.6,1-0.9,1.6-1.3c-3-1.7-6-3.4-9-5.1C37.2,2.9,34.6,1.1,34,1c-0.8-0.1-6.6,1.4-7.8,1.7c-0.3,0.1-2.6,0.6-2.6,0.5
+							c-0.2-0.2,0-1.2-0.2-1.5c-0.3-0.4-1.2-0.7-1.6-1.1c-0.1-0.1-0.1-0.2-0.2-0.2c-0.4,0-0.3,0.9-0.9,0.8c-0.2,0,0-0.7-0.3-0.9
+							c0,0-4.4,0.8-4.9,0.8c-1.9,0.3-3.7,0.6-5.5,1C9.5,2.3,8.5,2.8,8.1,2.5C7.9,2.3,8,3,7.7,3.1L7.2,3c-0.1,0-0.5,0.3-0.6,0.4
+							C6.4,3.6,5.8,3.7,5.5,4C5.3,4.2,5.5,4.7,5.1,4.9L4.7,4.7C3.9,4.9,2.8,5.8,2,6.3C1.9,7.1,0.1,9.5,0.4,10"/>
+					</svg>
+				</div>
+				<div class="individualStateRight">
+					<div class="sectionHeader">
+						<h1>South Carolina</h1><hr class="analysishr">
+					</div>
+					
+					<div class="graphSlider">
+						<div class="sliderBar"></div>
+						<div class="sliderBarFilled elevenToTwelveAnimation"></div>
+						<h2 class="elevenYear">2011</h2>
+						<div class="sliderDot sliderDotOne"></div>
+						<h2 class="elevenCases">168</h2>
+						<div class="sliderBarFilled twelveToThirteenAnimation"></div>
+						<h2 class="twelveYear">2012</h2>
+						<div class="sliderDot sliderDotTwelve twelveDotAnimation"></div>
+						<h2 class="twelveCases twelveCasesAnimation">169</h2>
+						<h2 class="thirteenYear">2013</h2>
+						<div class="sliderDot sliderDotThree thirteenDotAnimation"></div>
+						<h2 class="thirteenCases thirteenCasesAnimation">296</h2>
+					</div>
+				</div>
+			</div>
+		</div><! END scarolina>
+		
+		<div class="sdakotaIndividual" id="sdakota">
+			<div class="individualInnerWrapper">
+				<div class="individualStateLeft">
+					<svg class="sdakotaIndividualSVG" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 
+						 viewBox="0 0 63.8 39.6" style="enable-background:new 0 0 63.8 39.6;" xml:space="preserve">
+						<metadata>
+							<sfw  xmlns="&ns_sfw;">
+								<slices></slices>
+								<sliceSourceBounds  bottomLeftOrigin="true" height="36.2" width="59.6" x="296.2" y="-316.5"></sliceSourceBounds>
+							</sfw>
+						</metadata>
+						<path class="individualStateFill sdakotaFill sdakotaStateAnimation" d="M0.4,33.6c14.8,0.7,29.6,1,44.3,0.8c0.3,0,0.7,0,1,0c0.1,0,0.2,0,0.3,0c0.1,0,0.2,0,0.3,0
+							c0.3,0.1,0.7,0.7,1,0.9c0.5,0.3,2.6,1.5,3.1,1.4c1.1,0,0.5-0.8,1.2-1c0.2-0.1,2.2,0.1,2.6,0.1c0.8,0,1.6-0.7,2.3-0.3
+							c0.4,0.3,0.6,0.7,1.1,0.9c0.4,0.2,2.2,0.5,2.5,0.7c0.1,0.1,0,0.3,0.2,0.4c0.2,0.1,0.6,0,0.8,0.2l0,0.4c0.1,0.2,0.5,0.3,0.6,0.5
+							l0.2,0.6c0.3,0.3,1.3,0.1,1.3,0.1c-0.1-0.4-0.2-0.8-0.5-1.1c-0.1-0.1-0.3-0.1-0.3-0.2c0-0.1,0.3-0.1,0.3-0.2c0-0.2-0.9-0.6-1-0.7
+							c-0.1-0.1,0.1-1.2,0.2-1.3l0.4-0.2c0-0.1-0.1-0.1-0.1-0.2c0-0.3,0.4-0.8,0.5-1c0.2-0.3-0.2-0.7-0.2-0.9c0-0.3,0.5-0.6,0.5-1
+							c-0.1-1.2-1-1.2-1-1.3c0-0.1,0.2-0.1,0.1-0.2c0-0.1-0.2-0.1-0.3-0.2c-0.2-0.3,0.3-0.3,0.4-0.4c0-0.1,0-0.2,0-0.3c0-0.1,0-0.2,0-0.3
+							c0-0.1,0-0.2,0-0.3c-0.1-0.3-1-0.9-0.6-1.3c0.1-0.1,1.1,0,1.4-0.1c-0.2-4.8-0.5-9.6-0.7-14.4c-0.1-1.2,0.1-5.1-0.3-5.9
+							c-0.4-0.9-1.4-0.7-2-1.2c-0.3-0.2-1.4-1.6-1.4-2c-0.1-0.8,1.4-1.4,1.8-2c0.5-0.6,0.2-1.4,0.6-1.9c0,0-1.6,0.1-2.3,0.1
+							c-1.4,0.1-2.9,0.1-4.3,0.2c-4.3,0.1-8.7,0.2-13,0.3C28.2,1.3,15.2,1,2.2,0.4c0,3.4-0.3,7-0.4,10.6C1.3,18.5,0.8,26,0.4,33.6"/>
+					</svg>
+				</div>
+				<div class="individualStateRight">
+					<div class="sectionHeader">
+						<h1>South Dakota</h1><hr class="analysishr">
+					</div>
+					
+					<div class="graphSlider">
+						<div class="sliderBar"></div>
+						<div class="sliderBarFilled elevenToTwelveAnimation"></div>
+						<h2 class="elevenYear">2011</h2>
+						<div class="sliderDot sliderDotOne"></div>
+						<h2 class="elevenCases">5</h2>
+						<div class="sliderBarFilled twelveToThirteenAnimation"></div>
+						<h2 class="twelveYear">2012</h2>
+						<div class="sliderDot sliderDotTwelve twelveDotAnimation"></div>
+						<h2 class="twelveCases twelveCasesAnimation">17</h2>
+						<h2 class="thirteenYear">2013</h2>
+						<div class="sliderDot sliderDotThree thirteenDotAnimation"></div>
+						<h2 class="thirteenCases thirteenCasesAnimation">26</h2>
+					</div>
+				</div>
+			</div>
+		</div><! END sdakota>
+		
+		<div class="tennesseeIndividual" id="tennessee">
+			<div class="individualInnerWrapper">
+				<div class="individualStateLeft">
+					<svg class="tennesseeIndividualSVG" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						 viewBox="0 0 76.9 32.4" style="enable-background:new 0 0 76.9 32.4;" xml:space="preserve">
+						<metadata>
+							<sfw  xmlns="&ns_sfw;">
+								<slices></slices>
+								<sliceSourceBounds  bottomLeftOrigin="true" height="37.3" width="65.8" x="293" y="-316.3"></sliceSourceBounds>
+							</sfw>
+						</metadata>
+						<path class="individualStateFill tennesseeFill arizonaStateAnimation" d="M76.5,0.4c0,0-1.4,0.2-2.1,0.3C74,0.8,74.1,0.8,73.8,1c-0.8,0.5-2.4,0.5-3.3,0.8c-4,0.9-8.1,1.8-12.1,2.6
+							c0,0-0.2,0.1-0.3,0.2c-0.4,0.3-1.2,0.3-1.7,0.3c-1.5,0.2-3,0.5-4.4,0.7c-2.3,0.4-4.7,0.6-7,1c-2.1,0.4-4.1,0.9-6.2,1.1
+							c-1.1,0.1-5.5,0.4-6.2,0.7l-0.4,0.4c-0.1,0-0.1-0.1-0.2-0.2c-0.8-0.2-7.5,1.3-8.8,1.5c-0.6,0.1-1.9,0.6-2.5,0.5
+							c-0.3-0.1-0.1-0.4-0.9-0.3c-0.2,0-1.3,0-1.3,0.1c-0.2,0.3,1,1.5,0.5,2c-0.2,0.2-2.8,0.5-3.3,0.5c-3.1,0.5-6.1,1-9.2,1.4
+							C5,15.7,6.2,13,5.2,13.8c0,0-0.1,0.1-0.1,0.1c-0.2,0.5,0.6,1.5,0.6,2c0,0.3-1.2,0.2-0.8,0.7c0.1,0.2,0.7,0.2,0.8,0.5
+							c0.1,0.1-1,0.4-1,0.7c0,0.3,0.7,0.5,0.7,0.8c0,0.1-0.5,0.3-0.6,0.4c-0.2,0.3-0.3,0.8-0.4,1.1c0,0.1-0.1,0.3-0.1,0.3
+							c0.2,0.2,0.3,0.2,0.5,0.4c0.7,0.7-0.4,0.1-0.7,0.5c-0.4,0.6,0.8,0.4,0.4,0.9c-0.1,0.1-0.5,0-0.6,0.1c-0.1,0.1,0,0.4-0.1,0.6
+							c-0.2,0.3-1.1,0.3-1.3,0.5c-0.5,0.5,0.9,0.4,1.2,0.8c0.1,0.2-0.8,0.6-0.9,0.7c-0.1,0.2,0.4,0.3,0.2,0.5C2.8,25.8,2.3,25,2,25.6
+							c-0.3,0.7,1,1,0.6,1.2c-1,0.6-0.5-0.5-1-0.4C1.1,26.4,1,27.6,1,27.6c0.4,0,0-0.4,0.4-0.4c0.1,0,0.5,0.9,0.4,1.1
+							c-0.1,0.2-0.7,0.3-0.7,0.5c0,0.2,0.9,0.2,1,0.4c0.1,0.1,0.1,1.3,0,1.3c-0.2,0.1-0.4-0.2-0.6-0.1c-0.2,0.1-0.2,0.8-0.4,1
+							c-0.1,0.1-0.7,0-0.8,0.1c-0.1,0.1,0,0.2,0,0.3c0,0.1,0,0.3,0,0.3c6.6-0.8,13.2-1.7,19.7-2.7c-0.1-0.3,1-0.3,1.3-0.4
+							c1.4-0.2,2.9-0.4,4.3-0.6c6.1-0.9,12.2-1.9,18.2-3c4-0.7,8-1.4,12.1-2.1c0,0-0.4-1.9-0.2-2.8c0.2-0.9,1.7-0.1,2-1c0-0.1,0-0.2,0-0.3
+							c0-0.3,0-0.6,0-0.9c0-0.1,0-0.2,0-0.3c0.1-0.4,1.8-2,2.3-2.2c0.3-0.1,0.6-0.1,0.9-0.2c0.1,0,0.1-0.3,0.3-0.2c0,0,0.4,0.3,0.4,0.3
+							c0.6,0,0.6-0.7,0.9-1c0.2-0.2,0.6-0.2,0.7-0.3c0.1-0.1,0-0.3,0.1-0.4c0.1-0.1,0.3,0,0.5-0.1c0.4-0.3,0.6-1,1-1.4
+							c0.5-0.5,1.5-0.5,1.6-0.5c0.5-0.3,0.4-2,0.4-2c0.3-0.2,0.7,0.1,0.9,0c0.1-0.1,0.1-0.7,0.1-0.8c0.1-0.2,0.9-1,1-1
+							c0.8-0.1,0.3,1.1,0.8,1c0.9-0.3,0.9-1.5,1.6-2.1c0.2-0.2,1-0.8,1.2-0.8c0.5-0.2,1,0.8,1.4,0.5c0.3-0.2,0.8-2.1,1-2.5
+							c0.1-0.2,0.4-0.8,0.6-0.9c0.2-0.1,0.8,0.2,0.7-0.3C76.2,2.2,76.1,1.2,76.5,0.4"/>
+					</svg>
+				</div>
+				<div class="individualStateRight">
+					<div class="sectionHeader">
+						<h1>Tennessee</h1><hr class="analysishr">
+					</div>
+					
+					<div class="graphSlider">
+						<div class="sliderBar"></div>
+						<div class="sliderBarFilled elevenToTwelveAnimation"></div>
+						<h2 class="elevenYear">2011</h2>
+						<div class="sliderDot sliderDotOne"></div>
+						<h2 class="elevenCases">48</h2>
+						<div class="sliderBarFilled twelveToThirteenAnimation"></div>
+						<h2 class="twelveYear">2012</h2>
+						<div class="sliderDot sliderDotTwelve twelveDotAnimation"></div>
+						<h2 class="twelveCases twelveCasesAnimation">74</h2>
+						<h2 class="thirteenYear">2013</h2>
+						<div class="sliderDot sliderDotThree thirteenDotAnimation"></div>
+						<h2 class="thirteenCases thirteenCasesAnimation">125</h2>
+					</div>
+				</div>
+			</div>
+		</div><! END tennessee>
+		
+		<div class="texasIndividual" id="texas">
+			<div class="individualInnerWrapper">
+				<div class="individualStateLeft">
+					<svg class="texasIndividualSVG" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 
+						 viewBox="0 0 130.7 118.5" style="enable-background:new 0 0 130.7 118.5;" xml:space="preserve">
+						<metadata>
+							<sfw  xmlns="&ns_sfw;">
+								<slices></slices>
+								<sliceSourceBounds  bottomLeftOrigin="true" height="38.6" width="81.3" x="284.4" y="-317.7"></sliceSourceBounds>
+							</sfw>
+						</metadata>
+						<path class="individualStateFill texasFill ndakotaStateAnimation" d="M129.8,59.3l0.5-0.2c0-0.2-0.5-0.5-0.6-0.7c0-0.3,0.4-0.7,0.3-0.9c0-0.1-0.6-0.1-0.7-0.1
+							c-0.2-0.1-0.1-0.5-0.2-0.7c-0.1-0.1-0.7-0.3-0.7-0.5c0-0.2,0.3-0.4,0.3-0.6c0-0.4-1.1-0.8-1.1-1.2c0-0.1,0.1-0.1,0.1-0.2
+							c0-0.1,0-0.2-0.1-0.3c-0.2-0.3-0.8-0.3-1-0.7c-0.1-0.3,0.1-0.8,0.1-1.1c-0.1-0.7-0.5-1.4-1-2c-0.4-0.4-1.3-0.7-1.6-1.2
+							c-0.3-0.5-0.2-2.7-0.2-3.3c-0.2-2.6-0.4-5.3-0.6-7.9c-0.1-1.1-0.1-5.1-0.4-5.9c-0.2-0.4-1.6,0-1.8-0.1c-1.2-0.2-0.2-0.1-0.8,0.2
+							c-0.1,0.1-0.8,0.1-0.8-0.1c0-0.1,0.2-0.1,0.1-0.2c-0.1-0.1-0.5,0-0.7-0.1c-0.1-0.1-0.2-0.4-0.4-0.5c0,0-0.7-0.2-1-0.3
+							c-0.1-0.1-0.2,0.2-0.3,0.2c-0.2,0-0.8-0.2-1-0.3c-0.7-0.4-1.1-0.3-1.5-0.5c-0.2-0.1-0.3-0.6-0.5-0.7c-0.1,0-0.2,0.1-0.3,0
+							c-0.2-0.1-0.1-0.5-0.4-0.5c-0.2,0-0.2,0.3-0.5,0c-0.2-0.1-0.3-0.5-0.5-0.5l-0.5,0c-0.3-0.1-0.4-0.7-1-0.5c-0.3,0.1,0,0.7-0.3,0.8
+							c-0.1,0-0.1-0.2-0.2-0.2c-0.1,0,0,0.1,0,0.2c-0.1,0.2-0.4,0.3-0.6,0.4c-0.2,0.1-1.2,0.2-1.4,0.1c-0.3-0.1-0.6-0.9-1-0.9
+							c-0.1,0-0.7,0.6-1.3,0.6c-0.1,0-0.2,0-0.2,0l-0.1,0.6c-0.2,0.2-1.3-0.5-1.5-0.5c-0.1,0-0.6,0.5-0.8,0.6c-0.3,0.1-1,0-1.3,0.2
+							c-0.2,0.1-0.2,0.6-0.4,0.8c-0.2,0.1-0.6-0.1-0.8,0c-0.1,0.1-0.1,0.6-0.3,0.8c-0.2,0.2-0.8-0.9-0.8-0.9c-0.1,0-0.2,0-0.3,0l-0.6,0
+							l-0.2-0.4C99,30,98.5,30,98.3,29.8c-0.1-0.1,0.1-0.6,0-0.7c-0.5-0.5-0.6,0.7-0.8,0.8c-0.1,0.1-1.5-0.1-1.6-0.1
+							c-0.3-0.2-0.1-1.1-0.7-1.1c-1,0-0.4,0.8-0.9,1.3c-0.1,0.1-0.6-0.1-0.6,0l0.3,0.4c0,0-0.6,1-0.8,1.1c-0.1,0.1-0.2-0.1-0.3-0.2
+							c-0.6-0.4-0.1-1.8-0.6-1.8c-0.2,0-0.3,0.6-0.5,0.6c-0.2,0-0.3-0.4-0.5-0.4c-0.3,0.1-0.4,1-1.1,0.8c-0.4-0.1-0.1-0.8-0.4-0.9
+							c-0.1-0.1-0.2,0-0.3,0c-0.2,0-0.4,0-0.6,0c-0.1,0-0.2,0.1-0.3,0c-0.4-0.3,0.8-0.5-0.7-0.9c-0.7-0.2-1.4,2-2.8,1.2
+							c-0.5-0.3,0.2-0.8,0-1.1c-0.2-0.3-1-0.1-1.3-0.3c-0.4-0.4,0.2-1.2-0.2-1.5c0,0-2.2,0.2-2.4,0.2c-0.4,0.1-0.4,0.6-1.1,0.8
+							c-0.5,0.2-0.9-0.8-1.3-0.9c-0.4-0.1-0.9,0.2-1.3,0.2c-0.8,0-1.5-0.8-2.2-0.9c-0.6,0-1.4,0.4-2.1,0c-0.4-0.2,0-1-0.2-1.3
+							c-0.3-0.5-0.9-0.6-1.3-0.9c-0.1-0.1,0-0.4-0.2-0.6c-0.3-0.2-0.4,1.2-0.8,1.1c-0.3,0-0.7-0.6-1-0.6c-0.2,0-0.3,0.3-0.5,0.4
+							c-1.1,0.4-2.1-1.6-2.9-2c-0.2-0.1-1,0-1.1-0.2c-0.1-0.1,0-0.2,0-0.3c0-0.1,0-0.2,0-0.2c0-1.2,0-2.4,0-3.6c0-4.1,0-8.1,0-12.2
+							c0-1.3,0-2.6,0-4c0-0.3,0-0.6,0-0.9c0-0.1,0.1-0.2,0-0.2c-0.1-0.1-0.2,0-0.3,0s-0.2,0-0.3,0c-0.4,0-0.9,0-1.3,0c-1.9,0-3.8,0-5.7,0
+							c-6.6-0.1-13.3-0.2-19.9-0.5c-0.5,0-0.4,2.1-0.4,2.7c-0.1,3-0.2,6-0.3,9c-0.5,12.8-1.3,25.6-1.8,38.4c0,0-1.6-0.1-2-0.1
+							c-2-0.1-4-0.2-6-0.3c-6.9-0.3-13.8-0.8-20.6-1.3c-1.6-0.1-3.3-0.3-4.9-0.4c-0.2,0-1.5-0.3-1.6-0.1c0,0,0.3,1.5,0.5,1.9
+							c0.1,0.2,0.6,0.5,0.8,0.6c2,0.7,1.7,2.3,2.7,3.5c0.8,1,2.4,1.4,3.3,2.3c1.8,1.6,2.9,3.8,4.8,5.3c0.6,0.5,1.4,0.7,2,1.2
+							c0.8,0.6,2,2,2.5,2.9c0.3,0.5,0.2,1.2,0.4,1.7c0.3,0.7,1.1,1.2,1.2,1.9c0.2,0.8-0.3,1.8-0.1,2.6c0.2,0.8,1.9,3.3,2.4,3.9
+							c1.1,1.3,4.8,3.9,6.4,4.7c0.7,0.3,1.5,0.5,2.2,0.8c0.6,0.3,4.2,2.1,4.4,1.8c0.2-0.2,1.7-1.8,2.1-2.1c0.2-0.1,0.5,0,0.6-0.2
+							c0.2-0.3-0.3-0.9-0.1-1.3c0.1-0.3,0.6-0.5,0.7-0.7c0.5-0.9,3.8-3.5,4.5-3.9c0.3-0.2,0.4-1.1,0.7-1.3c0.4-0.1,3.9,0.8,4.5,1
+							c0.7,0.1,2.2,0.7,2.8,0.5c0.1,0,0.5-0.6,0.5-0.5l0,0.5c0.1,0.1,0.2,0,0.3,0c0.2,0,0.5,0,0.7,0c0.1,0,0.2-0.1,0.3,0
+							c0.2,0.1,2.4,2.7,2.7,3c0.3,0.2,0.8,0.3,1,0.6c0.1,0.2,0,0.6,0.2,0.7c0.5,0.7,1.8,0.9,2.4,1.7c0.1,0.2,0,0.6,0.2,0.7
+							c0.2,0.3,1.6,2.8,2,3.7c0.3,0.8,0.9,1.7,1.4,2.4c0.3,0.4,3.4,4.7,4.3,6c0.1,0.2,0,0.5,0.2,0.7c0.3,0.4,0.9,0.7,1.2,1.1
+							c0.4,0.6,3.7,2.8,4,3.6c0.3,0.9-0.3,2.3,0.2,3.1c0.1,0.2,0.4,0.2,0.5,0.4c0.3,0.6-0.6,1.6-0.3,2.2c0,0.1,0.1,0.1,0.2,0.1
+							c1,0.6,0.5,1.1,1,1.7c0.2,0.2,0.7,0,0.9,0.2c0.5,0.5,1.7,4.7,1.8,4.9c0.3,0.6,2.8,0.6,3.2,0.7c1,0.4,2,0.7,3,1.2
+							c0.8,0.4,1.5,1.1,2.3,1.4c0.6,0.2,1.9,0.1,2.3,0.3l0.2,0.4c0.9,0.3,2.1-0.5,3-0.4c1.2,0.1,3.9,2.5,4.5,2.4c0.3-0.1,0.1-0.8,0.1-0.9
+							c0.1-0.1,2-0.5,2.3-0.6c-0.2-1.5-0.9,0-1.2-0.1c-0.2-0.1-0.2-0.8,0-0.9c0,0,0.6,0.1,0.3-0.2c-0.2-0.2-0.7,0-0.9-0.3
+							c-0.1-0.1-0.4-1.1-0.4-1.3c0,0,0.4-0.5,0.2-0.5c-0.1-0.1-0.2,0.2-0.3,0.2c-0.3-0.1,0-0.6-0.2-0.9c-0.1-0.1-0.1-0.1-0.2-0.2
+							c-0.1,0-0.1,0-0.2,0c-0.1-0.1-0.1-0.4-0.2-0.5l-0.4,0c-0.3-0.6,0.4-1,0.3-1.5c-0.1-0.6-0.5-2.3-1-2.7c-0.2-0.2-0.5-0.1-0.7-0.3
+							c-0.1-0.1,0.1-0.2,0.2-0.4l0-0.4c0.3,0,0.5,0.9,0.7,0.3c0.1-0.2,0-1.1,0.1-1.6c0-0.1-0.5-0.8-0.4-0.9c0.1-0.2,0.4,0,0.5-0.2
+							c0,0,0.2-1.3,0.2-1.4c0-0.1-1.4,0.1-2.4-0.2c0,0-1.2,0-1.1-0.1c0.1-0.1,0.2-0.1,0.3-0.1c0.3,0,1-0.4,0.3-0.4c-0.1,0-0.2,0.1-0.3,0
+							c-0.1-0.1,0.3-0.1,0.3-0.2c0-0.2-0.5-0.5-0.5-0.5c0-0.5,0.5,0.1,0-0.4c-0.1-0.1-0.2-0.1-0.2-0.2c0.3-0.4,1.1,1.3,1.3,1.4
+							c0.3,0.2,1.1-0.9,1.4-1c0.1,0,0.1-0.1,0.2-0.1l0,0.5c0.1,0.1,0.4,0.1,0.4,0.2l-0.5,0l0,0.4c-0.1,0.1-0.3,0.1-0.3,0.2
+							c0,0.1,0.5-0.2,0.5-0.2c0.2-0.1,0.7-0.2,0.9-0.4c0.4-0.5,0.7-2.4,1-3.2c0.1-0.1,0.4-0.8,0.4-0.9c0-0.2-0.3-0.1-0.5-0.1
+							c-0.3-0.1-0.5-0.2-0.8-0.4c-0.6-0.5-0.1-0.8-0.2-0.9c-0.2-0.3-1.4,0.8-1.4-0.3c0-0.5,0.5,0.2,0.5,0.2c0.1,0,0.1-0.2,0.2-0.2
+							c0.4-0.2,0.7,0.1,1,0.1c0.3,0,0.6-0.4,0.9-0.4c0.7,0.1,0.1,0.7,0.7,0.7c0.1,0,0.7-1.2,0.8-1.4c0.2-0.3,0.9-0.7,1-1
+							c0-0.1-0.1-0.1-0.1-0.2c-0.1-0.2,0.2-0.7-0.1-0.7c-0.2,0-1.1,1.7-1.6,0.7c-0.3-0.5,0.4-0.4,0.4-0.7c0-0.2-0.4-0.2-0.4-0.4
+							c0-0.4,0.6,0,0.7,0c0.3,0,0.8,0.7,1.6,0.3c0.6-0.3,0.5-0.1,0.7-0.2c0.2-0.1,1.1-0.9,1.2-1.1c0-0.2-0.2-0.3-0.2-0.5
+							c0-0.2,0.2-0.5,0.1-0.7c-0.1-0.2,0-0.3-0.1-0.9c0-0.3-0.9-0.8,0.1-0.5c0.2,0,0.2,0.4,0.4,0.5c0.1,0.1,0.5,0.2,0.5,0.3
+							c0.1,0.2-0.1,0.6,0,0.7c0.3,0.4,2.8-0.9,3-1.2c0.1-0.2-0.8-0.7-0.9-0.7c-0.1,0-0.4,0.5-0.7,0.4c-0.1,0,0.5-0.5,0.5-0.8
+							c-0.1-0.4-0.8-0.1-1-0.3c-0.1-0.1,0-0.6,0-0.7c-0.1-0.1-0.8-0.6-0.6-0.9c0.6-0.5,0.8,0.5,1.1,0.7c0,0,0.5,0,0.5,0l0,0.4
+							c0.2,0.1,0.4-0.2,0.5-0.2c0.6,0.2-0.3,0.5-0.3,0.6c0,0.1-0.1,0.2,0,0.2c0.1,0,0.8-0.4,0.9-0.4c0.2-0.2-0.2-0.3-0.2-0.6
+							c0-0.2,0.3-0.5,0.1-0.6c-0.1-0.1-0.2,0.3-0.3,0.2c0,0-0.1-0.6,0.1-0.5c0.6,0.2,0.4,1.1,0.8,1.2c0.4,0.1,1.1-1.1,1.7-0.6
+							c0.2,0.2-0.4,0.5-0.3,0.6c0,0.1,0.8-0.2,0.6,0.2c0,0-0.8,0.3-0.6,0.4c0.5,0.1,1.9-1.1,2.4-0.7c0,0-0.1,0.1-0.1,0.2
+							c-0.1,0.3-1.8,1.3-1.7,1.3c1-0.3,2-1.2,3-1.6c0.1-0.1,0.7-0.3,0.8-0.4c0-0.1-1.3,0.6-1.4,0.6c-0.3,0-0.4-0.3-0.3-0.6
+							c0.3-0.9,2.1-0.5,2.7-0.7c1-0.4,2.3-1.2,3.2-1.8c0.2-0.1,2.3-1.9,2.3-2c0,0-0.4-1.5-0.4-1.6c-0.1-0.2,0.4,0.1,0.5,0.2
+							c0.2,0.1,0.7-0.3,0.8-0.4c0.3-0.3,0.2-0.7,0.5-1c0.2-0.2,0.6,0.1,0.7-0.2l0.6-0.1c0,0,1.7-1.2,1.9-1.6c0.3-0.7,1.4-0.7,2.1-1.1
+							c1.2-0.6,2.5-1.6,3.8-1.9c0.4-0.1,1.4,0.1,1.7-0.1c0.5-0.4-0.7-1-0.8-1.2c-0.2-0.4,0.6-1.9,0.9-2.1c0.3-0.2,0.5-0.2,0.7,0l0,0
+							c1-1.7,0.5-2.3,0-4c-0.2-0.6,0.3-0.6,0.4-1.1c0.1-0.4-0.4-0.7-0.4-1.1c0-0.4,0.4-0.4,0.5-0.6l0-0.6c0.1-0.2,0.5-0.4,0.6-0.6
+							c0.4-0.7,0.2-1.5,0.3-2.2l0.3-0.6C130.2,59.9,129.6,59.8,129.8,59.3"/>
+					</svg>
+				</div>
+				<div class="individualStateRight">
+					<div class="sectionHeader">
+						<h1>Texas</h1><hr class="analysishr">
+					</div>
+					
+					<div class="graphSlider">
+						<div class="sliderBar"></div>
+						<div class="sliderBarFilled elevenToTwelveAnimation"></div>
+						<h2 class="elevenYear">2011</h2>
+						<div class="sliderDot sliderDotOne"></div>
+						<h2 class="elevenCases">181</h2>
+						<div class="sliderBarFilled twelveToThirteenAnimation"></div>
+						<h2 class="twelveYear">2012</h2>
+						<div class="sliderDot sliderDotTwelve twelveDotAnimation"></div>
+						<h2 class="twelveCases twelveCasesAnimation">150</h2>
+						<h2 class="thirteenYear">2013</h2>
+						<div class="sliderDot sliderDotThree thirteenDotAnimation"></div>
+						<h2 class="thirteenCases thirteenCasesAnimation">310</h2>
+					</div>
+				</div>
+			</div>
+		</div><! END texas>
+		
+		<div class="utahIndividual" id="utah">
+			<div class="individualInnerWrapper">
+				<div class="individualStateLeft">
+					<svg class="utahIndividualSVG" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50.9 62.9"
+						 style="enable-background:new 0 0 50.9 62.9;" xml:space="preserve">
+						<metadata>
+							<sfw  xmlns="&ns_sfw;">
+								<slices></slices>
+								<sliceSourceBounds  bottomLeftOrigin="true" height="87.1" width="54.2" x="298.4" y="-341.5"></sliceSourceBounds>
+							</sfw>
+						</metadata>
+						<path class="individualStateFill utahFill" d="M37.8,16.1c-0.4-0.1-4.2-0.5-4.2-0.6c0,0,0.4-2.7,0.4-3c0.4-2.7,0.8-5.5,1.1-8.2c-8.3-1.2-16.6-2.5-24.8-3.9
+							C7,18.9,3.7,37.4,0.4,55.9c15,2.6,30.1,4.8,45.2,6.5c1.6-14.9,3.3-29.8,4.9-44.8C46.3,17.2,42,16.7,37.8,16.1"/>
+					</svg>
+				</div>
+				<div class="individualStateRight">
+					<div class="sectionHeader">
+						<h1>Utah</h1><hr class="analysishr">
+					</div>
+					
+					<div class="graphSlider">
+						<div class="sliderBar"></div>
+						<div class="sliderBarFilled elevenToTwelveAnimation"></div>
+						<h2 class="elevenYear">2011</h2>
+						<div class="sliderDot sliderDotOne"></div>
+						<h2 class="elevenCases">1</h2>
+						<div class="sliderBarFilled twelveToThirteenAnimation"></div>
+						<h2 class="twelveYear">2012</h2>
+						<div class="sliderDot sliderDotTwelve twelveDotAnimation"></div>
+						<h2 class="twelveCases twelveCasesAnimation">2</h2>
+						<h2 class="thirteenYear">2013</h2>
+						<div class="sliderDot sliderDotThree thirteenDotAnimation"></div>
+						<h2 class="thirteenCases thirteenCasesAnimation">1</h2>
+					</div>
+				</div>
+			</div>
+		</div><! END utah>
+		
+		<div class="vermontIndividual" id="vermont">
+			<div class="individualInnerWrapper">
+				<div class="individualStateLeft">
+					<svg class="vermontIndividualSVG" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						 viewBox="0 0 16.7 30.2" style="enable-background:new 0 0 16.7 30.2;" xml:space="preserve">
+						<metadata>
+							<sfw  xmlns="&ns_sfw;">
+								<slices></slices>
+								<sliceSourceBounds  bottomLeftOrigin="true" height="17.3" width="31.3" x="307.1" y="-402.9"></sliceSourceBounds>
+							</sfw>
+						</metadata>
+						<path class="individualStateFill vermontFill ncarolinaStateAnimation" d="M1.5,8.3c0.3,0.6,0,1.4,0.2,1.9c0.3,0.6,1.2,0.9,1.4,1.5c0.1,0.3-0.1,0.7-0.1,1c0.1,0.4,0.5,0.8,0.6,1.2
+							c0,0.2-0.3,0.5-0.3,0.7c-0.1,0.3,0,1.4,0.2,1.7l0.4,0.3c0.1,0.1,0.8,1.4,0.8,1.5C4.9,19,4.9,19.8,5,20.6c0,0.1,0,0.2,0,0.3
+							c0,0.1,0,0.2,0,0.3c0.9,0.6,0.2-1.2,1.2-0.4c1.2,1,1.8,4.4,2.3,6c0.2,0.7,0.3,1.7,0.6,2.3c0.1,0.2,0.5,0.6,0.5,0.6
+							c2.1-0.7,4.2-1.3,6.3-2c0,0-0.2-0.2-0.4-0.3c-0.6-0.2-1.3-1.2-1.2-2c0,0,0.4-0.5,0.4-0.5c0.2-0.7-1.3-5.1-1.6-6
+							c-0.1-0.5,0.3-0.4,0.3-0.7c0.1-0.4-0.2-0.9-0.2-1.3c0-0.3,0.3-0.6,0.4-0.9c0-0.4-0.2-0.8-0.1-1.2c0-0.3,0.4-0.8,0.3-1.1
+							c0-0.1-0.2-0.2-0.3-0.3c-0.1-0.4,0.2-0.9,0.1-1.2c-0.1-0.7-0.7-1.4-0.6-2.2c0.1-0.9,0.7-0.6,1.2-1c0.1-0.1,0.1-0.5,0.2-0.7
+							c0.4-0.6,1.3-1,1.2-1.8l-0.3-0.5c0-0.1,0.4-0.2,0.3-0.3c-0.1-0.6-1.1-1-1.3-1.5c-0.1-0.6,0.5-1.4,0.4-2c0-0.2-0.8-0.8-0.6-1.1
+							c-0.3,0.2-1.1,0.4-1.4,0.4c-1.7,0.6-3.3,1.2-5,1.8C5.4,4.1,3,5,0.5,5.9c0.4,0.9,0.1,1.4,0.3,1.8C0.9,7.9,1.3,8,1.5,8.3"/>
+					</svg>
+				</div>
+				<div class="individualStateRight">
+					<div class="sectionHeader">
+						<h1>Vermont</h1><hr class="analysishr">
+					</div>
+					
+					<div class="graphSlider">
+						<div class="sliderBar"></div>
+						<div class="sliderBarFilled elevenToTwelveAnimation"></div>
+						<h2 class="elevenYear">2011</h2>
+						<div class="sliderDot sliderDotOne"></div>
+						<h2 class="elevenCases">984</h2>
+						<div class="sliderBarFilled twelveToThirteenAnimation"></div>
+						<h2 class="twelveYear">2012</h2>
+						<div class="sliderDot sliderDotTwelve twelveDotAnimation"></div>
+						<h2 class="twelveCases twelveCasesAnimation">1,259</h2>
+						<h2 class="thirteenYear">2013</h2>
+						<div class="sliderDot sliderDotThree thirteenDotAnimation"></div>
+						<h2 class="thirteenCases thirteenCasesAnimation">2,535</h2>
+					</div>
+				</div>
+			</div>
+		</div><! END vermont>
+		
+		<div class="virginiaIndividual" id="virginia">
+			<div class="individualInnerWrapper">
+				<div class="individualStateLeft">
+					<svg class="virginiaIndividualSVG" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 
+						 viewBox="0 0 71.4 43.5" style="enable-background:new 0 0 71.4 43.5;" xml:space="preserve">
+						<metadata>
+							<sfw  xmlns="&ns_sfw;">
+								<slices></slices>
+								<sliceSourceBounds  bottomLeftOrigin="true" height="40.9" width="40" x="285.7" y="-416.5"></sliceSourceBounds>
+							</sfw>
+						</metadata>
+						<path class="individualStateFill virginiaFill californiaStateAnimation" d="M69.4,23.6c-0.2-0.3-0.9-1.5-1.2-1.6c-0.2,0-0.3,0.3-0.5,0.4c-0.4,0.1-1.8-0.2-2-0.2c-0.4,0.2-0.2,0.9,0,1.2
+							c0,0.1,0.2,0.1,0.1,0.2c-0.2,0.1-0.8-0.4-1.2-0.2l-0.4,0.4c-0.5,0-0.3-0.8-0.4-0.9c-0.1,0-0.7-1-0.6-1c0,0,0.5,0,0.5,0
+							c0.2,0.1,0.4,0.5,0.6,0.5c0,0,1.1-0.4,1.1-0.5c0-0.1-0.1-1.1-0.2-1.1l-0.6,0.2c-0.1-0.2,0.3-0.3,0.3-0.5c0-0.5-0.9,0-1-0.1
+							c-0.3-0.1-0.6-2.2-0.4-2.2c0.1,0,0.1-0.3,0.2-0.3c0.2,0,0.4,0.8,0.7,0.3c0.4-0.9-0.4-0.9-0.7-1.3c-0.1-0.1,0.6-0.3,0-0.5
+							c-0.1,0-0.1-0.1-0.2,0c0,0,0.1,0.1,0.1,0.2c0,0.1,0,0.2-0.1,0.2c-0.2,0.1-1-0.2-0.9-0.5c0.1-0.3,0.9-0.2,0.7-0.3
+							c-0.3-0.2-0.9,0-0.4-0.5c0.4-0.3-0.3-0.1-0.3-0.5c0-0.1,0.3-0.4,0.3-0.5c0.1-0.1,0.1-1.3-0.2-2.3c0-0.1-2.9-1-3-1.1
+							c-0.2-0.2-0.7-0.3-0.9-0.5c0-0.1-0.1-0.2-0.1-0.2c-0.1,0-1,0.5-1.1,0.5l-0.4-0.3c-0.5-0.1-1.2,0.5-1.7,0.1c-0.2-0.1,0-0.4-0.2-0.5
+							C55.4,10,55,10,54.8,9.8c-0.3-0.3,0.4-0.6-0.2-1c-0.2-0.1-2.1,1.8-2.3,1.2c0-0.1,0.2-0.2,0.1-0.3l-0.5-0.4c0-0.1,0.2-0.1,0.2-0.2
+							c0.1-0.4-0.3-1-0.2-1.4L52,7.5c0-0.2-0.4-0.7-0.1-0.9c0,0,1,0.2,0.9-0.3c0,0-0.7-0.4-0.3-0.5c0.1,0,0.1,0.2,0.2,0.1
+							c0,0,0.7-0.7,0.7-0.8c0.1-0.7-0.7-1.2-0.8-1.7c0-0.1,0.1,0,0.2,0l0-0.1c-0.2-0.1-0.4-0.1-0.7-0.2c0,0-0.1-0.3-0.2-0.3
+							c-0.1,0-0.2,0-0.3,0c0,0-0.5,0-0.5,0c-0.3-0.1-0.4-0.5-0.6-0.6c-0.6-0.2-1.1,0.4-1.6,0.3c-1.5-0.3-0.2-1.5-0.5-1.8
+							c-0.4-0.4-2-0.4-2.7-0.4c-0.1,0.6-0.2,2.2-0.3,2.2c-0.4,0.2-4.5-2.2-5.2-2.1c-0.1,0,0,0.1,0,0.2c0,0.1,0,0.1,0,0.2
+							c0,0.6-0.1,1.2-0.1,1.8c0,0.4,0.3,0.7,0.3,1.1c0,0.5-1.2,3.3-1.7,3.4c-0.2,0-0.4-0.2-0.5-0.1c-0.4,0.3-0.1,1.6-0.6,1.9
+							c-0.3,0.2-1.1-0.6-1.3-0.4c-0.3,0.2-0.7,5-1.2,5.4c-0.2,0.1-1.3-0.1-1.6-0.1l-0.6-0.1c-0.1-0.1,0.1-0.1,0.1-0.2
+							c0-0.1-0.1-0.1-0.2-0.2c-0.2-0.2-0.9-0.7-1.3-0.4c-0.1,0.1,0.1,2.3-0.1,2.5c-0.7,0.6-0.2,0.5-0.3,1.2c-0.1,0.5-0.6,0.9-0.7,1.3
+							c-0.1,0.6,0.1,1.2-0.2,1.8c-0.7,1.7-1.4,2.3-1.7,4.3c0,0.4,0.4,0.2,0.5,0.3c0.4,0.4-0.4,0.6-0.3,1c0.1,0.5,0.4,0,0.2,0.5
+							c-0.9,1.9-1.6,1-1.6,1c-0.7,0.3-1.3,1.2-2,1.5c-0.1,0-1-0.5-1-0.3c-0.1,0.5,0.1,0.6,0.1,0.9c0,1.1-1,0.6-1.1,0.6c-0.1,0,0,0.1,0,0.2
+							c-0.1,0.4-0.9,0.3-1.2,0.5c-0.1,0.1-0.3,0.5-0.5,0.5c-0.4,0-1.2-0.7-1.5-0.6c-0.2,0.1-0.1,0.7-0.3,0.8l-0.6,0.1
+							c-0.6,0.4-0.7,1.5-2,0.8c-0.2-0.1-0.2-0.4-0.4-0.5c-0.2-0.1-0.5,0.2-0.7,0.2c0,0-0.4-0.5-0.4-0.5c-0.2-0.1-0.5-0.1-0.7-0.2
+							c-0.1-0.2,0-0.6-0.2-0.7l-0.5-0.3c-0.2-0.4,0.4-0.4,0-0.8C13,30.6,12.1,32,11,33.1c-0.8,0.8-1.9,1.3-2.6,2.1c-0.3,0.3,0.2,0.6,0,0.9
+							c-0.1,0.4-0.9,0.6-1,1c0,0.1,0,0.2,0,0.3c0,0.1,0,0.2,0,0.3c0,0.1,0.1,0.2,0,0.3c-0.3,0.6-1.3,0.5-1.7,0.9c-0.3,0.3-0.1,1-0.4,1.2
+							c-0.5,0.5-2.5,1.3-3.2,1.6c-0.4,0.2-0.8,0.5-1,0.8C1.1,42.7,1,42.9,1,42.9c4-0.8,8.1-1.7,12.1-2.6c1-0.2,2.5-0.3,3.3-0.8
+							c0.3-0.2,0.2-0.2,0.6-0.3c0.7-0.1,2.1-0.3,2.1-0.3c7.9-1.2,15.7-3.2,23.5-5.3c8.9-2.4,17.7-4.9,26.5-7.6c0,0,1.6-0.5,1.8-0.5
+							C70.4,24.8,69.8,24.2,69.4,23.6"/>
+					</svg>
+				</div>
+				<div class="individualStateRight">
+					<div class="sectionHeader">
+						<h1>Virginia</h1><hr class="analysishr">
+					</div>
+					
+					<div class="graphSlider">
+						<div class="sliderBar"></div>
+						<div class="sliderBarFilled elevenToTwelveAnimation"></div>
+						<h2 class="elevenYear">2011</h2>
+						<div class="sliderDot sliderDotOne"></div>
+						<h2 class="elevenCases">5,984</h2>
+						<div class="sliderBarFilled twelveToThirteenAnimation"></div>
+						<h2 class="twelveYear">2012</h2>
+						<div class="sliderDot sliderDotTwelve twelveDotAnimation"></div>
+						<h2 class="twelveCases twelveCasesAnimation">4,642</h2>
+						<h2 class="thirteenYear">2013</h2>
+						<div class="sliderDot sliderDotThree thirteenDotAnimation"></div>
+						<h2 class="thirteenCases thirteenCasesAnimation">11,002</h2>
+					</div>
+				</div>
+			</div>
+		</div><! END virginia>
+		
+		<div class="washingtonIndividual" id="washington">
+			<div class="individualInnerWrapper">
+				<div class="individualStateLeft">
+					<svg class="washingtonIndividualSVG" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60.3 45"
+						 style="enable-background:new 0 0 60.3 45;" xml:space="preserve">
+						<metadata>
+							<sfw  xmlns="&ns_sfw;">
+								<slices></slices>
+								<sliceSourceBounds  bottomLeftOrigin="true" height="287.9" width="467.1" x="126.3" y="-432.3"></sliceSourceBounds>
+							</sfw>
+						</metadata>
+						<path class="individualStateFill washingtonFill nebraskaStateAnimation" d="M8.5,35.6c0,0.4-0.3,0.7-0.3,1.1c0,1,1,0.9,1.6,1.2c0.6,0.3,1.1,1,1.9,1.1c0.6,0.1,1.8,0,2.4-0.1
+							c0.4-0.1,1-0.6,1.4-0.6c0.3,0,0.6,0.4,0.8,0.4c0.1,0,0.2,0,0.3,0c0.3,0,0.6,0,0.8,0c0.1,0,0.2,0,0.3,0c0.4,0.1,1.3,0.4,1.7,0.7
+							c0.5,0.3,0.8,1.4,0.9,1.4c0.2,0.1,0.7-0.3,0.9-0.3c0.4,0,0.7,0.5,1.1,0.5c0.8,0.1,1.7-0.5,2.6-0.5c0.5,0,0.5,0.4,0.8,0.6
+							c0.4,0.3,1.6,0.4,2.1,0.3c0.3-0.1,0.5-0.3,0.8-0.4c0.8-0.2,1.8-0.2,2.6-0.2c0.4,0,0.8,0.3,1.2,0.2c0.3,0,0.6-0.6,0.9-0.5
+							c0.2,0,0.3,0.2,0.5,0.3c0.6,0.2,2.2,0.5,2.9,0.5c0.6,0,0.8-0.4,1.3-0.5c0.9-0.1,3.7,0.9,4.8,1.1c3.8,0.9,7.5,1.7,11.3,2.5
+							c0-0.4-0.4-0.9-0.4-1.2c0-0.2,0.5-0.4,0.5-0.7c0-0.2,0-1,0-1.2c0-0.4-0.6-0.9-0.5-1.3c0-0.2,0.3-0.5,0.4-0.7
+							c0.4-1.1,0.4-2.6,0.7-3.8c1-4.4,1.9-8.9,2.9-13.3c0.5-2.5,1.1-5.1,1.6-7.6c0.2-0.8,0.4-1.7,0.5-2.5c0.1-0.4,0.3-1.3,0.3-1.3v0
+							C52.7,9.5,45.5,7.9,38.3,6c-5.5-1.4-11-2.9-16.5-4.4c-0.4-0.1-1.8-0.6-3.2-1c0,0,0,0.1,0.1,0.1c0,0.1,0.1,0.1,0,0.2
+							c-0.2,0.2-0.6,0.2-0.8,0.4c-0.1,0.1,0.5,0.1,0.4,0.3c0,0.2-0.3,0.3-0.3,0.5c0,0.3,0.5,1.3,0.5,1.3c0,0.2-1.4,3.4-1.3,3.7
+							c0,0.5,0.8,0,0.9,0.1c0.3,0.1-0.2,0.6,0,0.8c0.3,0.2,0.8,0.6,0.9,1c0.2,1.1-1.2-0.3-1.5,1c-0.1,0.4-0.1-0.3,0.9-0.3
+							c0.5,0,0,2.1,0.6,2.5c0.1,0.1,0.4,0,0.5,0.1c0.5,0.4-2,2.8-2,3c-0.1,0.2-0.7,0.4-0.7,0.6l0.3,0.5c0,0.2-0.3,0.2-0.4,0.3
+							c-0.1,0.1,0,2,0,2.4c-0.1,0.7-0.7,0.2-0.9,0.5c0,0,0.1,0.4,0.1,0.4c-0.4,0.6-0.5-0.7-1-0.4c-0.3,0.3-1.4,2.1-2.1,1.8
+							c-0.4-0.1,0-1.2-0.8-1c-0.2,0.1-0.6,1-0.6,1c0-0.2,1.3-1.4,1.3-1.4c0,0.1,0,0.3,0.1,0.3c0.7-0.2,0.3-0.6,0.4-1.1
+							c0.2-0.5,1-0.7,1.4-1c0,0-0.5,0.6-0.6,0.8c-0.1,0.2,0.4,0.7,0.6,0.8c0.6,0.1,0.1-0.5,0.2-0.7c0.1-0.1,0.2,0,0.3-0.1
+							c0.1-0.1,0-0.6,0.1-0.8c0.1-0.2,0.4-0.5,0.6-0.7c0.1-0.1,0.2-0.1,0.2-0.2c0-0.1-0.3-0.1-0.3-0.3c0-0.2,0.3-0.4,0.2-0.5
+							c-0.1-0.1-0.2,0.1-0.3,0.1c-0.1,0-0.4,0-0.4-0.1c0-0.1-0.3-0.9-0.3-0.9c0.3-0.6,0.1,0.9,0.6,0.3c0.3-0.4-0.1-0.8,0-1.1
+							c0-0.1,1,0.2,1.4,0c0,0-0.5-4.8-1.1-5c-1.4-0.5-0.3,1.5-1.1,1.6c-0.1,0,0.2-0.2,0.2-0.3c0.1-0.1-0.5-1.1-0.6-1.2
+							c-0.6-0.3-0.3,0.7-0.6,0.6c-0.2-0.1,0-0.7,0-0.8c0-0.2-0.7-0.7-0.7-0.8c0-0.2,0.6-0.2,0.5-0.3c-0.3-0.1-0.9,0.4-1.2,0.4
+							c-0.5,0-3.9-1.6-4.6-1.9c-0.7-0.4-1-0.8-1.6-1.3C5.7,5.4,3.8,3.1,2.9,3C2.3,2.9,1.5,8.3,1.8,8.8c0.6,0.8,1,1.7,1,2.9
+							c0,0.7-0.8,2.8-0.6,3.4c0,0.1,0.3,0,0.4,0.1c0.1,0.3-0.3-0.1,0,0.6c0.3,0.8-0.6,5.5-0.6,5.9c-0.2,1.7,0.9,0.8,1.4,1.1
+							c0.4,0.2,0.2,0.7,0.7,0.8c0.1,0-0.3,0.2-0.4,0.1c-0.1-0.1,0-0.4-0.1-0.4c-0.9-0.3-0.6,0.9-0.7,1c-0.1,0.1-0.2-0.4-0.3-0.3
+							c-0.1,0.1,0.2,0.7,0.2,0.8c0,0.6-0.7-1.1-0.7-1.2c-0.2-0.7-0.8,2-0.8,2c-0.1,0.4-0.8,1.5-0.6,1.6c0.2,0.2,3.1,1.2,3.4,1.4
+							c0.3,0.1,0.7,0,1,0.1c0.1,0,0.2,0,0.2,0.1c0.3,0.3,0.4,1.3,0.8,1.6c0.1,0,0.2,0,0.3,0c0.1-0.1,0.3-0.1,0.4-0.1c0,0,0,0,0,0.1
+							c0.3,0,0.6,0.1,0.8,0.2C8.8,31.8,8.7,33.9,8.5,35.6"/>
+					</svg>
+				</div>
+				<div class="individualStateRight">
+					<div class="sectionHeader">
+						<h1>Washington</h1><hr class="analysishr">
+					</div>
+					
+					<div class="graphSlider">
+						<div class="sliderBar"></div>
+						<div class="sliderBarFilled elevenToTwelveAnimation"></div>
+						<h2 class="elevenYear">2011</h2>
+						<div class="sliderDot sliderDotOne"></div>
+						<h2 class="elevenCases">4</h2>
+						<div class="sliderBarFilled twelveToThirteenAnimation"></div>
+						<h2 class="twelveYear">2012</h2>
+						<div class="sliderDot sliderDotTwelve twelveDotAnimation"></div>
+						<h2 class="twelveCases twelveCasesAnimation">5</h2>
+						<h2 class="thirteenYear">2013</h2>
+						<div class="sliderDot sliderDotThree thirteenDotAnimation"></div>
+						<h2 class="thirteenCases thirteenCasesAnimation">18</h2>
+					</div>
+				</div>
+			</div>
+		</div><! END washington>
+		
+		<div class="wVirginiaIndividual" id="wVirginia">
+			<div class="individualInnerWrapper">
+				<div class="individualStateLeft">
+					<svg class="wVirginiaIndividualSVG" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 
+						 viewBox="0 0 40 40.9" style="enable-background:new 0 0 40 40.9;" xml:space="preserve">
+						<metadata>
+							<sfw  xmlns="&ns_sfw;">
+								<slices></slices>
+								<sliceSourceBounds  bottomLeftOrigin="true" height="44.3" width="39.2" x="286.4" y="-418.6"></sliceSourceBounds>
+							</sfw>
+						</metadata>
+						<path class="individualStateFill wVirginiaFill oregonStateAnimation" d="M11.3,1.5c0.1,0.4,0.8,0.7,0.9,1.1C12.2,2.9,12,3.2,12,3.4l0.4,0.3c0.5,0.9-0.5,2.4-0.4,3.4
+							c0,0.3,0.2,0.6,0.2,0.9c0,0.2-0.2,0.4-0.1,0.6c0,0.1,0.3,0.2,0.2,0.3c-0.1,0.3-0.3-0.2-0.4,0.1c0,0.1,0.1,0.7,0.1,0.9
+							c0,0.1-0.3,0.9-0.3,0.9l0.4,0.5c0,0.1-0.1,1.1-0.2,1.2c-1.1,0.8-1.3,2.2-2.4,3.1c-0.3,0.2-0.7,0.7-1,0.8c-0.4,0.1-0.6-0.7-1-0.3
+							c-0.5,0.4-0.3,1.1-0.6,1.5c-0.2,0.2-0.8,0.2-1,0.4c-0.5,0.6,0,1.3-0.1,2c-0.1,0.3-0.5,0.2-0.3,0.6C5.7,20.8,6,20.8,6,20.9l0,0.6
+							c0,0.1,0.4,0.4,0.2,0.3c-1-0.2-0.4,0.6-1,1c-0.1,0-0.1,0-0.2-0.1c-0.4-0.1,0.1-0.4,0-0.7c-0.1-0.3-0.9-0.8-1.2-0.7
+							c-0.3,0.1-1.1,3-1.1,3.1c0,0.3,1.1,1.5,0.6,2c-0.2,0.1-0.5,0-0.6,0.1c-0.3,0.3,0.1,1.2-0.1,1.6c-0.2,0.3-1.6,1-1.9,1
+							c-0.1,0-0.3-0.1-0.3-0.1s0,0.1,0,0.1c0,0.1,0,0.1,0,0.2c0,0.1,0,0.2,0,0.2C0.6,30.1,1,30.3,1,30.9l-0.3,0.2
+							c-0.2,0.8,0.4,1.5,1.1,2.1c1.1,0.8,0.2,0.2,0.7,1c0.1,0.2,0.5,0.1,0.7,0.2c0.2,0.2,0.1,0.7,0.4,0.9c0.2,0.2,0.6,0.2,0.9,0.4
+							c0.2,0.2,0.3,0.6,0.5,0.8c0.4,0.3,1.1,0.2,1.5,0.6c0.1,0.1,0,0.3,0.1,0.4c0.5,0.4,1.2-0.2,1.6,0c0.4,0.3-0.1,0.4,0,0.8l0.5,0.3
+							c0.1,0.2,0,0.6,0.2,0.7c0.1,0.1,0.5,0.1,0.7,0.2c0,0,0.4,0.5,0.4,0.5c0.2,0.1,0.5-0.2,0.7-0.2c0.2,0.1,0.2,0.4,0.4,0.5
+							c1.3,0.7,1.4-0.5,2-0.8l0.6-0.1c0.1-0.1,0.1-0.8,0.3-0.8c0.4-0.1,1.1,0.6,1.5,0.6c0.2,0,0.4-0.4,0.5-0.5c0.4-0.2,1.1,0,1.2-0.5
+							c0-0.1,0-0.2,0-0.2c0.1,0,1.1,0.5,1.1-0.6c0-0.4-0.2-0.4-0.1-0.9c0-0.2,0.9,0.4,1,0.3c0.7-0.2,1.3-1.1,2-1.5c0,0,0.7,0.9,1.6-1
+							c0.3-0.5-0.1-0.1-0.2-0.5c-0.1-0.4,0.7-0.5,0.3-1c-0.1-0.2-0.5,0-0.5-0.3c0.3-2,1.1-2.6,1.7-4.3c0.2-0.6,0-1.2,0.2-1.8
+							c0.1-0.5,0.7-0.9,0.7-1.3c0.1-0.7-0.4-0.6,0.3-1.2c0.2-0.2,0-2.4,0.1-2.5c0.4-0.4,1.1,0.1,1.3,0.4c0.1,0.1,0.2,0.1,0.2,0.2
+							c0,0.1-0.2,0.2-0.1,0.2l0.6,0.1c0.3,0,1.4,0.3,1.6,0.1c0.5-0.3,0.9-5.2,1.2-5.4c0.3-0.2,1.1,0.6,1.3,0.4c0.4-0.3,0.2-1.6,0.6-1.9
+							c0.1-0.1,0.3,0.1,0.5,0.1c0.5-0.1,1.6-2.9,1.7-3.4c0-0.4-0.3-0.7-0.3-1.1c0-0.6,0.1-1.2,0.1-1.8c0-0.1,0-0.1,0-0.2
+							c0-0.1,0-0.2,0-0.2c0.7-0.2,4.8,2.3,5.2,2.1c0.1-0.1,0.2-1.7,0.3-2.2c-0.4-0.3,0-0.6-0.3-0.9c-0.1-0.1-0.6-0.1-0.7-0.2l0.1-0.6
+							c-0.1-0.1-0.4,0.2-0.6,0.2c-0.1,0,0-0.1,0-0.2c0-0.1,0.1-0.1,0-0.2c0,0-0.6,0.5-0.6,0c0-0.3,0.4-0.2,0.3-0.7c0-0.1-1.2,0.4-1.4,0.4
+							c-0.6-0.1-1.1-1-1.8-0.7c-0.3,0.2-0.3,0.8-0.6,1c0,0-0.6,0-0.6,0c-0.1,0-0.6,0.5-0.6,0.6c0,0.1,0.3,0,0.3,0.1c0,0.2-0.4,0.1-0.4,0.3
+							c0,0.2,0.4,0.1,0.4,0.3c0,0.6-2.4,0.9-2.9,0.6c-0.4-0.3,0.3-0.5-0.5-0.6c-0.2,0-0.2,0.4-0.1,0.6c0,0.1,0.2,0.1,0.2,0.1l-0.4,0.3
+							c-0.2,0.3-0.2,1-0.6,1.3C28.6,10.4,28.3,10,28,10c-0.5,0.1-0.4,0.6-0.5,0.9c-0.2,0.4-0.6,0.6-0.8,1l-0.1,0.6L26,12.7
+							c-0.2,0.1-0.6,1.4-0.9,1.1c-0.3-0.3-1.2-4.6-1.4-5.3c-2.2,0.6-4.3,1.1-6.5,1.7c-0.2,0.1-2.2,0.6-2.3,0.6c0,0-0.6-2.3-0.6-2.6
+							c-0.6-2.5-1.2-5-1.8-7.4C12.1,0.9,11.2,1,11.3,1.5"/>
+					</svg>
+				</div>
+				<div class="individualStateRight">
+					<div class="sectionHeader">
+						<h1>West Virginia</h1><hr class="analysishr">
+					</div>
+					
+					<div class="graphSlider">
+						<div class="sliderBar"></div>
+						<div class="sliderBarFilled elevenToTwelveAnimation"></div>
+						<h2 class="elevenYear">2011</h2>
+						<div class="sliderDot sliderDotOne"></div>
+						<h2 class="elevenCases">117</h2>
+						<div class="sliderBarFilled twelveToThirteenAnimation"></div>
+						<h2 class="twelveYear">2012</h2>
+						<div class="sliderDot sliderDotTwelve twelveDotAnimation"></div>
+						<h2 class="twelveCases twelveCasesAnimation">343</h2>
+						<h2 class="thirteenYear">2013</h2>
+						<div class="sliderDot sliderDotThree thirteenDotAnimation"></div>
+						<h2 class="thirteenCases thirteenCasesAnimation">801</h2>
+					</div>
+				</div>
+			</div>
+		</div><! END wVirginia>
+		
+		<div class="wisconsinIndividual" id="wisconsin">
+			<div class="individualInnerWrapper">
+				<div class="individualStateLeft">
+					<svg class="wisconsinIndividualSVG" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						 viewBox="0 0 46.3 50.8" style="enable-background:new 0 0 46.3 50.8;" xml:space="preserve">
+						<metadata>
+							<sfw  xmlns="&ns_sfw;">
+								<slices></slices>
+								<sliceSourceBounds  bottomLeftOrigin="true" height="43.3" width="55.4" x="297.5" y="-319.8"></sliceSourceBounds>
+							</sfw>
+						</metadata>
+						<path class="individualStateFill wisconsinFill conneticutStateAnimation" d="M4.7,4.3c0,0-0.1,0.6-0.1,0.6C4.4,5,4.1,4.8,4,4.9C3.8,5.1,4.1,6.3,4.1,6.6c0.1,1.1,0.7,4.1,0.5,4.9
+							c-0.2,1-2.3,1.5-3,2.2c-0.5,0.5-0.2,1.3-0.5,1.8c-0.1,0.3-0.6,0.4-0.7,0.6c0,0.1,0,0.2,0,0.3c0,0.2,0,0.4,0,0.6
+							c0,1.1,0.5,0.5,1.2,0.9c0.2,0.1,0.7,1,0.8,1.3c0.2,0.8-0.5,1.2-0.6,1.8c-0.2,0.6,0.4,1.3,0.3,1.9c0,0.2-0.4,0.4-0.3,0.6
+							c0,0.4,0.6,0.9,0.5,1.5c0,0.2-0.4,2-0.3,2.1c0.1,0.2,1.9,1.4,2.2,1.5c0.5,0.2,1.2,0.2,1.7,0.4c0.4,0.2,0.6,0.6,1,0.8
+							c0.8,0.4,2,0.6,2.7,1.2c0.6,0.6,0.6,1.5,1.3,2c0.5,0.3,1.2,1,1.8,1.1c0.2,0.1,0.5-0.1,0.7-0.1c0.9,0.3,2,1.5,2.3,2.4
+							c0.4,1.1,0.2,2.3,0.8,3.3c0,0,0,1.1,0.3,1.5c0.3,0.4,0.9,0.2,1.1,0.8c0.2,0.6-0.7,1.3-0.6,2c0.1,0.6,0.4,1.7,0.7,2.2
+							c0.1,0.2,0.4,0.3,0.5,0.5c0.2,0.4,0.1,0.9,0.3,1.3c0.7,1.4,3.6-0.5,3.9,2.4c7.8-0.9,15.7-1.9,23.5-3h0c-0.1-0.6-0.3-1.1-0.4-1.7
+							c-0.1-0.5,0.4-1.2,0.1-1.7c-0.2-0.3-0.5-0.5-0.7-0.8c-0.2-0.3-0.1-0.9-0.3-1.2c-0.1-0.2-0.5-0.2-0.5-0.4c-0.1-0.2,0.2-0.4,0.2-0.7
+							c0-0.2-0.3-0.3-0.3-0.5c0-0.2,0.1-0.4,0.1-0.7c-0.1-0.3-0.4-0.4-0.4-0.7c0.1-0.9,0.5-1.9,0.5-2.7c0-0.3-0.2-0.6-0.1-0.9
+							c0.2-0.7,0.6-1.2,0.5-2c-0.1-0.5-0.3-0.7-0.4-1.2c-0.3-0.9,0.1-2,0.2-2.8c0.1-0.7,1-0.7,1-1.5c0-0.6-0.6-0.8-0.6-1.4
+							c0-0.7,0.2-1.6,0.2-2.3c0-0.5,0.6-2.4,0.2-2.7c-0.2-0.1-0.1-0.7-0.2-0.9c-0.1-0.2-0.1-0.4-0.3-0.5c-0.1,0-0.2,0.2-0.2,0.2
+							c-0.3,0.5-1.1,0.4-1.4,1c-0.3,0.6-0.3,1.2-0.5,1.8c-0.1,0.1-0.6,0.4-0.7,0.5c-0.2,0.3-0.9,1.9-1.4,0.7c-0.1-0.1,0.1-0.3,0.1-0.4
+							c0-1.2,0.6-2.1,1-3.2c0.1-0.2,0.1-0.2,0.3-0.4c0.3-0.4,0.8-0.6,1.1-1c0.2-0.2,0.1-0.8,0-1.3c-0.1,0-0.1,0-0.2,0
+							c-0.2,0-0.8-0.5-0.9-0.7c-0.2-0.4,0.5-2,0.3-2.2c-0.4-0.4-1.7,0.8-1.8,0.3c-0.2-0.7,0.4-1,0.4-1.6c0-0.2-0.4-0.5-0.4-0.7l0.3-0.4
+							c0-0.2-0.5-0.3-0.5-0.5l0.2-0.4c-0.1-0.3-1.1-0.6-1.3-0.8c0,0-0.2,0-0.3,0c-0.4,0-0.7-0.1-1.1-0.2c-0.1,0,0-0.1,0-0.2
+							c-0.1-0.6,0.2-0.7-0.2-1.3c-0.4-0.6-1.2,0-1.7-0.1c0,0-0.3-0.3-0.3-0.3c-0.3-0.1-0.9,0.1-1.2,0c-0.4-0.1-0.7,0.4-1,0.3
+							c-0.2,0-0.4-0.3-0.6-0.3c-0.2,0-0.3,0.2-0.5,0.3c-0.8,0.1-2.1-0.9-2.8-1.1c-1.3-0.4-3-0.4-4.4-0.6c-0.7-0.1-3.1-0.2-3.7-0.5
+							c-0.5-0.3-0.5-1.4-1-1.8c-0.2-0.2-0.6-0.1-0.8-0.3c-0.1-0.1,0-0.3-0.2-0.4c-0.4-0.1-0.4,0.5-0.6-0.1c-0.1,0.1-0.2,0.2-0.3,0.2
+							c-0.5,0-1.2-0.4-1.7-0.6c0,0-0.8-0.7-0.8-0.6c-0.3,0.9,0.4-0.1,0.2,0.5c-0.1,0.3-1.4,1.1-1.5,0.8c-0.2-0.3,0.5-1,0.6-1.2
+							c0.1-0.2-0.2-0.4-0.2-0.5c-0.2-0.6,1.2-1.5,0.4-2.3c-0.1-0.1-0.2,0.1-0.3,0.1c-0.1,0-0.1-0.2-0.3-0.3c-0.4-0.1-1.3,1-1.4,1
+							c-0.3,0.1-0.8,0.6-1.1,0.5c0,0,0.1-0.5-0.1-0.4c-0.8,0.5-1.2,1.2-2,1.6C8.9,3.7,6.8,5,5.6,4C5.5,3.9,5.4,3.8,5.4,3.7
+							C5.3,3.8,5.2,3.9,5.1,4C5,4.2,4.8,4.2,4.7,4.3"/>
+					</svg>
+				</div>
+				<div class="individualStateRight">
+					<div class="sectionHeader">
+						<h1>Wisconsin</h1><hr class="analysishr">
+					</div>
+					
+					<div class="graphSlider">
+						<div class="sliderBar"></div>
+						<div class="sliderBarFilled elevenToTwelveAnimation"></div>
+						<h2 class="elevenYear">2011</h2>
+						<div class="sliderDot sliderDotOne"></div>
+						<h2 class="elevenCases">5,137</h2>
+						<div class="sliderBarFilled twelveToThirteenAnimation"></div>
+						<h2 class="twelveYear">2012</h2>
+						<div class="sliderDot sliderDotTwelve twelveDotAnimation"></div>
+						<h2 class="twelveCases twelveCasesAnimation">4,436</h2>
+						<h2 class="thirteenYear">2013</h2>
+						<div class="sliderDot sliderDotThree thirteenDotAnimation"></div>
+						<h2 class="thirteenCases thirteenCasesAnimation">8,314</h2>
+					</div>
+				</div>
+			</div>
+		</div><! END wisconsin>
+		
+		<div class="wyomingIndividual" id="wyoming">
+			<div class="individualInnerWrapper">
+				<div class="individualStateLeft">
+					<svg class="wyomingIndividualSVG" version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+						 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 
+						 viewBox="0 0 63.2 51.2" style="enable-background:new 0 0 63.2 51.2;" xml:space="preserve">
+						<metadata>
+							<sfw  xmlns="&ns_sfw;">
+								<slices></slices>
+								<sliceSourceBounds  bottomLeftOrigin="true" height="57.6" width="91.9" x="279.2" y="-326.2"></sliceSourceBounds>
+							</sfw>
+						</metadata>
+						<path class="individualStateFill wyomingFill wyomingStateAnimation" d="M0.4,45.2c0,0.1,3.8,0.5,4.2,0.6c4.2,0.6,8.5,1.1,12.8,1.6c14.3,1.6,28.6,2.8,43,3.5c0.3-7.5,0.7-15.1,1-22.6
+							c0.5-7.5,0.9-15.1,1.4-22.6c0,0-0.3,0-0.4,0c-0.5,0-1-0.1-1.6-0.1c-1.2-0.1-2.4-0.1-3.6-0.2c-3.8-0.2-7.7-0.5-11.5-0.8
+							c-9.7-0.7-19.4-1.7-29.1-2.9c-2.5-0.3-4.9-0.6-7.4-1c-0.2,0-2.6-0.4-2.6-0.4C6.5,0.4,5.9,5.4,5.8,6c-1.3,9.3-2.6,18.7-3.9,28
+							c-0.4,2.7-0.8,5.5-1.1,8.2C0.7,42.5,0.4,45.2,0.4,45.2"/>
+					</svg>
+				</div>
+				<div class="individualStateRight">
+					<div class="sectionHeader">
+						<h1>Wyoming</h1><hr class="analysishr">
+					</div>
+					
+					<div class="graphSlider">
+						<div class="sliderBar"></div>
+						<div class="sliderBarFilled elevenToTwelveAnimation"></div>
+						<h2 class="elevenYear">2011</h2>
+						<div class="sliderDot sliderDotOne"></div>
+						<h2 class="elevenCases">2</h2>
+						<div class="sliderBarFilled twelveToThirteenAnimation"></div>
+						<h2 class="twelveYear">2012</h2>
+						<div class="sliderDot sliderDotTwelve twelveDotAnimation"></div>
+						<h2 class="twelveCases twelveCasesAnimation">2</h2>
+						<h2 class="thirteenYear">2013</h2>
+						<div class="sliderDot sliderDotThree thirteenDotAnimation"></div>
+						<h2 class="thirteenCases thirteenCasesAnimation">0</h2>
+					</div>
+				</div>
+			</div>
+		</div><! END wyoming>
+		
+		
+		
 		
 		
 	</section>
+	</div>
+	
+	<script>
+		$(".main").onepage_scroll({
+		   sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
+		   easing: "ease",                  // Easing options accepts the CSS3 easing animation such "ease", "linear", "ease-in",
+		                                    // "ease-out", "ease-in-out", or even cubic bezier value such as "cubic-bezier(0.175, 0.885, 0.420, 1.310)"
+		   animationTime: 1000,             // AnimationTime let you define how long each section takes to animate
+		   pagination: true,                // You can either show or hide the pagination. Toggle true for show, false for hide.
+		   updateURL: false,                // Toggle this true if you want the URL to be updated automatically when the user scroll to each page.
+		   beforeMove: function(index) {},  // This option accepts a callback function. The function will be called before the page moves.
+		   afterMove: function(index) {},   // This option accepts a callback function. The function will be called after the page moves.
+		   loop: false,                     // You can have the page loop back to the top/bottom when the user navigates at up/down on the first/last page.
+		   keyboard: true,                  // You can activate the keyboard controls
+		   responsiveFallback: false,        // You can fallback to normal page scroll by defining the width of the browser in which
+		                                    // you want the responsive fallback to be triggered. For example, set this to 600 and whenever
+		                                    // the browser's width is less than 600, the fallback will kick in.
+		   direction: "vertical"            // You can now define the direction of the One Page Scroll animation. Options available are "vertical" and "horizontal". The default value is "vertical".  
+		});
+	</script>
 
 </body>
 </html>

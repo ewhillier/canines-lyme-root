@@ -120,7 +120,8 @@ $(window).scroll(function() {
 		}
 	});
 	
-});
+}); 
+
 
 
 // ALABAMA ANIMATIONS

@@ -500,3 +500,339 @@
 	95% {opacity: .3}
 	100% {opacity: .3}	
 }
+
+
+/* NEVADA FILL */
+
+.nevadaStateAnimation {
+	animation-name: stateColorTransitionNevada;
+	-webkit-animation-name: stateColorTransitionNevada;	
+
+	animation-duration: 4.5s;	
+	-webkit-animation-duration: 4.5s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes stateColorTransitionNevada {
+	0% { opacity: .3}
+	45% {opacity: .3}
+	50% {opacity: .2}
+	90% {opacity: .2}
+	95% {opacity: .3}
+	100% {opacity: .3}	
+}
+
+
+/* NEW HAMPSHIRE FILL */
+
+.newhampshireStateAnimation {
+	animation-name: stateColorTransitionNewhampshire;
+	-webkit-animation-name: stateColorTransitionNewhampshire;	
+
+	animation-duration: 4.5s;	
+	-webkit-animation-duration: 4.5s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes stateColorTransitionNewhampshire {
+	0% { opacity: .5}
+	45% {opacity: .5}
+	50% {opacity: .4}
+	90% {opacity: .4}
+	95% {opacity: .6}
+	100% {opacity: .6}	
+}
+
+
+/* NEW YORK FILL */
+
+.newyorkStateAnimation {
+	animation-name: stateColorTransitionNewyork;
+	-webkit-animation-name: stateColorTransitionNewyork;	
+
+	animation-duration: 4.5s;	
+	-webkit-animation-duration: 4.5s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes stateColorTransitionNewyork {
+	0% { opacity: .6}
+	45% {opacity: .6}
+	50% {opacity: .7}
+	90% {opacity: .7}
+	95% {opacity: 1}
+	100% {opacity: 1}	
+}
+
+
+/* NORTH CAROLINA FILL */
+
+.ncarolinaStateAnimation {
+	animation-name: stateColorTransitionNcarolina;
+	-webkit-animation-name: stateColorTransitionNcarolina;	
+
+	animation-duration: 4.5s;	
+	-webkit-animation-duration: 4.5s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes stateColorTransitionNcarolina {
+	0% { opacity: .6}
+	45% {opacity: .6}
+	50% {opacity: .65}
+	90% {opacity: .65}
+	95% {opacity: .7}
+	100% {opacity: .7}	
+}
+
+
+/* NORTH DAKOTA FILL */
+
+.ndakotaStateAnimation {
+	animation-name: stateColorTransitionNdakota;
+	-webkit-animation-name: stateColorTransitionNdakota;	
+
+	animation-duration: 4.5s;	
+	-webkit-animation-duration: 4.5s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes stateColorTransitionNdakota {
+	0% { opacity: .5}
+	45% {opacity: .5}
+	50% {opacity: .55}
+	90% {opacity: .55}
+	95% {opacity: .6}
+	100% {opacity: .6}	
+}
+
+
+/* OKLAHOMA FILL */
+
+.oklahomaStateAnimation {
+	animation-name: stateColorTransitionOklahoma;
+	-webkit-animation-name: stateColorTransitionOklahoma;	
+
+	animation-duration: 4.5s;	
+	-webkit-animation-duration: 4.5s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes stateColorTransitionOklahoma {
+	0% { opacity: .35}
+	45% {opacity: .35}
+	50% {opacity: .3}
+	90% {opacity: .3}
+	95% {opacity: .4}
+	100% {opacity: .4}	
+}
+
+
+/* OREGON FILL */
+
+.oregonStateAnimation {
+	animation-name: stateColorTransitionOregon;
+	-webkit-animation-name: stateColorTransitionOregon;	
+
+	animation-duration: 4.5s;	
+	-webkit-animation-duration: 4.5s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes stateColorTransitionOregon {
+	0% { opacity: .55}
+	45% {opacity: .55}
+	50% {opacity: .6}
+	90% {opacity: .6}
+	95% {opacity: .65}
+	100% {opacity: .65}	
+}
+
+
+/* PENNSYLVANIA FILL */
+
+.pennsylvaniaStateAnimation {
+	animation-name: stateColorTransitionPennsylvania;
+	-webkit-animation-name: stateColorTransitionPennsylvania;	
+
+	animation-duration: 4.5s;	
+	-webkit-animation-duration: 4.5s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes stateColorTransitionPennsylvania {
+	0% { opacity: .9}
+	45% {opacity: .9}
+	50% {opacity: .8}
+	90% {opacity: .8}
+	95% {opacity: 1}
+	100% {opacity: 1}	
+}
+
+
+/* RHODE ISLAND FILL */
+
+.rhodeislandStateAnimation {
+	animation-name: stateColorTransitionRhodeIsland;
+	-webkit-animation-name: stateColorTransitionRhodeIsland;	
+
+	animation-duration: 4.5s;	
+	-webkit-animation-duration: 4.5s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes stateColorTransitionRhodeIsland {
+	0% { opacity: .7}
+	45% {opacity: .7}
+	50% {opacity: .5}
+	90% {opacity: .5}
+	95% {opacity: .7}
+	100% {opacity: .7}	
+}
+
+
+/* SOUTH CAROLINA FILL */
+
+.scarolinaStateAnimation {
+	animation-name: stateColorTransitionScarolina;
+	-webkit-animation-name: stateColorTransitionScarolina;	
+
+	animation-duration: 4.5s;	
+	-webkit-animation-duration: 4.5s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes stateColorTransitionScarolina {
+	0% { opacity: .6}
+	45% {opacity: .6}
+	50% {opacity: .6}
+	90% {opacity: .6}
+	95% {opacity: .7}
+	100% {opacity: .7}	
+}
+
+
+/* SOUTH DAKOTA FILL */
+
+.sdakotaStateAnimation {
+	animation-name: stateColorTransitionSdakota;
+	-webkit-animation-name: stateColorTransitionSdakota;	
+
+	animation-duration: 4.5s;	
+	-webkit-animation-duration: 4.5s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes stateColorTransitionSdakota {
+	0% { opacity: .2}
+	45% {opacity: .2}
+	50% {opacity: .25}
+	90% {opacity: .25}
+	95% {opacity: .3}
+	100% {opacity: .3}	
+}
+
+
+/* WYOMING FILL */
+
+.wyomingStateAnimation {
+	animation-name: stateColorTransitionWyoming;
+	-webkit-animation-name: stateColorTransitionWyoming;	
+
+	animation-duration: 4.5s;	
+	-webkit-animation-duration: 4.5s;
+
+	animation-timing-function: ease-in;	
+	-webkit-animation-timing-function: ease-in;			
+	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+
+	visibility: visible !important;	
+}
+
+@keyframes stateColorTransitionWyoming {
+	0% { opacity: .2}
+	45% {opacity: .2}
+	50% {opacity: .2}
+	90% {opacity: .2}
+	95% {opacity: .1}
+	100% {opacity: .1}	
+}
