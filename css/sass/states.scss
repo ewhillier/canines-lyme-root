@@ -1,3 +1,16 @@
 .isHidden {
 	opacity: 0;
 }
+
+.isOnTop {
+	position: absolute;
+	top: 0;
+}
+
+.transition {
+	transition: all .5s ease;
+}
+
+.isAbsolute {
+	position: absolute;
+}

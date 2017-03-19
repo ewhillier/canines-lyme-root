@@ -1,0 +1,2738 @@
+* {
+  box-sizing: border-box; }
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.3em;
+  letter-spacing: .02em; }
+
+p {
+  font-family: 'Roboto', sans-serif; }
+
+h2 {
+  font-size: .7em;
+  letter-spacing: .1em;
+  color: #58595b;
+  font-weight: 400; }
+
+a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: .8em;
+  letter-spacing: .04em;
+  text-decoration: none;
+  color: #666; }
+
+.isHidden {
+  opacity: 0; }
+
+.sectionOne {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background-color: #df6f55; }
+
+.sOneLOne {
+  width: 100%;
+  position: absolute;
+  bottom: 0; }
+
+.sOneLTwo {
+  width: 120%;
+  position: absolute;
+  bottom: 0; }
+
+.sOneLThree {
+  width: 120%;
+  position: absolute;
+  bottom: -100px; }
+
+.sOneLFour {
+  width: 80%;
+  right: 100px;
+  bottom: 0px; }
+
+.sOneLFive {
+  width: 100%;
+  bottom: 0px; }
+
+.heroPositioning {
+  position: absolute; }
+
+.heroCloudOne {
+  width: 200px;
+  display: inherit;
+  position: absolute;
+  top: 200px;
+  right: -200px;
+  opacity: .45; }
+
+.heroCloudTwo {
+  width: 150px;
+  display: inherit;
+  position: absolute;
+  top: 30px;
+  right: -200px;
+  opacity: .3; }
+
+.heroCloudThree {
+  width: 30px;
+  display: inherit;
+  position: absolute;
+  top: 200px;
+  right: -30px;
+  opacity: .15; }
+
+.heroCloudFour {
+  width: 80px;
+  display: inherit;
+  position: absolute;
+  top: 300px;
+  right: -30px;
+  opacity: .2; }
+
+.heroTag {
+  display: inherit;
+  margin: 0 auto; }
+
+.heroHeader {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .14em;
+  color: #261022; }
+
+.bold {
+  font-weight: 500;
+  font-size: 1.3em;
+  line-height: 1em; }
+
+.tickOne {
+  width: 50px;
+  display: inherit;
+  position: absolute;
+  bottom: 0;
+  left: 50px; }
+
+.tickTwo {
+  width: 50px;
+  display: inherit;
+  position: absolute;
+  bottom: 0;
+  left: 150px; }
+
+.tickThree {
+  width: 50px;
+  display: inherit;
+  position: absolute;
+  bottom: -50px;
+  left: 100px; }
+
+.tickFour {
+  width: 50px;
+  display: inherit;
+  position: absolute;
+  bottom: 0;
+  right: 50px; }
+
+.tickFive {
+  width: 50px;
+  display: inherit;
+  position: absolute;
+  bottom: 0;
+  right: 150px; }
+
+.tickSix {
+  width: 50px;
+  display: inherit;
+  position: absolute;
+  bottom: -50px;
+  right: 100px; }
+
+.sectionHeader {
+  padding: 50px 50px 0px 50px; }
+
+/* DISEASE TRANSFER */
+.diseaseTransfer {
+  width: 100vw;
+  height: 100vh;
+  background-color: #49182e;
+  position: relative; }
+
+.diseaseTransferHeader {
+  letter-spacing: .1em;
+  color: #eac19b;
+  font-size: 1.5em;
+  margin: 0; }
+
+hr {
+  margin: 0;
+  width: 45px;
+  text-align: left;
+  border-color: #eac19b;
+  margin-top: 20px; }
+
+.armContainer {
+  margin-top: 0px;
+  position: relative;
+  overflow: hidden; }
+
+.arm {
+  width: 100%; }
+
+.armTick {
+  width: 40px;
+  position: absolute;
+  top: 140px;
+  left: -40px;
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(45deg); }
+
+.armRash {
+  position: absolute;
+  top: 70px;
+  left: 700px; }
+
+.armSpirocheteOne {
+  position: absolute;
+  top: 30px;
+  left: 600px; }
+
+.armSpirocheteTwo {
+  position: absolute;
+  top: 200px;
+  left: 550px; }
+
+.armSpirocheteThree {
+  position: absolute;
+  top: 250px;
+  left: 900px; }
+
+.diseaseTransferP {
+  width: 400px;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.8em;
+  letter-spacing: .1em;
+  color: #eac19b;
+  float: left;
+  margin-right: 100px; }
+
+.diseaseTransferGrass {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0; }
+
+/* ANALYSIS */
+.analysis {
+  height: 100vh;
+  width: 100vw;
+  background-color: #e5dbca; }
+
+.analysis-wrapper {
+  width: 1280px;
+  margin: 0 auto; }
+
+.analysisLeft {
+  width: 45%;
+  float: left;
+  padding: 50px; }
+
+.analysisRight {
+  width: 55%;
+  height: 100vh;
+  float: left;
+  padding: 50px; }
+
+.analysisHeading {
+  color: #592c4e;
+  font-size: 1.6em;
+  font-weight: 400;
+  line-height: 1.3em; }
+
+.analysishr {
+  border-color: #592c4e; }
+
+.analysisP {
+  margin-top: 30px;
+  font-size: .8em;
+  line-height: 1.5em;
+  color: #58595b;
+  letter-spacing: .04em; }
+
+.trendDescription {
+  padding: 20px 50px;
+  clear: both; }
+
+.analysisIcon {
+  width: 13px;
+  float: left; }
+
+.trendDescriptionHeadings {
+  float: left;
+  margin: 0 0 0 10px;
+  font-size: .8em;
+  font-weight: 500;
+  letter-spacing: .04em; }
+
+.increasingHeading {
+  color: #9b5b66; }
+
+.decreasingHeading {
+  color: #754c28; }
+
+.oppositeHeading {
+  color: #006299; }
+
+.predictionHeading {
+  color: #58595b; }
+
+.trendDescriptionP {
+  float: left;
+  margin: 8px 0 0 25px;
+  line-height: 1.3em; }
+
+.analysisGraph {
+  margin-top: 80px; }
+
+.analysisGraphLine {
+  overflow: auto;
+  height: 20px;
+  width: 100%;
+  margin-bottom: 30px;
+  position: relative; }
+
+.increasingGraphIcon {
+  margin-top: 4px; }
+
+.increasingFilled {
+  position: absolute;
+  left: 15px;
+  width: 315px;
+  height: 20px;
+  background-color: #9b5b66;
+  float: left;
+  margin-left: 10px;
+  color: #e5dbca;
+  transform: scaleX(0); }
+
+.increasingOutline {
+  position: absolute;
+  left: 24px;
+  width: 434px;
+  height: 20px;
+  border: 1px solid #9b5b66; }
+
+.graphNumbers {
+  float: right;
+  margin: 2px 3px 0 0px;
+  font-size: .9em;
+  font-weight: 400;
+  letter-spacing: .04em; }
+
+.oppositeFilled {
+  position: absolute;
+  left: 15px;
+  width: 70px;
+  height: 20px;
+  background-color: #006299;
+  float: left;
+  margin-left: 10px;
+  color: #e5dbca;
+  transform: scaleX(0); }
+
+.decreasingOutline {
+  position: absolute;
+  left: 25px;
+  width: 434px;
+  float: left;
+  height: 20px;
+  border: 1px solid #754c29; }
+
+.oppositeOutline {
+  position: absolute;
+  left: 14px;
+  width: 435px;
+  height: 20px;
+  border: 1px solid #006299;
+  margin-left: 10px; }
+
+.predictionFilled {
+  position: absolute;
+  left: 15px;
+  width: 315px;
+  height: 20px;
+  background-color: #58595b;
+  float: left;
+  margin-left: 10px;
+  color: #e5dbca;
+  transform: scaleX(0); }
+
+.predictionOutline {
+  position: absolute;
+  left: 24px;
+  width: 434px;
+  float: left;
+  height: 20px;
+  border: 1px solid #58595b; }
+
+/* PURPLE STATES */
+.purpleStateAnimation {
+  animation-name: purpleColorChange;
+  -webkit-animation-name: purpleColorChange;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-delay: 3s;
+  -webkit-animation-delay: 3s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes purpleColorChange {
+  0% {
+    fill: #e5dbca;
+    stroke: #592c4e; }
+  100% {
+    fill: #9b5b66;
+    stroke: #e5dbca; } }
+/* BLUE STATES */
+.blueStateAnimation {
+  animation-name: blueColorChange;
+  -webkit-animation-name: blueColorChange;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-delay: 7s;
+  -webkit-animation-delay: 7s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes blueColorChange {
+  0% {
+    fill: #e5dbca;
+    stroke: #592c4e; }
+  100% {
+    fill: #006299;
+    stroke: #e5dbca; } }
+/* BAR GRAPH ANIMATION */
+.graphIncreasingFillAnimation {
+  animation-name: fillAnimation;
+  -webkit-animation-name: fillAnimation;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-delay: 3s;
+  transform-origin: left;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+.graphOppositeFillAnimation {
+  animation-name: fillAnimation;
+  -webkit-animation-name: fillAnimation;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-delay: 7s;
+  -webkit-animation-delay: 7s;
+  transform-origin: left;
+  -webkit-transform-origin: left;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+.graphPercentageFillAnimation {
+  animation-name: fillAnimation;
+  -webkit-animation-name: fillAnimation;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-delay: 9s;
+  -webkit-animation-delay: 9s;
+  transform-origin: left;
+  -webkit-transform-origin: left;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes fillAnimation {
+  0% {
+    transform: scaleX(0); }
+  100% {
+    transform: scaleX(1); } }
+/* REVEAL ANIMATIONS */
+.revealAnalysisDescription {
+  animation-name: revealAnimation;
+  -webkit-animation-name: revealAnimation;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+.revealIncreasingDescription {
+  animation-name: revealAnimation;
+  -webkit-animation-name: revealAnimation;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-delay: 3s;
+  -webkit-animation-delay: 3s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+.revealDecreasingDescription {
+  animation-name: revealAnimation;
+  -webkit-animation-name: revealAnimation;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-delay: 5s;
+  -webkit-animation-delay: 5s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+.revealOppositeDescription {
+  animation-name: revealAnimation;
+  -webkit-animation-name: revealAnimation;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-delay: 7s;
+  -webkit-animation-delay: 7s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+.revealPercentageDescription {
+  animation-name: revealAnimation;
+  -webkit-animation-name: revealAnimation;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-delay: 9s;
+  -webkit-animation-delay: 9s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes revealAnimation {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+.analysisMap {
+  position: relative;
+  margin-top: 130px; }
+
+.analysisWashington {
+  width: 59.5px;
+  position: absolute;
+  top: 0;
+  left: 26px; }
+
+.analysisOregon {
+  width: 72px;
+  position: absolute;
+  top: 27px;
+  left: 11px; }
+
+.analysisCalifornia {
+  width: 74px;
+  position: absolute;
+  top: 70px;
+  left: 5px; }
+
+.analysisNevada {
+  width: 58px;
+  position: absolute;
+  top: 79px;
+  left: 36px; }
+
+.analysisIdaho {
+  width: 52px;
+  position: absolute;
+  top: 10px;
+  left: 68px; }
+
+.analysisArizona {
+  width: 61px;
+  position: absolute;
+  top: 143px;
+  left: 67px; }
+
+.analysisUtah {
+  width: 50px;
+  position: absolute;
+  top: 89px;
+  left: 82px; }
+
+.analysisMontana {
+  width: 91px;
+  position: absolute;
+  top: 11px;
+  left: 87px; }
+
+.analysisWyoming {
+  width: 62px;
+  position: absolute;
+  top: 61px;
+  left: 113px; }
+
+.analysisColorado {
+  width: 65px;
+  position: absolute;
+  top: 106px;
+  left: 126px; }
+
+.analysisNewmexico {
+  width: 62px;
+  position: absolute;
+  top: 150px;
+  left: 119px; }
+
+.analysisNdakota {
+  width: 60px;
+  position: absolute;
+  top: 22px;
+  left: 175px; }
+
+.analysisSdakota {
+  width: 63px;
+  position: absolute;
+  top: 56px;
+  left: 173px; }
+
+.analysisNebraska {
+  width: 75px;
+  position: absolute;
+  top: 87px;
+  left: 172px; }
+
+.analysisKansas {
+  width: 67px;
+  position: absolute;
+  top: 120px;
+  left: 187px; }
+
+.analysisOklahoma {
+  width: 81px;
+  position: absolute;
+  top: 153px;
+  left: 178px; }
+
+.analysisTexas {
+  width: 130px;
+  position: absolute;
+  top: 158px;
+  left: 142px; }
+
+.analysisMinnesota {
+  width: 58px;
+  position: absolute;
+  top: 17px;
+  left: 226px; }
+
+.analysisIowa {
+  width: 55px;
+  position: absolute;
+  top: 79px;
+  left: 233px; }
+
+.analysisMissouri {
+  width: 63px;
+  position: absolute;
+  top: 111px;
+  left: 240px; }
+
+.analysisLouisiana {
+  width: 55px;
+  position: absolute;
+  top: 194px;
+  left: 264px; }
+
+.analysisWisconsin {
+  width: 46px;
+  position: absolute;
+  top: 41px;
+  left: 260px; }
+
+.analysisIllinois {
+  width: 37px;
+  position: absolute;
+  top: 87px;
+  left: 277px; }
+
+.analysisMichigan {
+  width: 70px;
+  position: absolute;
+  top: 36px;
+  left: 278px; }
+
+.analysisIndiana {
+  width: 29px;
+  position: absolute;
+  top: 91px;
+  left: 307px; }
+
+.analysisKentucky {
+  width: 65px;
+  position: absolute;
+  top: 119px;
+  left: 299px; }
+
+.analysisTennessee {
+  width: 76px;
+  position: absolute;
+  top: 141px;
+  left: 293px; }
+
+.analysisMississippi {
+  width: 34px;
+  position: absolute;
+  top: 169px;
+  left: 288px; }
+
+.analysisAlabama {
+  width: 38px;
+  position: absolute;
+  top: 165px;
+  left: 315px; }
+
+.analysisGeorgia {
+  width: 52px;
+  position: absolute;
+  top: 160px;
+  left: 338px; }
+
+.analysisOhio {
+  width: 38px;
+  position: absolute;
+  top: 81px;
+  left: 329px; }
+
+.analysisWVirginia {
+  width: 39px;
+  position: absolute;
+  top: 95px;
+  left: 355px; }
+
+.analysisVirginia {
+  width: 70px;
+  position: absolute;
+  top: 103px;
+  left: 349px; }
+
+.analysisNCarolina {
+  width: 76px;
+  position: absolute;
+  top: 128px;
+  left: 347px; }
+
+.analysisSCarolina {
+  width: 47px;
+  position: absolute;
+  top: 155px;
+  left: 358px; }
+
+.analysisFlorida {
+  width: 87px;
+  position: absolute;
+  top: 202px;
+  left: 326px; }
+
+.analysisPennsylvania {
+  width: 54px;
+  position: absolute;
+  top: 69px;
+  left: 361px; }
+
+.analysisMaryland {
+  width: 42px;
+  position: absolute;
+  top: 94px;
+  left: 378px; }
+
+.analysisNewyork {
+  width: 68px;
+  position: absolute;
+  top: 32px;
+  left: 367px; }
+
+.blueState {
+  fill: #e5dbca;
+  stroke: #592c4e;
+  stroke-width: 0.75;
+  stroke-miterlimit: 10; }
+
+.purpleState {
+  fill: #e5dbca;
+  stroke: #592c4e;
+  stroke-width: 0.75;
+  stroke-miterlimit: 10; }
+
+.analysisDelaware {
+  width: 11px;
+  position: absolute;
+  top: 93px;
+  left: 409px; }
+
+.analysisNewjersey {
+  width: 13px;
+  position: absolute;
+  top: 74px;
+  left: 408px; }
+
+.analysisConneticut {
+  width: 16px;
+  position: absolute;
+  top: 58px;
+  left: 417px; }
+
+.analysisMassachusetts {
+  width: 31px;
+  position: absolute;
+  top: 47px;
+  left: 416px; }
+
+.analysisVermont {
+  width: 16px;
+  position: absolute;
+  top: 27px;
+  left: 407px; }
+
+.analysisNewhampshire {
+  width: 15px;
+  position: absolute;
+  top: 23px;
+  left: 419px; }
+
+.analysisMaine {
+  width: 34px;
+  position: absolute;
+  top: -6px;
+  left: 422px; }
+
+.analysisRhodeIsland {
+  width: 5px;
+  position: absolute;
+  top: 57px;
+  left: 430px; }
+
+.analysisArkansas {
+  width: 47px;
+  position: absolute;
+  top: 155px;
+  left: 255px; }
+
+.yourStateSection {
+  height: 100vh;
+  width: 100vw;
+  background-color: white; }
+
+.mountainPeaksContainer {
+  position: relative;
+  height: 130px;
+  background-color: #e5dbca; }
+
+.mountainPeaks {
+  position: absolute;
+  bottom: 0;
+  width: 100vw; }
+
+.mountainPeaksSVG {
+  fill: #FFFFFF; }
+
+.yourStateHeading {
+  color: #592c4e;
+  font-size: 1.6em;
+  font-weight: 400;
+  line-height: 1.3em; }
+
+.yourStateHeader {
+  width: 400px; }
+
+.yourStateP {
+  margin-top: 30px;
+  font-size: .8em;
+  line-height: 1.5em;
+  color: #58595b;
+  letter-spacing: .04em; }
+
+.yourState {
+  fill: white;
+  stroke: #592c4e;
+  stroke-width: 0.75;
+  stroke-miterlimit: 10; }
+
+.yourStateMap {
+  position: relative;
+  margin-top: 130px;
+  transform: scale(1.3); }
+
+.yourStateWashington {
+  width: 59.5px;
+  position: absolute;
+  top: 0;
+  left: 26px; }
+  .yourStateWashington:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateOregon {
+  width: 72px;
+  position: absolute;
+  top: 27px;
+  left: 11px; }
+  .yourStateOregon:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateCalifornia {
+  width: 74px;
+  position: absolute;
+  top: 70px;
+  left: 5px; }
+  .yourStateCalifornia:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateNevada {
+  width: 58px;
+  position: absolute;
+  top: 79px;
+  left: 36px; }
+  .yourStateNevada:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateIdaho {
+  width: 52px;
+  position: absolute;
+  top: 10px;
+  left: 68px; }
+  .yourStateIdaho:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateArizona {
+  width: 61px;
+  position: absolute;
+  top: 143px;
+  left: 67px; }
+  .yourStateArizona:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateUtah {
+  width: 50px;
+  position: absolute;
+  top: 89px;
+  left: 82px; }
+  .yourStateUtah:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateMontana {
+  width: 91px;
+  position: absolute;
+  top: 11px;
+  left: 87px; }
+  .yourStateMontana:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateWyoming {
+  width: 62px;
+  position: absolute;
+  top: 61px;
+  left: 113px; }
+  .yourStateWyoming:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateColorado {
+  width: 65px;
+  position: absolute;
+  top: 106px;
+  left: 126px; }
+  .yourStateColorado:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateNewmexico {
+  width: 62px;
+  position: absolute;
+  top: 150px;
+  left: 119px; }
+  .yourStateNewmexico:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateNdakota {
+  width: 60px;
+  position: absolute;
+  top: 22px;
+  left: 175px; }
+  .yourStateNdakota:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateSdakota {
+  width: 63px;
+  position: absolute;
+  top: 56px;
+  left: 173px; }
+  .yourStateSdakota:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateNebraska {
+  width: 75px;
+  position: absolute;
+  top: 87px;
+  left: 172px; }
+  .yourStateNebraska:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateKansas {
+  width: 67px;
+  position: absolute;
+  top: 120px;
+  left: 187px; }
+  .yourStateKansas:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateOklahoma {
+  width: 81px;
+  position: absolute;
+  top: 153px;
+  left: 178px; }
+  .yourStateOklahoma:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateTexas {
+  width: 130px;
+  position: absolute;
+  top: 158px;
+  left: 142px; }
+  .yourStateTexas:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateMinnesota {
+  width: 58px;
+  position: absolute;
+  top: 17px;
+  left: 226px; }
+  .yourStateMinnesota:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateIowa {
+  width: 55px;
+  position: absolute;
+  top: 79px;
+  left: 233px; }
+  .yourStateIowa:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateMissouri {
+  width: 63px;
+  position: absolute;
+  top: 111px;
+  left: 240px; }
+  .yourStateMissouri:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateLouisiana {
+  width: 55px;
+  position: absolute;
+  top: 194px;
+  left: 264px; }
+  .yourStateLouisiana:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateWisconsin {
+  width: 46px;
+  position: absolute;
+  top: 41px;
+  left: 260px; }
+  .yourStateWisconsin:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateIllinois {
+  width: 37px;
+  position: absolute;
+  top: 87px;
+  left: 277px; }
+  .yourStateIllinois:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateMichigan {
+  width: 70px;
+  position: absolute;
+  top: 36px;
+  left: 278px; }
+  .yourStateMichigan:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateIndiana {
+  width: 29px;
+  position: absolute;
+  top: 91px;
+  left: 307px; }
+  .yourStateIndiana:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateKentucky {
+  width: 65px;
+  position: absolute;
+  top: 119px;
+  left: 299px; }
+  .yourStateKentucky:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateTennessee {
+  width: 76px;
+  position: absolute;
+  top: 141px;
+  left: 293px; }
+  .yourStateTennessee:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateMississippi {
+  width: 34px;
+  position: absolute;
+  top: 169px;
+  left: 288px; }
+  .yourStateMississippi:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateAlabama {
+  width: 38px;
+  position: absolute;
+  top: 165px;
+  left: 315px; }
+  .yourStateAlabama:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateGeorgia {
+  width: 52px;
+  position: absolute;
+  top: 160px;
+  left: 338px; }
+  .yourStateGeorgia:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateOhio {
+  width: 38px;
+  position: absolute;
+  top: 81px;
+  left: 329px; }
+  .yourStateOhio:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateWVirginia {
+  width: 39px;
+  position: absolute;
+  top: 95px;
+  left: 355px; }
+  .yourStateWVirginia:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateVirginia {
+  width: 70px;
+  position: absolute;
+  top: 103px;
+  left: 349px; }
+  .yourStateVirginia:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateNCarolina {
+  width: 76px;
+  position: absolute;
+  top: 128px;
+  left: 347px; }
+  .yourStateNCarolina:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateSCarolina {
+  width: 47px;
+  position: absolute;
+  top: 155px;
+  left: 358px; }
+  .yourStateSCarolina:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateFlorida {
+  width: 87px;
+  position: absolute;
+  top: 202px;
+  left: 326px; }
+  .yourStateFlorida:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStatePennsylvania {
+  width: 54px;
+  position: absolute;
+  top: 69px;
+  left: 361px; }
+  .yourStatePennsylvania:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateMaryland {
+  width: 42px;
+  position: absolute;
+  top: 94px;
+  left: 378px; }
+  .yourStateMaryland:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateNewyork {
+  width: 68px;
+  position: absolute;
+  top: 32px;
+  left: 367px; }
+  .yourStateNewyork:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.blueState {
+  fill: #e5dbca;
+  stroke: #592c4e;
+  stroke-width: 0.75;
+  stroke-miterlimit: 10; }
+
+.purpleState {
+  fill: #e5dbca;
+  stroke: #592c4e;
+  stroke-width: 0.75;
+  stroke-miterlimit: 10; }
+
+.yourStateDelaware {
+  width: 11px;
+  position: absolute;
+  top: 93px;
+  left: 409px; }
+  .yourStateDelaware:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateNewjersey {
+  width: 13px;
+  position: absolute;
+  top: 74px;
+  left: 408px; }
+  .yourStateNewjersey:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateConneticut {
+  width: 16px;
+  position: absolute;
+  top: 58px;
+  left: 417px; }
+  .yourStateConneticut:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateMassachusetts {
+  width: 31px;
+  position: absolute;
+  top: 47px;
+  left: 416px; }
+  .yourStateMassachusetts:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateVermont {
+  width: 16px;
+  position: absolute;
+  top: 27px;
+  left: 407px; }
+  .yourStateVermont:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateNewhampshire {
+  width: 15px;
+  position: absolute;
+  top: 23px;
+  left: 419px; }
+  .yourStateNewhampshire:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateMaine {
+  width: 34px;
+  position: absolute;
+  top: -6px;
+  left: 422px; }
+  .yourStateMaine:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateRhodeIsland {
+  width: 5px;
+  position: absolute;
+  top: 57px;
+  left: 430px; }
+  .yourStateRhodeIsland:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.yourStateArkansas {
+  width: 47px;
+  position: absolute;
+  top: 155px;
+  left: 255px; }
+  .yourStateArkansas:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .1s linear; }
+
+.individualStates {
+  position: relative; }
+
+.selectNewState {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  border: 1px solid #666;
+  padding: 5px 7px 5px 7px;
+  border-radius: 3px; }
+
+.individualInnerWrapper {
+  width: 1280px;
+  margin: 0 auto; }
+
+.individualStateLeft {
+  width: 35%;
+  float: left;
+  padding: 120px 0 0 200px; }
+
+.individualStateRight {
+  width: 65%;
+  float: left;
+  padding: 50px 0 0 0; }
+
+.graphSlider {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  padding: 50px 50px 0px 50px; }
+
+.sliderBar {
+  position: absolute;
+  top: 70px;
+  height: 3px;
+  width: 450px;
+  background-color: #eee; }
+
+.sliderBarFilled {
+  position: absolute;
+  top: 70px;
+  height: 3px;
+  width: 450px;
+  background-color: #592c4e;
+  transform: scaleX(0);
+  transform-origin: left; }
+
+.sliderDot {
+  height: 15px;
+  width: 15px;
+  border-radius: 15px; }
+
+.sliderDotOne {
+  position: absolute;
+  top: 64px;
+  background-color: #592c4e; }
+
+.sliderDotTwelve {
+  position: absolute;
+  top: 64px;
+  left: 270px;
+  background-color: #eee; }
+
+.sliderDotThree {
+  position: absolute;
+  top: 64px;
+  left: 490px; }
+
+.elevenYear {
+  position: absolute;
+  top: 20px; }
+
+.elevenCases {
+  position: absolute;
+  top: 80px;
+  left: 53px;
+  font-size: .8em;
+  font-weight: 600;
+  color: #592c4e; }
+
+.twelveYear {
+  position: absolute;
+  top: 20px;
+  left: 271px; }
+
+.twelveCases {
+  position: absolute;
+  top: 80px;
+  left: 271px;
+  font-size: .8em;
+  font-weight: 600;
+  color: white; }
+
+.thirteenYear {
+  position: absolute;
+  top: 20px;
+  left: 491px; }
+
+.thirteenCases {
+  position: absolute;
+  top: 80px;
+  left: 491px;
+  font-size: .8em;
+  font-weight: 600;
+  color: white; }
+
+.individualStateFill {
+  fill: #592c4e; }
+
+.alabamaIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.alabamaIndividualSVG {
+  height: 200px; }
+
+.alabamaFill {
+  opacity: 0.3; }
+
+.arizonaIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.arizonaIndividualSVG {
+  height: 170px; }
+
+.arizonaFill {
+  opacity: 0.4; }
+
+.arkansasIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.arkansasIndividualSVG {
+  height: 170px; }
+
+.arkansasFill {
+  opacity: 0.3; }
+
+.californiaIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.californiaIndividualSVG {
+  margin-top: -20px;
+  height: 220px; }
+
+.californiaFill {
+  opacity: 0.6; }
+
+.coloradoIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.coloradoIndividualSVG {
+  height: 140px; }
+
+.coloradoFill {
+  opacity: 0.4; }
+
+.conneticutIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.conneticutIndividualSVG {
+  height: 190px; }
+
+.conneticutFill {
+  opacity: 0.8; }
+
+.delawareIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.delawareIndividualSVG {
+  height: 210px; }
+
+.delawareFill {
+  opacity: 0.7; }
+
+.floridaIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.floridaIndividualSVG {
+  height: 150px; }
+
+.floridaFill {
+  opacity: 0.6; }
+
+.georgiaIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.georgiaIndividualSVG {
+  height: 180px; }
+
+.georgiaFill {
+  opacity: 0.6; }
+
+.idahoIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.idahoIndividualSVG {
+  height: 200px; }
+
+.idahoFill {
+  opacity: 0.6; }
+
+.illinoisIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.illinoisIndividualSVG {
+  height: 200px; }
+
+.illinoisFill {
+  opacity: 0.7; }
+
+.indianaIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.indianaIndividualSVG {
+  height: 200px; }
+
+.indianaFill {
+  opacity: 0.7; }
+
+.iowaIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.iowaIndividualSVG {
+  height: 150px; }
+
+.iowaFill {
+  opacity: 0.7; }
+
+.kansasIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.kansasIndividualSVG {
+  height: 120px; }
+
+.kansasFill {
+  opacity: 0.7; }
+
+.kentuckyIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.kentuckyIndividualSVG {
+  height: 130px; }
+
+.kentuckyFill {
+  opacity: 0.7; }
+
+.louisianaIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.louisianaIndividualSVG {
+  height: 160px; }
+
+.louisianaFill {
+  opacity: 0.7; }
+
+.maineIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.maineIndividualSVG {
+  height: 220px; }
+
+.maineFill {
+  opacity: 0.8; }
+
+.marylandIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.marylandIndividualSVG {
+  margin-left: -50px;
+  height: 130px; }
+
+.marylandFill {
+  opacity: 0.8; }
+
+.massachusettsIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.massachusettsIndividualSVG {
+  margin-left: -30px;
+  height: 130px; }
+
+.massachusettsFill {
+  opacity: 0.8; }
+
+.michiganIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.michiganIndividualSVG {
+  margin-left: -30px;
+  height: 130px; }
+
+.michiganFill {
+  opacity: 0.6; }
+
+.minnesotaIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.minnesotaIndividualSVG {
+  margin-top: -10px;
+  height: 190px; }
+
+.minnesotaFill {
+  opacity: 0.6; }
+
+.mississippiIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.mississippiIndividualSVG {
+  margin-top: -10px;
+  height: 200px; }
+
+.mississippiFill {
+  opacity: 0.3; }
+
+.missouriIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.missouriIndividualSVG {
+  margin-top: -10px;
+  height: 180px; }
+
+.missouriFill {
+  opacity: 0.3; }
+
+.montanaIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.montanaIndividualSVG {
+  margin-top: -10px;
+  height: 140px; }
+
+.montanaFill {
+  opacity: 0.3; }
+
+.nebraskaIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.nebraskaIndividualSVG {
+  margin-left: -10px;
+  height: 120px; }
+
+.nebraskaFill {
+  opacity: 0.2; }
+
+.nevadaIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.nevadaIndividualSVG {
+  height: 256px;
+  margin-top: -50px; }
+
+.nevadaFill {
+  opacity: 0.2; }
+
+.newhampshireIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.newhampshireIndividualSVG {
+  height: 256px;
+  margin-top: -40px;
+  margin-left: 40px; }
+
+.newhampshireFill {
+  opacity: 0.2; }
+
+.newjerseyIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.newjerseyIndividualSVG {
+  height: 256px;
+  margin-top: -50px;
+  margin-left: 40px; }
+
+.newjerseyFill {
+  opacity: 0.2; }
+
+.newmexicoIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.newmexicoIndividualSVG {
+  height: 186px;
+  margin-top: -20px;
+  margin-left: 10px; }
+
+.newmexicoFill {
+  opacity: 0.3; }
+
+.newyorkIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.newyorkIndividualSVG {
+  height: 166px;
+  margin-top: -10px; }
+
+.newyorkFill {
+  opacity: 0.8; }
+
+.ncarolinaIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.ncarolinaIndividualSVG {
+  height: 116px;
+  margin-left: -20px; }
+
+.ncarolinaFill {
+  opacity: 0.6; }
+
+.ndakotaIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.ndakotaIndividualSVG {
+  height: 126px; }
+
+.ndakotaFill {
+  opacity: 0.6; }
+
+.ohioIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.ohioIndividualSVG {
+  height: 196px;
+  margin-top: -30px;
+  margin-left: 20px; }
+
+.ohioFill {
+  opacity: 0.6; }
+
+.oklahomaIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.oklahomaIndividualSVG {
+  height: 116px;
+  margin-left: -20px; }
+
+.oklahomaFill {
+  opacity: 0.6; }
+
+.oregonIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.oregonIndividualSVG {
+  height: 176px;
+  margin-left: -10px;
+  margin-top: -20px; }
+
+.oregonFill {
+  opacity: 0.55; }
+
+.pennsylvaniaIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.pennsylvaniaIndividualSVG {
+  height: 156px; }
+
+.pennsylvaniaFill {
+  opacity: 0.9; }
+
+.rhodeislandIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.rhodeislandIndividualSVG {
+  height: 226px;
+  margin-top: -30px;
+  margin-left: 30px; }
+
+.rhodeislandFill {
+  opacity: 0.7; }
+
+.scarolinaIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.scarolinaIndividualSVG {
+  height: 176px;
+  margin-top: -20px; }
+
+.scarolinaFill {
+  opacity: 0.6; }
+
+.sdakotaIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.sdakotaIndividualSVG {
+  height: 136px; }
+
+.sdakotaFill {
+  opacity: 0.2; }
+
+.tennesseeIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.tennesseeIndividualSVG {
+  height: 116px;
+  margin-left: -30px; }
+
+.tennesseeFill {
+  opacity: 0.4; }
+
+.texasIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.texasIndividualSVG {
+  height: 216px;
+  margin-left: -30px;
+  margin-top: -30px; }
+
+.texasFill {
+  opacity: 0.5; }
+
+.utahIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.utahIndividualSVG {
+  height: 196px;
+  margin-top: -30px; }
+
+.utahFill {
+  opacity: 0.2; }
+
+.vermontIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.vermontIndividualSVG {
+  height: 216px;
+  margin-top: -30px;
+  margin-left: 30px; }
+
+.vermontFill {
+  opacity: 0.6; }
+
+.virginiaIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.virginiaIndividualSVG {
+  height: 156px;
+  margin-top: -10px;
+  margin-left: -30px; }
+
+.virginiaFill {
+  opacity: 0.8; }
+
+.washingtonIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.washingtonIndividualSVG {
+  height: 156px;
+  margin-top: -20px; }
+
+.washingtonFill {
+  opacity: 0.2; }
+
+.wVirginiaIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.wVirginiaIndividualSVG {
+  height: 186px;
+  margin-top: -30px; }
+
+.wVirginiaFill {
+  opacity: 0.55; }
+
+.wisconsinIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.wisconsinIndividualSVG {
+  height: 186px;
+  margin-top: -20px; }
+
+.wisconsinFill {
+  opacity: 0.8; }
+
+.wyomingIndividual {
+  width: 100vw;
+  height: 500px; }
+
+.wyomingIndividualSVG {
+  height: 156px;
+  margin-top: -20px; }
+
+.wyomingFill {
+  opacity: 0.2; }
+
+/* PURPLE STATES */
+.elevenToTwelveAnimation {
+  animation-name: sliderBarPartOne;
+  -webkit-animation-name: sliderBarPartOne;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes sliderBarPartOne {
+  0% {
+    transform: scaleX(0); }
+  100% {
+    transform: scaleX(0.5); } }
+.twelveToThirteenAnimation {
+  animation-name: sliderBarPartTwo;
+  -webkit-animation-name: sliderBarPartTwo;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-delay: 3s;
+  -webkit-animation-delay: 3s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes sliderBarPartTwo {
+  0% {
+    transform: scaleX(0.5); }
+  100% {
+    transform: scaleX(1); } }
+.twelveDotAnimation {
+  animation-name: twelveDotColor;
+  -webkit-animation-name: twelveDotColor;
+  animation-duration: .5s;
+  -webkit-animation-duration: .5s;
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+.thirteenDotAnimation {
+  animation-name: twelveDotColor;
+  -webkit-animation-name: twelveDotColor;
+  animation-duration: .5s;
+  -webkit-animation-duration: .5s;
+  animation-delay: 4s;
+  -webkit-animation-delay: 4s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes twelveDotColor {
+  0% {
+    background-color: #eee; }
+  100% {
+    background-color: #592c4e; } }
+.twelveCasesAnimation {
+  animation-name: casesColor;
+  -webkit-animation-name: casesColor;
+  animation-duration: .5s;
+  -webkit-animation-duration: .5s;
+  animation-delay: 2s;
+  -webkit-animation-delay: 2s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+.thirteenCasesAnimation {
+  animation-name: casesColor;
+  -webkit-animation-name: casesColor;
+  animation-duration: .5s;
+  -webkit-animation-duration: .5s;
+  animation-delay: 4s;
+  -webkit-animation-delay: 4s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes casesColor {
+  0% {
+    color: white; }
+  100% {
+    color: #592c4e; } }
+/* ALABAMA FILL */
+.alabamaStateAnimation {
+  animation-name: stateColorTransitionOne;
+  -webkit-animation-name: stateColorTransitionOne;
+  animation-duration: 4.5s;
+  -webkit-animation-duration: 4.5s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes stateColorTransitionOne {
+  0% {
+    opacity: .3; }
+  45% {
+    opacity: .3; }
+  50% {
+    opacity: .4; }
+  90% {
+    opacity: .4; }
+  95% {
+    opacity: .5; }
+  100% {
+    opacity: .5; } }
+/* ARIZONA FILL */
+.arizonaStateAnimation {
+  animation-name: stateColorTransitionTwo;
+  -webkit-animation-name: stateColorTransitionTwo;
+  animation-duration: 4.5s;
+  -webkit-animation-duration: 4.5s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes stateColorTransitionTwo {
+  0% {
+    opacity: .4; }
+  45% {
+    opacity: .4; }
+  50% {
+    opacity: .5; }
+  90% {
+    opacity: .5; }
+  95% {
+    opacity: .6; }
+  100% {
+    opacity: .6; } }
+/* CALIFORNIA FILL */
+.californiaStateAnimation {
+  animation-name: stateColorTransitionThree;
+  -webkit-animation-name: stateColorTransitionThree;
+  animation-duration: 4.5s;
+  -webkit-animation-duration: 4.5s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes stateColorTransitionThree {
+  0% {
+    opacity: .6; }
+  45% {
+    opacity: .6; }
+  50% {
+    opacity: .5; }
+  90% {
+    opacity: .5; }
+  95% {
+    opacity: .6; }
+  100% {
+    opacity: .6; } }
+/* COLORADO FILL */
+.coloradoStateAnimation {
+  animation-name: stateColorTransitionFour;
+  -webkit-animation-name: stateColorTransitionFour;
+  animation-duration: 4.5s;
+  -webkit-animation-duration: 4.5s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes stateColorTransitionFour {
+  0% {
+    opacity: .4; }
+  45% {
+    opacity: .4; }
+  50% {
+    opacity: .3; }
+  90% {
+    opacity: .3; }
+  95% {
+    opacity: .4; }
+  100% {
+    opacity: .4; } }
+/* CONNETICUT FILL */
+.conneticutStateAnimation {
+  animation-name: stateColorTransitionConneticut;
+  -webkit-animation-name: stateColorTransitionConneticut;
+  animation-duration: 4.5s;
+  -webkit-animation-duration: 4.5s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes stateColorTransitionConneticut {
+  0% {
+    opacity: .8; }
+  45% {
+    opacity: .8; }
+  50% {
+    opacity: .7; }
+  90% {
+    opacity: .7; }
+  95% {
+    opacity: .8; }
+  100% {
+    opacity: .8; } }
+/* DELAWARE FILL */
+.delawareStateAnimation {
+  animation-name: stateColorTransitionDelaware;
+  -webkit-animation-name: stateColorTransitionDelaware;
+  animation-duration: 4.5s;
+  -webkit-animation-duration: 4.5s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes stateColorTransitionDelaware {
+  0% {
+    opacity: .7; }
+  45% {
+    opacity: .7; }
+  50% {
+    opacity: .6; }
+  90% {
+    opacity: .6; }
+  95% {
+    opacity: .7; }
+  100% {
+    opacity: .7; } }
+/* IDAHO FILL */
+.idahoStateAnimation {
+  animation-name: stateColorTransitionIdaho;
+  -webkit-animation-name: stateColorTransitionIdaho;
+  animation-duration: 4.5s;
+  -webkit-animation-duration: 4.5s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes stateColorTransitionIdaho {
+  0% {
+    opacity: .2; }
+  45% {
+    opacity: .2; }
+  50% {
+    opacity: .3; }
+  90% {
+    opacity: .3; }
+  95% {
+    opacity: .2; }
+  100% {
+    opacity: .2; } }
+/* ILLINOIS FILL */
+.illinoisStateAnimation {
+  animation-name: stateColorTransitionIllinois;
+  -webkit-animation-name: stateColorTransitionIllinois;
+  animation-duration: 4.5s;
+  -webkit-animation-duration: 4.5s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes stateColorTransitionIllinois {
+  0% {
+    opacity: .7; }
+  45% {
+    opacity: .7; }
+  50% {
+    opacity: .6; }
+  90% {
+    opacity: .6; }
+  95% {
+    opacity: .8; }
+  100% {
+    opacity: .8; } }
+/* INDIANA FILL */
+.indianaStateAnimation {
+  animation-name: stateColorTransitionIndiana;
+  -webkit-animation-name: stateColorTransitionIndiana;
+  animation-duration: 4.5s;
+  -webkit-animation-duration: 4.5s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes stateColorTransitionIndiana {
+  0% {
+    opacity: .5; }
+  45% {
+    opacity: .5; }
+  50% {
+    opacity: .6; }
+  90% {
+    opacity: .6; }
+  95% {
+    opacity: .7; }
+  100% {
+    opacity: .7; } }
+/* MASSACHUSETTS FILL */
+.massachusettsStateAnimation {
+  animation-name: stateColorTransitionMassachusetts;
+  -webkit-animation-name: stateColorTransitionMassachusetts;
+  animation-duration: 4.5s;
+  -webkit-animation-duration: 4.5s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes stateColorTransitionMassachusetts {
+  0% {
+    opacity: .9; }
+  45% {
+    opacity: .9; }
+  50% {
+    opacity: .8; }
+  90% {
+    opacity: .8; }
+  95% {
+    opacity: .9; }
+  100% {
+    opacity: 1; } }
+/* MICHIGAN FILL */
+.michiganStateAnimation {
+  animation-name: stateColorTransitionMichigan;
+  -webkit-animation-name: stateColorTransitionMichigan;
+  animation-duration: 4.5s;
+  -webkit-animation-duration: 4.5s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes stateColorTransitionMichigan {
+  0% {
+    opacity: .6; }
+  45% {
+    opacity: .6; }
+  50% {
+    opacity: .7; }
+  90% {
+    opacity: .7; }
+  95% {
+    opacity: .8; }
+  100% {
+    opacity: .8; } }
+/* MISSISSIPPI FILL */
+.mississippiStateAnimation {
+  animation-name: stateColorTransitionMississippi;
+  -webkit-animation-name: stateColorTransitionMississippi;
+  animation-duration: 4.5s;
+  -webkit-animation-duration: 4.5s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes stateColorTransitionMississippi {
+  0% {
+    opacity: .3; }
+  45% {
+    opacity: .3; }
+  50% {
+    opacity: .3; }
+  90% {
+    opacity: .3; }
+  95% {
+    opacity: .2; }
+  100% {
+    opacity: .2; } }
+/* NEBRASKA FILL */
+.nebraskaStateAnimation {
+  animation-name: stateColorTransitionNebraska;
+  -webkit-animation-name: stateColorTransitionNebraska;
+  animation-duration: 4.5s;
+  -webkit-animation-duration: 4.5s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes stateColorTransitionNebraska {
+  0% {
+    opacity: .2; }
+  45% {
+    opacity: .2; }
+  50% {
+    opacity: .2; }
+  90% {
+    opacity: .2; }
+  95% {
+    opacity: .3; }
+  100% {
+    opacity: .3; } }
+/* NEVADA FILL */
+.nevadaStateAnimation {
+  animation-name: stateColorTransitionNevada;
+  -webkit-animation-name: stateColorTransitionNevada;
+  animation-duration: 4.5s;
+  -webkit-animation-duration: 4.5s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes stateColorTransitionNevada {
+  0% {
+    opacity: .3; }
+  45% {
+    opacity: .3; }
+  50% {
+    opacity: .2; }
+  90% {
+    opacity: .2; }
+  95% {
+    opacity: .3; }
+  100% {
+    opacity: .3; } }
+/* NEW HAMPSHIRE FILL */
+.newhampshireStateAnimation {
+  animation-name: stateColorTransitionNewhampshire;
+  -webkit-animation-name: stateColorTransitionNewhampshire;
+  animation-duration: 4.5s;
+  -webkit-animation-duration: 4.5s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes stateColorTransitionNewhampshire {
+  0% {
+    opacity: .5; }
+  45% {
+    opacity: .5; }
+  50% {
+    opacity: .4; }
+  90% {
+    opacity: .4; }
+  95% {
+    opacity: .6; }
+  100% {
+    opacity: .6; } }
+/* NEW YORK FILL */
+.newyorkStateAnimation {
+  animation-name: stateColorTransitionNewyork;
+  -webkit-animation-name: stateColorTransitionNewyork;
+  animation-duration: 4.5s;
+  -webkit-animation-duration: 4.5s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes stateColorTransitionNewyork {
+  0% {
+    opacity: .6; }
+  45% {
+    opacity: .6; }
+  50% {
+    opacity: .7; }
+  90% {
+    opacity: .7; }
+  95% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+/* NORTH CAROLINA FILL */
+.ncarolinaStateAnimation {
+  animation-name: stateColorTransitionNcarolina;
+  -webkit-animation-name: stateColorTransitionNcarolina;
+  animation-duration: 4.5s;
+  -webkit-animation-duration: 4.5s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes stateColorTransitionNcarolina {
+  0% {
+    opacity: .6; }
+  45% {
+    opacity: .6; }
+  50% {
+    opacity: .65; }
+  90% {
+    opacity: .65; }
+  95% {
+    opacity: .7; }
+  100% {
+    opacity: .7; } }
+/* NORTH DAKOTA FILL */
+.ndakotaStateAnimation {
+  animation-name: stateColorTransitionNdakota;
+  -webkit-animation-name: stateColorTransitionNdakota;
+  animation-duration: 4.5s;
+  -webkit-animation-duration: 4.5s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes stateColorTransitionNdakota {
+  0% {
+    opacity: .5; }
+  45% {
+    opacity: .5; }
+  50% {
+    opacity: .55; }
+  90% {
+    opacity: .55; }
+  95% {
+    opacity: .6; }
+  100% {
+    opacity: .6; } }
+/* OKLAHOMA FILL */
+.oklahomaStateAnimation {
+  animation-name: stateColorTransitionOklahoma;
+  -webkit-animation-name: stateColorTransitionOklahoma;
+  animation-duration: 4.5s;
+  -webkit-animation-duration: 4.5s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes stateColorTransitionOklahoma {
+  0% {
+    opacity: .35; }
+  45% {
+    opacity: .35; }
+  50% {
+    opacity: .3; }
+  90% {
+    opacity: .3; }
+  95% {
+    opacity: .4; }
+  100% {
+    opacity: .4; } }
+/* OREGON FILL */
+.oregonStateAnimation {
+  animation-name: stateColorTransitionOregon;
+  -webkit-animation-name: stateColorTransitionOregon;
+  animation-duration: 4.5s;
+  -webkit-animation-duration: 4.5s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes stateColorTransitionOregon {
+  0% {
+    opacity: .55; }
+  45% {
+    opacity: .55; }
+  50% {
+    opacity: .6; }
+  90% {
+    opacity: .6; }
+  95% {
+    opacity: .65; }
+  100% {
+    opacity: .65; } }
+/* PENNSYLVANIA FILL */
+.pennsylvaniaStateAnimation {
+  animation-name: stateColorTransitionPennsylvania;
+  -webkit-animation-name: stateColorTransitionPennsylvania;
+  animation-duration: 4.5s;
+  -webkit-animation-duration: 4.5s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes stateColorTransitionPennsylvania {
+  0% {
+    opacity: .9; }
+  45% {
+    opacity: .9; }
+  50% {
+    opacity: .8; }
+  90% {
+    opacity: .8; }
+  95% {
+    opacity: 1; }
+  100% {
+    opacity: 1; } }
+/* RHODE ISLAND FILL */
+.rhodeislandStateAnimation {
+  animation-name: stateColorTransitionRhodeIsland;
+  -webkit-animation-name: stateColorTransitionRhodeIsland;
+  animation-duration: 4.5s;
+  -webkit-animation-duration: 4.5s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes stateColorTransitionRhodeIsland {
+  0% {
+    opacity: .7; }
+  45% {
+    opacity: .7; }
+  50% {
+    opacity: .5; }
+  90% {
+    opacity: .5; }
+  95% {
+    opacity: .7; }
+  100% {
+    opacity: .7; } }
+/* SOUTH CAROLINA FILL */
+.scarolinaStateAnimation {
+  animation-name: stateColorTransitionScarolina;
+  -webkit-animation-name: stateColorTransitionScarolina;
+  animation-duration: 4.5s;
+  -webkit-animation-duration: 4.5s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes stateColorTransitionScarolina {
+  0% {
+    opacity: .6; }
+  45% {
+    opacity: .6; }
+  50% {
+    opacity: .6; }
+  90% {
+    opacity: .6; }
+  95% {
+    opacity: .7; }
+  100% {
+    opacity: .7; } }
+/* SOUTH DAKOTA FILL */
+.sdakotaStateAnimation {
+  animation-name: stateColorTransitionSdakota;
+  -webkit-animation-name: stateColorTransitionSdakota;
+  animation-duration: 4.5s;
+  -webkit-animation-duration: 4.5s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes stateColorTransitionSdakota {
+  0% {
+    opacity: .2; }
+  45% {
+    opacity: .2; }
+  50% {
+    opacity: .25; }
+  90% {
+    opacity: .25; }
+  95% {
+    opacity: .3; }
+  100% {
+    opacity: .3; } }
+/* WYOMING FILL */
+.wyomingStateAnimation {
+  animation-name: stateColorTransitionWyoming;
+  -webkit-animation-name: stateColorTransitionWyoming;
+  animation-duration: 4.5s;
+  -webkit-animation-duration: 4.5s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+  visibility: visible !important; }
+
+@keyframes stateColorTransitionWyoming {
+  0% {
+    opacity: .2; }
+  45% {
+    opacity: .2; }
+  50% {
+    opacity: .2; }
+  90% {
+    opacity: .2; }
+  95% {
+    opacity: .1; }
+  100% {
+    opacity: .1; } }

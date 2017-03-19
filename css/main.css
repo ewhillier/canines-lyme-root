@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box; }
 
+body {
+  height: 100vw;
+  overflow: hidden; }
+
 h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -26,6 +30,16 @@ a {
 
 .isHidden {
   opacity: 0; }
+
+.isOnTop {
+  position: absolute;
+  top: 0; }
+
+.transition {
+  transition: all .5s ease; }
+
+.isAbsolute {
+  position: absolute; }
 
 .sectionOne {
   width: 100vw;
@@ -154,11 +168,22 @@ a {
 .sectionHeader {
   padding: 50px 50px 0px 50px; }
 
+.arrow-down {
+  bottom: 30px;
+  left: 50vw;
+  width: 33px;
+  z-index: 1; }
+  .arrow-down:hover {
+    cursor: pointer; }
+
 /* DISEASE TRANSFER */
 .diseaseTransfer {
   width: 100vw;
   height: 100vh;
-  background-color: #49182e;
+  background-color: #49182e; }
+
+.transferInnerWrapper {
+  height: 100vh;
   position: relative; }
 
 .diseaseTransferHeader {
@@ -238,6 +263,11 @@ hr {
 .analysis-wrapper {
   width: 1280px;
   margin: 0 auto; }
+
+.mountainPeaks {
+  bottom: 0;
+  height: 130px;
+  background-color: #e5dbca; }
 
 .analysisLeft {
   width: 45%;
@@ -852,16 +882,6 @@ hr {
   height: 100vh;
   width: 100vw;
   background-color: white; }
-
-.mountainPeaksContainer {
-  position: relative;
-  height: 130px;
-  background-color: #e5dbca; }
-
-.mountainPeaks {
-  position: absolute;
-  bottom: 0;
-  width: 100vw; }
 
 .mountainPeaksSVG {
   fill: #FFFFFF; }
@@ -1494,9 +1514,12 @@ hr {
 .individualStateFill {
   fill: #592c4e; }
 
+.stateSection {
+  height: 100vh;
+  padding-top: 25vh; }
+
 .alabamaIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .alabamaIndividualSVG {
   height: 200px; }
@@ -1505,8 +1528,7 @@ hr {
   opacity: 0.3; }
 
 .arizonaIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .arizonaIndividualSVG {
   height: 170px; }
@@ -1515,8 +1537,7 @@ hr {
   opacity: 0.4; }
 
 .arkansasIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .arkansasIndividualSVG {
   height: 170px; }
@@ -1525,8 +1546,7 @@ hr {
   opacity: 0.3; }
 
 .californiaIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .californiaIndividualSVG {
   margin-top: -20px;
@@ -1536,8 +1556,7 @@ hr {
   opacity: 0.6; }
 
 .coloradoIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .coloradoIndividualSVG {
   height: 140px; }
@@ -1546,8 +1565,7 @@ hr {
   opacity: 0.4; }
 
 .conneticutIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .conneticutIndividualSVG {
   height: 190px; }
@@ -1556,8 +1574,7 @@ hr {
   opacity: 0.8; }
 
 .delawareIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .delawareIndividualSVG {
   height: 210px; }
@@ -1566,8 +1583,7 @@ hr {
   opacity: 0.7; }
 
 .floridaIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .floridaIndividualSVG {
   height: 150px; }
@@ -1576,8 +1592,7 @@ hr {
   opacity: 0.6; }
 
 .georgiaIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .georgiaIndividualSVG {
   height: 180px; }
@@ -1586,8 +1601,7 @@ hr {
   opacity: 0.6; }
 
 .idahoIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .idahoIndividualSVG {
   height: 200px; }
@@ -1596,8 +1610,7 @@ hr {
   opacity: 0.6; }
 
 .illinoisIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .illinoisIndividualSVG {
   height: 200px; }
@@ -1606,8 +1619,7 @@ hr {
   opacity: 0.7; }
 
 .indianaIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .indianaIndividualSVG {
   height: 200px; }
@@ -1616,8 +1628,7 @@ hr {
   opacity: 0.7; }
 
 .iowaIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .iowaIndividualSVG {
   height: 150px; }
@@ -1626,8 +1637,7 @@ hr {
   opacity: 0.7; }
 
 .kansasIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .kansasIndividualSVG {
   height: 120px; }
@@ -1636,8 +1646,7 @@ hr {
   opacity: 0.7; }
 
 .kentuckyIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .kentuckyIndividualSVG {
   height: 130px; }
@@ -1646,8 +1655,7 @@ hr {
   opacity: 0.7; }
 
 .louisianaIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .louisianaIndividualSVG {
   height: 160px; }
@@ -1656,8 +1664,7 @@ hr {
   opacity: 0.7; }
 
 .maineIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .maineIndividualSVG {
   height: 220px; }
@@ -1666,8 +1673,7 @@ hr {
   opacity: 0.8; }
 
 .marylandIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .marylandIndividualSVG {
   margin-left: -50px;
@@ -1677,8 +1683,7 @@ hr {
   opacity: 0.8; }
 
 .massachusettsIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .massachusettsIndividualSVG {
   margin-left: -30px;
@@ -1688,8 +1693,7 @@ hr {
   opacity: 0.8; }
 
 .michiganIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .michiganIndividualSVG {
   margin-left: -30px;
@@ -1699,8 +1703,7 @@ hr {
   opacity: 0.6; }
 
 .minnesotaIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .minnesotaIndividualSVG {
   margin-top: -10px;
@@ -1710,8 +1713,7 @@ hr {
   opacity: 0.6; }
 
 .mississippiIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .mississippiIndividualSVG {
   margin-top: -10px;
@@ -1721,8 +1723,7 @@ hr {
   opacity: 0.3; }
 
 .missouriIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .missouriIndividualSVG {
   margin-top: -10px;
@@ -1732,8 +1733,7 @@ hr {
   opacity: 0.3; }
 
 .montanaIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .montanaIndividualSVG {
   margin-top: -10px;
@@ -1743,8 +1743,7 @@ hr {
   opacity: 0.3; }
 
 .nebraskaIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .nebraskaIndividualSVG {
   margin-left: -10px;
@@ -1754,8 +1753,7 @@ hr {
   opacity: 0.2; }
 
 .nevadaIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .nevadaIndividualSVG {
   height: 256px;
@@ -1765,8 +1763,7 @@ hr {
   opacity: 0.2; }
 
 .newhampshireIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .newhampshireIndividualSVG {
   height: 256px;
@@ -1777,8 +1774,7 @@ hr {
   opacity: 0.2; }
 
 .newjerseyIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .newjerseyIndividualSVG {
   height: 256px;
@@ -1789,8 +1785,7 @@ hr {
   opacity: 0.2; }
 
 .newmexicoIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .newmexicoIndividualSVG {
   height: 186px;
@@ -1801,8 +1796,7 @@ hr {
   opacity: 0.3; }
 
 .newyorkIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .newyorkIndividualSVG {
   height: 166px;
@@ -1812,8 +1806,7 @@ hr {
   opacity: 0.8; }
 
 .ncarolinaIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .ncarolinaIndividualSVG {
   height: 116px;
@@ -1823,8 +1816,7 @@ hr {
   opacity: 0.6; }
 
 .ndakotaIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .ndakotaIndividualSVG {
   height: 126px; }
@@ -1833,8 +1825,7 @@ hr {
   opacity: 0.6; }
 
 .ohioIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .ohioIndividualSVG {
   height: 196px;
@@ -1845,8 +1836,7 @@ hr {
   opacity: 0.6; }
 
 .oklahomaIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .oklahomaIndividualSVG {
   height: 116px;
@@ -1856,8 +1846,7 @@ hr {
   opacity: 0.6; }
 
 .oregonIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .oregonIndividualSVG {
   height: 176px;
@@ -1868,8 +1857,7 @@ hr {
   opacity: 0.55; }
 
 .pennsylvaniaIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .pennsylvaniaIndividualSVG {
   height: 156px; }
@@ -1878,8 +1866,7 @@ hr {
   opacity: 0.9; }
 
 .rhodeislandIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .rhodeislandIndividualSVG {
   height: 226px;
@@ -1890,8 +1877,7 @@ hr {
   opacity: 0.7; }
 
 .scarolinaIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .scarolinaIndividualSVG {
   height: 176px;
@@ -1901,8 +1887,7 @@ hr {
   opacity: 0.6; }
 
 .sdakotaIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .sdakotaIndividualSVG {
   height: 136px; }
@@ -1911,8 +1896,7 @@ hr {
   opacity: 0.2; }
 
 .tennesseeIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .tennesseeIndividualSVG {
   height: 116px;
@@ -1922,8 +1906,7 @@ hr {
   opacity: 0.4; }
 
 .texasIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .texasIndividualSVG {
   height: 216px;
@@ -1934,8 +1917,7 @@ hr {
   opacity: 0.5; }
 
 .utahIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .utahIndividualSVG {
   height: 196px;
@@ -1945,8 +1927,7 @@ hr {
   opacity: 0.2; }
 
 .vermontIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .vermontIndividualSVG {
   height: 216px;
@@ -1957,8 +1938,7 @@ hr {
   opacity: 0.6; }
 
 .virginiaIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .virginiaIndividualSVG {
   height: 156px;
@@ -1969,8 +1949,7 @@ hr {
   opacity: 0.8; }
 
 .washingtonIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .washingtonIndividualSVG {
   height: 156px;
@@ -1980,8 +1959,7 @@ hr {
   opacity: 0.2; }
 
 .wVirginiaIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .wVirginiaIndividualSVG {
   height: 186px;
@@ -1991,8 +1969,7 @@ hr {
   opacity: 0.55; }
 
 .wisconsinIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .wisconsinIndividualSVG {
   height: 186px;
@@ -2002,8 +1979,7 @@ hr {
   opacity: 0.8; }
 
 .wyomingIndividual {
-  width: 100vw;
-  height: 500px; }
+  width: 100vw; }
 
 .wyomingIndividualSVG {
   height: 156px;
