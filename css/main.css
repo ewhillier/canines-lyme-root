@@ -41,6 +41,12 @@ a {
 .isAbsolute {
   position: absolute; }
 
+.z-index-one {
+  z-index: 1; }
+
+.z-index-two {
+  z-index: 2; }
+
 .sectionOne {
   width: 100vw;
   height: 100vh;
@@ -169,7 +175,7 @@ a {
   padding: 50px 50px 0px 50px; }
 
 .arrow-down {
-  bottom: 30px;
+  bottom: 60px;
   left: 50vw;
   width: 33px;
   z-index: 1; }
@@ -266,7 +272,7 @@ hr {
 
 .mountainPeaks {
   bottom: 0;
-  height: 130px;
+  width: 100vw;
   background-color: #e5dbca; }
 
 .analysisLeft {
@@ -910,394 +916,396 @@ hr {
 
 .yourStateMap {
   position: relative;
-  margin-top: 130px;
-  transform: scale(1.3); }
+  margin-top: 160px;
+  transform: scale(1.4);
+  margin-left: 40vw; }
 
 .yourStateWashington {
-  width: 59.5px;
+  width: 69.5px;
   position: absolute;
-  top: 0;
-  left: 26px; }
+  top: -43px;
+  left: -16px; }
   .yourStateWashington:hover {
     transform: scale(1.1);
     z-index: 1;
-    transition: .1s linear; }
+    transition: .1s linear;
+    cursor: pointer; }
 
 .yourStateOregon {
-  width: 72px;
+  width: 82px;
   position: absolute;
-  top: 27px;
-  left: 11px; }
+  top: 0px;
+  left: -36px; }
   .yourStateOregon:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateCalifornia {
-  width: 74px;
+  width: 84px;
   position: absolute;
-  top: 70px;
-  left: 5px; }
+  top: 60px;
+  left: -46px; }
   .yourStateCalifornia:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateNevada {
-  width: 58px;
+  width: 68px;
   position: absolute;
-  top: 79px;
-  left: 36px; }
+  top: 68px;
+  left: -1px; }
   .yourStateNevada:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateIdaho {
-  width: 52px;
+  width: 62px;
   position: absolute;
-  top: 10px;
-  left: 68px; }
+  top: -20px;
+  left: 37px; }
   .yourStateIdaho:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateArizona {
-  width: 61px;
+  width: 71px;
   position: absolute;
-  top: 143px;
-  left: 67px; }
+  top: 152px;
+  left: 42px; }
   .yourStateArizona:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateUtah {
-  width: 50px;
+  width: 60px;
   position: absolute;
-  top: 89px;
-  left: 82px; }
+  top: 81px;
+  left: 61px; }
   .yourStateUtah:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateMontana {
-  width: 91px;
+  width: 101px;
   position: absolute;
-  top: 11px;
-  left: 87px; }
+  top: -22px;
+  left: 70px; }
   .yourStateMontana:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateWyoming {
-  width: 62px;
+  width: 72px;
   position: absolute;
-  top: 61px;
-  left: 113px; }
+  top: 42px;
+  left: 107px; }
   .yourStateWyoming:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateColorado {
-  width: 65px;
+  width: 75px;
   position: absolute;
-  top: 106px;
-  left: 126px; }
+  top: 102px;
+  left: 121px; }
   .yourStateColorado:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateNewmexico {
-  width: 62px;
+  width: 72px;
   position: absolute;
-  top: 150px;
-  left: 119px; }
+  top: 160px;
+  left: 114px; }
   .yourStateNewmexico:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateNdakota {
-  width: 60px;
+  width: 70px;
   position: absolute;
-  top: 22px;
-  left: 175px; }
+  top: -19px;
+  left: 176px; }
   .yourStateNdakota:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateSdakota {
-  width: 63px;
+  width: 73px;
   position: absolute;
-  top: 56px;
-  left: 173px; }
+  top: 29px;
+  left: 185px; }
   .yourStateSdakota:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateNebraska {
-  width: 75px;
+  width: 85px;
   position: absolute;
-  top: 87px;
-  left: 172px; }
+  top: 74px;
+  left: 184px; }
   .yourStateNebraska:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateKansas {
-  width: 67px;
+  width: 77px;
   position: absolute;
-  top: 120px;
-  left: 187px; }
+  top: 118px;
+  left: 202px; }
   .yourStateKansas:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateOklahoma {
-  width: 81px;
+  width: 91px;
   position: absolute;
-  top: 153px;
-  left: 178px; }
+  top: 165px;
+  left: 196px; }
   .yourStateOklahoma:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateTexas {
-  width: 130px;
+  width: 140px;
   position: absolute;
-  top: 158px;
-  left: 142px; }
+  top: 182px;
+  left: 151px; }
   .yourStateTexas:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateMinnesota {
-  width: 58px;
+  width: 68px;
   position: absolute;
-  top: 17px;
-  left: 226px; }
+  top: -21px;
+  left: 254px; }
   .yourStateMinnesota:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateIowa {
-  width: 55px;
+  width: 65px;
   position: absolute;
-  top: 79px;
-  left: 233px; }
+  top: 59px;
+  left: 261px; }
   .yourStateIowa:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateMissouri {
-  width: 63px;
+  width: 73px;
   position: absolute;
-  top: 111px;
-  left: 240px; }
+  top: 103px;
+  left: 283px; }
   .yourStateMissouri:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateLouisiana {
-  width: 55px;
+  width: 65px;
   position: absolute;
-  top: 194px;
-  left: 264px; }
+  top: 220px;
+  left: 292px; }
   .yourStateLouisiana:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateWisconsin {
-  width: 46px;
+  width: 56px;
   position: absolute;
-  top: 41px;
-  left: 260px; }
+  top: 4px;
+  left: 304px; }
   .yourStateWisconsin:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateIllinois {
-  width: 37px;
+  width: 47px;
   position: absolute;
-  top: 87px;
-  left: 277px; }
+  top: 66px;
+  left: 334px; }
   .yourStateIllinois:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateMichigan {
-  width: 70px;
+  width: 80px;
   position: absolute;
-  top: 36px;
-  left: 278px; }
+  top: -10px;
+  left: 337px; }
   .yourStateMichigan:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateIndiana {
-  width: 29px;
+  width: 39px;
   position: absolute;
-  top: 91px;
-  left: 307px; }
+  top: 59px;
+  left: 381px; }
   .yourStateIndiana:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateKentucky {
-  width: 65px;
+  width: 75px;
   position: absolute;
-  top: 119px;
-  left: 299px; }
+  top: 107px;
+  left: 381px; }
   .yourStateKentucky:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateTennessee {
-  width: 76px;
+  width: 86px;
   position: absolute;
-  top: 141px;
-  left: 293px; }
+  top: 146px;
+  left: 352px; }
   .yourStateTennessee:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateMississippi {
-  width: 34px;
+  width: 44px;
   position: absolute;
-  top: 169px;
-  left: 288px; }
+  top: 184px;
+  left: 350px; }
   .yourStateMississippi:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateAlabama {
-  width: 38px;
+  width: 48px;
   position: absolute;
-  top: 165px;
-  left: 315px; }
+  top: 177px;
+  left: 394px; }
   .yourStateAlabama:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateGeorgia {
-  width: 52px;
+  width: 62px;
   position: absolute;
-  top: 160px;
-  left: 338px; }
+  top: 172px;
+  left: 433px; }
   .yourStateGeorgia:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateOhio {
-  width: 38px;
+  width: 48px;
   position: absolute;
-  top: 81px;
-  left: 329px; }
+  top: 44px;
+  left: 418px; }
   .yourStateOhio:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateWVirginia {
-  width: 39px;
+  width: 49px;
   position: absolute;
-  top: 95px;
-  left: 355px; }
+  top: 65px;
+  left: 447px; }
   .yourStateWVirginia:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateVirginia {
-  width: 70px;
+  width: 80px;
   position: absolute;
-  top: 103px;
-  left: 349px; }
+  top: 88px;
+  left: 452px; }
   .yourStateVirginia:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateNCarolina {
-  width: 76px;
+  width: 86px;
   position: absolute;
-  top: 128px;
-  left: 347px; }
+  top: 129px;
+  left: 434px; }
   .yourStateNCarolina:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateSCarolina {
-  width: 47px;
+  width: 48px;
   position: absolute;
-  top: 155px;
-  left: 358px; }
+  top: 173px;
+  left: 480px; }
   .yourStateSCarolina:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateFlorida {
-  width: 87px;
+  width: 97px;
   position: absolute;
-  top: 202px;
-  left: 326px; }
+  top: 232px;
+  left: 431px; }
   .yourStateFlorida:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStatePennsylvania {
-  width: 54px;
+  width: 64px;
   position: absolute;
-  top: 69px;
-  left: 361px; }
+  top: 17px;
+  left: 452px; }
   .yourStatePennsylvania:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateMaryland {
-  width: 42px;
+  width: 52px;
   position: absolute;
-  top: 94px;
-  left: 378px; }
+  top: 53px;
+  left: 477px; }
   .yourStateMaryland:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateNewyork {
-  width: 68px;
+  width: 78px;
   position: absolute;
-  top: 32px;
-  left: 367px; }
+  top: -35px;
+  left: 465px; }
   .yourStateNewyork:hover {
     transform: scale(1.1);
     z-index: 1;
@@ -1316,90 +1324,90 @@ hr {
   stroke-miterlimit: 10; }
 
 .yourStateDelaware {
-  width: 11px;
+  width: 14px;
   position: absolute;
-  top: 93px;
-  left: 409px; }
+  top: 55px;
+  left: 539px; }
   .yourStateDelaware:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateNewjersey {
-  width: 13px;
+  width: 15px;
   position: absolute;
-  top: 74px;
-  left: 408px; }
+  top: 26px;
+  left: 518px; }
   .yourStateNewjersey:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateConneticut {
-  width: 16px;
+  width: 23px;
   position: absolute;
-  top: 58px;
-  left: 417px; }
+  top: -14px;
+  left: 529px; }
   .yourStateConneticut:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateMassachusetts {
-  width: 31px;
+  width: 37px;
   position: absolute;
-  top: 47px;
-  left: 416px; }
+  top: -34px;
+  left: 526px; }
   .yourStateMassachusetts:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateVermont {
-  width: 16px;
+  width: 19px;
   position: absolute;
-  top: 27px;
-  left: 407px; }
+  top: -64px;
+  left: 512px; }
   .yourStateVermont:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateNewhampshire {
-  width: 15px;
+  width: 18px;
   position: absolute;
-  top: 23px;
-  left: 419px; }
+  top: -71px;
+  left: 534px; }
   .yourStateNewhampshire:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateMaine {
-  width: 34px;
+  width: 41px;
   position: absolute;
-  top: -6px;
-  left: 422px; }
+  top: -111px;
+  left: 543px; }
   .yourStateMaine:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateRhodeIsland {
-  width: 5px;
+  width: 8px;
   position: absolute;
-  top: 57px;
-  left: 430px; }
+  top: -12px;
+  left: 555px; }
   .yourStateRhodeIsland:hover {
     transform: scale(1.1);
     z-index: 1;
     transition: .1s linear; }
 
 .yourStateArkansas {
-  width: 47px;
+  width: 57px;
   position: absolute;
-  top: 155px;
-  left: 255px; }
+  top: 161px;
+  left: 289px; }
   .yourStateArkansas:hover {
     transform: scale(1.1);
     z-index: 1;
@@ -1516,7 +1524,8 @@ hr {
 
 .stateSection {
   height: 100vh;
-  padding-top: 25vh; }
+  padding-top: 25vh;
+  background-color: white; }
 
 .alabamaIndividual {
   width: 100vw; }
