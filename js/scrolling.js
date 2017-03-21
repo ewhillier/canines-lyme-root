@@ -1,8 +1,8 @@
 $(document).ready(function() {
     
     $('#nextTransfer').click(function () {
-        $('#diseaseTransfer').addClass('transition');
         $('#diseaseTransfer').addClass('isOnTop');
+        $('#diseaseTransfer').animate({top: "0"}, 600);
         $('#nextTransfer').addClass('isHidden');
         $('#nextTransfer').removeClass('isAbsolute');
         $('#armTickScroll').addClass('armTickAnimate');
@@ -10,15 +10,18 @@ $(document).ready(function() {
         $('#armSpirocheteScrollOne').addClass('armSpirocheteAnimate');
         $('#armSpirocheteScrollTwo').addClass('armSpirocheteAnimate');
         $('#armSpirocheteScrollThree').addClass('armSpirocheteAnimate');
-        $('#nextAnalysis').addClass('isAbsolute');
-        $('#nextAnalysis').removeClass('isHidden');
+        $('#nextYourState').addClass('isAbsolute');
+        $('#nextYourState').removeClass('isHidden');
     });
     
     $('#nextAnalysis').click(function () {
-        $('#analysis').addClass('transition');
+        $('#analysis').removeClass('isHidden');
         $('#analysis').addClass('isOnTop');
+        $('#analysis').animate({marginTop: "0"}, 600);
         $('#nextAnalysis').addClass('isHidden');
         $('#nextAnalysis').removeClass('isAbsolute');
+        $('#analysisHeading').addClass('revealAnalysisDescription');
+        $('.analysisP').addClass('revealAnalysisDescription');
         $('#increasingDescription').addClass('revealIncreasingDescription');
         $('#increasingFilled').addClass('graphIncreasingFillAnimation');
         $('#descreasingDescription').addClass('revealDecreasingDescription');
@@ -28,15 +31,17 @@ $(document).ready(function() {
         $('#percentageFilled').addClass('graphPercentageFillAnimation');
         $('.purpleState').addClass('purpleStateAnimation');
         $('.blueState').addClass('blueStateAnimation');
-        $('#nextYourState').addClass('isAbsolute');
-        $('#nextYourState').removeClass('isHidden');
+        $('#nextTransfer').addClass('isAbsolute');
+        $('#nextTransfer').removeClass('isHidden');
+        $('#beforeHome').addClass('isAbsolute');
+        $('#beforeHome').removeClass('isHidden');
         $('.mountainPeaks').addClass('isAbsolute');
         $('.selectNewState').addClass('isAbsolute');
     });
     
     $('#nextYourState').click(function () {
-        $('#yourStateSection').addClass('transition');
         $('#yourStateSection').addClass('isOnTop');
+        $('#yourStateSection').animate({top: "0"}, 600);
         $('#nextAnalysis').addClass('isHidden');
         $('#nextAnalysis').removeClass('isAbsolute');
         $('.mountainPeaks').removeClass('isAbsolute');
@@ -52,10 +57,17 @@ $(document).ready(function() {
         $('.mountainPeaks').removeClass('isAbsolute');
         $('#nextYourState').addClass('isAbsolute');
         $('#nextYourState').removeClass('isHidden');
+        $('.tickOne').addClass('isHidden');
+        $('.tickTwo').addClass('isHidden');
+        $('.tickThree').addClass('isHidden');
+        $('.tickFour').addClass('isHidden');
+        $('.tickFive').addClass('isHidden');
+        $('.tickSix').addClass('isHidden');
     });
     
     $('#newStateButton').click(function () {
         $('.stateSection').removeClass('z-index-one');
+        $(this).addClass('isHidden');
     });
     
     $('#oregonStats').click(function () {
@@ -71,6 +83,13 @@ $(document).ready(function() {
         $('#oregonThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
+        $('.tickOne').addClass('z-index-two');
     });
     
     $('#washingtonStats').click(function () {
@@ -86,6 +105,12 @@ $(document).ready(function() {
         $('#washingtonThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#californiaStats').click(function () {
@@ -101,6 +126,12 @@ $(document).ready(function() {
         $('#californiaThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#nevadaStats').click(function () {
@@ -116,6 +147,12 @@ $(document).ready(function() {
         $('#nevadaThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#idahoStats').click(function () {
@@ -131,6 +168,12 @@ $(document).ready(function() {
         $('#idahoThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#arizonaStats').click(function () {
@@ -146,6 +189,12 @@ $(document).ready(function() {
         $('#arizonaThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#utahStats').click(function () {
@@ -161,6 +210,12 @@ $(document).ready(function() {
         $('#utahThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#montanaStats').click(function () {
@@ -176,6 +231,12 @@ $(document).ready(function() {
         $('#montanaThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#wyomingStats').click(function () {
@@ -191,6 +252,12 @@ $(document).ready(function() {
         $('#wyomingThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#coloradoStats').click(function () {
@@ -206,6 +273,12 @@ $(document).ready(function() {
         $('#coloradoThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#newmexicoStats').click(function () {
@@ -221,6 +294,12 @@ $(document).ready(function() {
         $('#newmexicoThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#ndakotaStats').click(function () {
@@ -236,6 +315,12 @@ $(document).ready(function() {
         $('#ndakotaThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#sdakotaStats').click(function () {
@@ -251,6 +336,12 @@ $(document).ready(function() {
         $('#sdakotaThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#nebraskaStats').click(function () {
@@ -266,6 +357,12 @@ $(document).ready(function() {
         $('#nebraskaThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#kansasStats').click(function () {
@@ -281,6 +378,12 @@ $(document).ready(function() {
         $('#kansasThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#oklahomaStats').click(function () {
@@ -296,6 +399,12 @@ $(document).ready(function() {
         $('#oklahomaThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#texasStats').click(function () {
@@ -311,6 +420,12 @@ $(document).ready(function() {
         $('#texasThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#minnesotaStats').click(function () {
@@ -326,6 +441,12 @@ $(document).ready(function() {
         $('#minnesotaThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#iowaStats').click(function () {
@@ -341,6 +462,12 @@ $(document).ready(function() {
         $('#iowaThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#missouriStats').click(function () {
@@ -356,6 +483,12 @@ $(document).ready(function() {
         $('#missouriThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#louisianaStats').click(function () {
@@ -371,6 +504,12 @@ $(document).ready(function() {
         $('#louisianaThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#wisconsinStats').click(function () {
@@ -386,6 +525,12 @@ $(document).ready(function() {
         $('#wisconsinThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#illinoisStats').click(function () {
@@ -401,6 +546,12 @@ $(document).ready(function() {
         $('#illinoisThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
 
 	$('#michiganStats').click(function () {
@@ -417,6 +568,12 @@ $(document).ready(function() {
         $('#michiganThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#indianaStats').click(function () {
@@ -432,6 +589,12 @@ $(document).ready(function() {
         $('#indianaThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#kentuckyStats').click(function () {
@@ -447,6 +610,12 @@ $(document).ready(function() {
         $('#kentuckyThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#tennesseeStats').click(function () {
@@ -462,6 +631,12 @@ $(document).ready(function() {
         $('#tennesseeThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#mississippiStats').click(function () {
@@ -477,10 +652,15 @@ $(document).ready(function() {
         $('#mississippiThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#alabamaStats').click(function () {
-        $('#alabama').addClass('transition');
         $('#alabama').addClass('isOnTop');
         $('#alabama').addClass('z-index-one');
         $('#alabamaAnimation').addClass('alabamaStateAnimation');
@@ -492,6 +672,12 @@ $(document).ready(function() {
         $('#alabamaThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#georgiaStats').click(function () {
@@ -507,6 +693,12 @@ $(document).ready(function() {
         $('#georgiaThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#ohioStats').click(function () {
@@ -522,6 +714,12 @@ $(document).ready(function() {
         $('#ohioThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
    //check this when clickable
@@ -538,6 +736,12 @@ $(document).ready(function() {
         $('#wVirginiaThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#virginiaStats').click(function () {
@@ -553,9 +757,14 @@ $(document).ready(function() {
         $('#virginiaThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
-    //check state animation
     $('#ncarolinaStats').click(function () {
         $('#ncarolina').addClass('transition');
         $('#ncarolina').addClass('isOnTop');
@@ -569,6 +778,12 @@ $(document).ready(function() {
         $('#ncarolinaThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#scarolinaStats').click(function () {
@@ -584,6 +799,12 @@ $(document).ready(function() {
         $('#scarolinaThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#floridaStats').click(function () {
@@ -599,6 +820,12 @@ $(document).ready(function() {
         $('#floridaThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#pennsylvaniaStats').click(function () {
@@ -614,6 +841,12 @@ $(document).ready(function() {
         $('#pennsylvaniaThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#marylandStats').click(function () {
@@ -629,6 +862,12 @@ $(document).ready(function() {
         $('#marylandThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#newyorkStats').click(function () {
@@ -645,6 +884,12 @@ $(document).ready(function() {
         $('#newyorkThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#delawareStats').click(function () {
@@ -660,9 +905,14 @@ $(document).ready(function() {
         $('#delawareThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
-    // check animation
     $('#conneticutStats').click(function () {
         $('#conneticut').addClass('transition');
         $('#conneticut').addClass('isOnTop');
@@ -676,6 +926,12 @@ $(document).ready(function() {
         $('#conneticutThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
      $('#vermontStats').click(function () {
@@ -691,6 +947,12 @@ $(document).ready(function() {
         $('#vermontThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#newhampshireStats').click(function () {
@@ -706,6 +968,12 @@ $(document).ready(function() {
         $('#newhampshireThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#maineStats').click(function () {
@@ -721,9 +989,14 @@ $(document).ready(function() {
         $('#maineThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
-    
-    // check animation
+ 
     $('#rhodeislandStats').click(function () {
         $('#rhodeisland').addClass('transition');
         $('#rhodeisland').addClass('isOnTop');
@@ -737,6 +1010,12 @@ $(document).ready(function() {
         $('#rhodeislandThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#arkansasStats').click(function () {
@@ -752,6 +1031,12 @@ $(document).ready(function() {
         $('#arkansasThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     $('#massachusettsStats').click(function () {
@@ -767,9 +1052,14 @@ $(document).ready(function() {
         $('#massachusettsThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
-    //check animation
     $('#newjerseyStats').click(function () {
         $('#newjersey').addClass('transition');
         $('#newjersey').addClass('isOnTop');
@@ -783,6 +1073,12 @@ $(document).ready(function() {
         $('#newjerseyThirteenCaseNumberAnimation').addClass('thirteenCasesAnimation');
         $('#newStateButton').removeClass('isHidden');
         $('#newStateButton').addClass('z-index-two');
+        $('.tickOne').removeClass('isHidden');
+        $('.tickTwo').removeClass('isHidden');
+        $('.tickThree').removeClass('isHidden');
+        $('.tickFour').removeClass('isHidden');
+        $('.tickFive').removeClass('isHidden');
+        $('.tickSix').removeClass('isHidden');
     });
     
     

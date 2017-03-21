@@ -2,19 +2,27 @@
 	height: 100vh;
 	width: 100vw;
 	background-color: white;
+	top: 100vh;
 }
 
 .mountainPeaksSVG{fill:#FFFFFF;}
 
 .yourStateHeading {
-	color: $dark-purple;
-	font-size: 1.6em;
-	font-weight: 400;
-	line-height: 1.3em;
+	width: 370px;
+    margin: 0 auto;
+    margin-top: 160px;
 }
 
 .yourStateHeader {
-	width: 400px;
+	width: 321px;
+	font-weight: 400;
+    line-height: 1.3em;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .14em;
+    color: #592c4e;
 }
 
 .yourStateP{
@@ -26,5 +34,5 @@
 }
 
 .yourState {
-	fill:white;stroke:$dark-purple;stroke-width:0.75;stroke-miterlimit:10;
+	fill:#592c4e;
 }

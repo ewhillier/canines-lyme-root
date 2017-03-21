@@ -410,16 +410,16 @@
 
 @keyframes armTick {
 	0% {
-		transform: translateX(-100px);
+		transform: translateX(0vw);
 	}	
 	60% {
-		transform: translateX(800px);
+		transform: translateX(50vw);
 	}
 	70% {
-		transform: translateX(800px);
+		transform: translateX(50vw);
 	}
 	100% {
-		transform: translateX(1500px);
+		transform: translateX(100vw);
 	}	
 }
 

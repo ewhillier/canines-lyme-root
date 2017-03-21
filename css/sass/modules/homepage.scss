@@ -157,3 +157,14 @@
 	}
 }
 
+.arrow-up {
+	top: 30px;
+	left: 50vw;
+	width: 33px;
+	z-index: 1;
+	
+	&:hover {
+		cursor: pointer;
+	}
+}
+

@@ -5,18 +5,38 @@
 	width: 100vw;
 	height: 100vh;
 	background-color: #49182e;
+	top: 100vh;
 }
 
 .transferInnerWrapper {
 	height: 100vh;
 	position: relative;
+	margin-top: -30px;
 }
 
 .diseaseTransferHeader {
-	letter-spacing: .1em;
 	color: #eac19b;
-	font-size: 1.5em;
-	margin: 0;
+	margin: 0 auto;
+    margin-top: 40px;
+    width: 321px;
+    font-weight: 400;
+    line-height: 1.3em;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .16em;
+}
+
+.armHeader {
+	margin: 30px;
+}
+
+.diseaseContent {
+	margin: 0 auto;
+	margin-top: 50px;
+    width: 686px;
+    height: 150px;
 }
 
 hr {
@@ -29,13 +49,13 @@ hr {
 }
 
 .armContainer {
-	margin-top: 0px;
+	margin-top: 60px;
 	position: relative;
 	overflow: hidden;
 }
 
 .arm {
-	width: 100%;
+	width: 2790px;
 }
 
 .armTick {
@@ -52,36 +72,36 @@ hr {
 .armRash {
 	position: absolute;
 	top: 70px;
-	left: 700px;
+	left: 45vw;
 }
 
 .armSpirocheteOne {
 	position: absolute;
 	top: 30px;
-	left: 600px;
+	left: 35vw;
 }
 
 .armSpirocheteTwo {
 	position: absolute;
 	top: 200px;
-	left: 550px;
+	left: 40vw;
 }
 
 .armSpirocheteThree {
 	position: absolute;
 	top: 250px;
-	left: 900px;
+	left: 56vw;
 }
 
 .diseaseTransferP {
-	width: 400px;
-	font-size: 1em;
-	font-weight: 300;
-	line-height: 1.8em;
-	letter-spacing: .1em;
-	color: #eac19b;
-	float: left;
-	margin-right: 100px;
+    width: 287px;
+    font-size: .93em;
+    font-weight: 400;
+    line-height: 1.6em;
+    letter-spacing: .05em;
+    color: #eac19b;
+    float: left;
+    margin-right: 56px;
 }
 
 .diseaseTransferGrass {
@@ -89,4 +109,5 @@ hr {
 	position: absolute;
 	bottom: 0;
 	left: 0;
+	color: #EAC19B;
 }
